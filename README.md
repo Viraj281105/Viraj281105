@@ -1,11 +1,3 @@
-Excellent — this is the right move. Let’s build your **entire GitHub profile README** from start to finish, integrating *all five projects* (including your latest two), formatted for direct copy-paste into GitHub.
-
-This version is:
-
-* 🌟 Fully Markdown-compatible
-* 💼 Professionally formatted
-* ⚙️ ATS + recruiter friendly
-* 💻 Technically impressive and visually clean
 
 ---
 
@@ -29,18 +21,20 @@ This version is:
 
 ---
 
-## 🧭 **Professional Summary**
+## 🧭 Professional Summary
 
-Full-Stack AI Engineer with hands-on expertise in building and deploying end-to-end AI systems. Experienced in **Deep Learning, Generative AI, Reinforcement Learning, and Natural Language Processing (NLP)**.
-Adept at **API orchestration, scalable inference pipelines**, and **data-driven architectures** using **FastAPI, React, and PostgreSQL**.
-Passionate about bridging **AI research and production**, crafting **human-centric, explainable systems** that solve complex real-world problems.
+* Full-Stack AI Engineer with deep expertise in designing, developing, and deploying end-to-end intelligent systems that blend innovation with scalability.
+* Experienced across Deep Learning, Generative AI, Reinforcement Learning, and Natural Language Processing (NLP) — translating cutting-edge research into production-grade solutions.
+* Adept at API orchestration, scalable inference pipelines, and data-driven architectures leveraging FastAPI, React, and PostgreSQL.
+* Passionate about bridging the gap between AI research and real-world deployment, crafting human-centric, explainable, and impact-driven systems that evolve with data.
 
+“Turning abstract intelligence into tangible innovation — one model, one system, one impact at a time.”
 ---
 
 ## ⚙️ **Tech Stack**
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,cpp,java,js,html,css,react,fastapi,flask,postgresql,mongodb,git,linux,docker,vscode,postman" />
+<p align="center"> 
+  <img src="https://skillicons.dev/icons?i=python,cpp,java,js,html,css,react,fastapi,flask,postgresql,mongodb,git,linux,docker,vscode,postman" /> 
 </p>
 
 ---
