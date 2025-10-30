@@ -1,14 +1,11 @@
 
 ---
 
-# 🧑‍💻 **Viraj Jadhao**
-
-<h3 align="center">🚀 Full-Stack AI Engineer | Deep Learning | Causal AI | Reinforcement Learning | Generative AI</h3>
+# 🧑‍💻 **Hi, I am Viraj Vijay Jadhao**
 
 ---
 
 ## 🧭 Professional Summary
-
 * Full-Stack AI Engineer with deep expertise in designing, developing, and deploying end-to-end intelligent systems that blend innovation with scalability.
 * Experienced across Deep Learning, Generative AI, Reinforcement Learning, and Natural Language Processing (NLP) — translating cutting-edge research into production-grade solutions.
 * Adept at API orchestration, scalable inference pipelines, and data-driven architectures leveraging FastAPI, React, and PostgreSQL.
@@ -17,22 +14,11 @@
 “Turning abstract intelligence into tangible innovation — one model, one system, one impact at a time.”
 ---
 
-## ⚙️ **Tech Stack**
 
-<p align="center"> 
-  <img src="https://skillicons.dev/icons?i=python,cpp,java,js,html,css,react,fastapi,flask,postgresql,mongodb,git,linux,docker,vscode,postman" /> 
-</p>
+## 🎓 **Education**
 
----
-
-## 🧠 **Core Expertise**
-
-* **AI/ML & Deep Learning:** PyTorch, TensorFlow, Scikit-learn, Transformers, GANs, RAG, XAI, Reinforcement Learning (PPO/SAC), Continual Learning
-* **Generative AI:** LLM Agents, Prompt Engineering, LangChain, Vector Databases (pgvector)
-* **Frontend:** ReactJS, Streamlit, Tailwind
-* **Backend:** FastAPI, Flask, Node.js, REST APIs, Microservices
-* **DevOps:** Git, Docker, Linux CLI, Agile/Scrum
-* **Databases:** PostgreSQL (PostGIS, pgvector), MySQL, MongoDB
+**Bachelor of Engineering (Computer Engineering)** — *Savitribai Phule Pune University*
+**CGPA:** 9.18/10 (2023 – 2027)
 
 ---
 
@@ -162,11 +148,14 @@ Bridged deterministic scoring and machine learning, providing **transparent, dat
 
 ---
 
-## 🎓 **Education**
+## 🧠 **Core Expertise**
 
-**Bachelor of Engineering (Computer Engineering)** — *Savitribai Phule Pune University*
-**CGPA:** 9.18/10 (2023 – 2027)
-**Relevant Coursework:** DSA, OS, DBMS, CN, AI, Software Engineering
+* **AI/ML & Deep Learning:** PyTorch, TensorFlow, Scikit-learn, Transformers, GANs, RAG, XAI, Reinforcement Learning (PPO/SAC), Continual Learning
+* **Generative AI:** LLM Agents, Prompt Engineering, LangChain, Vector Databases (pgvector)
+* **Frontend:** ReactJS, Streamlit, Tailwind
+* **Backend:** FastAPI, Flask, Node.js, REST APIs, Microservices
+* **DevOps:** Git, Docker, Linux CLI, Agile/Scrum
+* **Databases:** PostgreSQL (PostGIS, pgvector), MySQL, MongoDB
 
 ---
 
@@ -200,20 +189,6 @@ Bridged deterministic scoring and machine learning, providing **transparent, dat
 
 ---
 
-## 🧭 **Visitor Graph**
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Viraj281105&theme=tokyo-night" alt="Activity Graph" />
-</p>
-
----
-
-## 💬 **“Code. Think. Evolve.”**
-
-> I believe in designing intelligent systems that don’t just predict — they *understand*, adapt, and explain.
-
----
-
 ## 🌐 **Connect with Me**
 
 <p align="center">
@@ -221,5 +196,11 @@ Bridged deterministic scoring and machine learning, providing **transparent, dat
   <a href="https://www.linkedin.com/in/viraj-jadhao-0771b830b/"><img src="https://skillicons.dev/icons?i=linkedin" height="40" /></a>
   <a href="https://github.com/Viraj281105"><img src="https://skillicons.dev/icons?i=github" height="40" /></a>
 </p>
+
+---
+
+## 💬 **“Code. Think. Evolve.”**
+
+> I believe in designing intelligent systems that don’t just predict — they *understand*, adapt, and explain.
 
 ---
