@@ -3,21 +3,7 @@
 
 # 🧑‍💻 **Viraj Jadhao**
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Viraj281105&label=Profile%20Views&color=blue&style=flat" alt="Profile Views" />
-</p>
-
 <h3 align="center">🚀 Full-Stack AI Engineer | Deep Learning | Causal AI | Reinforcement Learning | Generative AI</h3>
-
----
-
-## 🌐 **Connect with Me**
-
-<p align="center">
-  <a href="mailto:viraj.jadhao28@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="40" /></a>
-  <a href="https://www.linkedin.com/in/viraj-jadhao-0771b830b/"><img src="https://skillicons.dev/icons?i=linkedin" height="40" /></a>
-  <a href="https://github.com/Viraj281105"><img src="https://skillicons.dev/icons?i=github" height="40" /></a>
-</p>
 
 ---
 
@@ -228,4 +214,12 @@ Bridged deterministic scoring and machine learning, providing **transparent, dat
 
 ---
 
-Would you like me to also design a **custom banner image (AI + coding aesthetic)** that matches this README’s tone and size (1920×400 px)? It’ll make your profile look absolutely top-tier.
+## 🌐 **Connect with Me**
+
+<p align="center">
+  <a href="mailto:viraj.jadhao28@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="40" /></a>
+  <a href="https://www.linkedin.com/in/viraj-jadhao-0771b830b/"><img src="https://skillicons.dev/icons?i=linkedin" height="40" /></a>
+  <a href="https://github.com/Viraj281105"><img src="https://skillicons.dev/icons?i=github" height="40" /></a>
+</p>
+
+---
