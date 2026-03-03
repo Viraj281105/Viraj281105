@@ -3,7 +3,7 @@
   <a href="https://github.com/Viraj281105">
     <img
       width="100%"
-      src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Viraj%20Jadhao&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=AI%20Systems%20Engineer%20%7C%20Causal%20Inference%20%7C%20LLM%20Reliability&descSize=18&descAlignY=60&descColor=a78bfa&animation=fadeIn"
+      src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Viraj%20Jadhao&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20AI%20Engineer%20%7C%20ML%20Systems%20%7C%20Intelligent%20Applications&descSize=18&descAlignY=60&descColor=a78bfa&animation=fadeIn"
       alt="Viraj Jadhao Banner"
     />
   </a>
