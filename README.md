@@ -15,7 +15,7 @@
 <p align="center">
   <a href="https://git.io/typing-svg">
     <img
-      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3500&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=I+don%27t+build+demos.+I+build+systems.;Causal+AI+%7C+LLM+Reliability+%7C+RL+from+first+principles.;From+research+paper+to+production+pipeline.;9.13+CGPA+%E2%80%94+and+I+ship+real+things."
+      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3500&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=I+don%27t+build+demos.+I+build+systems.;Causal+AI+%7C+LLM+Reliability+%7C+RL+from+first+principles.;From+research+paper+to+production+pipeline.;I+ship+real+things."
       alt="Typing SVG"
     />
   </a>
