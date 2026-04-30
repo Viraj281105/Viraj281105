@@ -120,7 +120,6 @@ class VirajJadhao:
 
 <br/>
 
-```
 flowchart TD
 
     A["🏗 Architecture<br/>Microservices + API Gateway"]
@@ -147,8 +146,6 @@ flowchart TD
     F --> G
 
     G --> H
-
-```
 
 </details>
 
@@ -258,14 +255,13 @@ flowchart TD
 
 <div align="center">
 
-```
+
 flowchart LR
     A["📄 Doc Auditor<br/>LayoutLMv3 + EasyOCR"] --> 
     B["🔬 Clinical Reviewer<br/>CGHS Benchmarking"] --> 
     C["⚖️ Regulatory Advisor<br/>IRDAI Compliance"] --> 
     D["✍️ Appeal Drafter<br/>Appeal Generation"] --> 
     E["✅ QA Judge<br/>Quality Validation"]
-```
 
 </div>
 
@@ -298,7 +294,7 @@ flowchart LR
 
 <div align="center">
 
-```
+
 flowchart TD
 
     subgraph Ingestion Layer
@@ -325,7 +321,6 @@ flowchart TD
     A --> B --> C
     C --> D --> E --> F --> G --> H
     H --> I --> J
-```
 
 </div>
 
@@ -358,7 +353,7 @@ flowchart TD
 
 <div align="center">
 
-```
+
 flowchart TD
 
     subgraph Retrieval Layer
@@ -379,7 +374,7 @@ flowchart TD
     subgraph Interface Layer
         G --> H["Gradio UI"]
     end
-```
+
 
 </div>
 
@@ -402,7 +397,7 @@ flowchart TD
 
 <div align="center">
 
-```
+
 flowchart TD
 
     A["Bank Statements<br/>(HDFC · ICICI · SBI · Axis · Yes Bank)"]
@@ -424,7 +419,7 @@ flowchart TD
     H --> K
     I --> K
     J --> K
-```
+
 
 </div>
 
@@ -447,7 +442,7 @@ flowchart TD
 
 <div align="center">
 
-```
+
 flowchart TD
 
     subgraph Input Layer
@@ -468,7 +463,7 @@ flowchart TD
     end
 
     A --> B --> C --> D --> E
-```
+
 
 </div>
 
@@ -490,7 +485,7 @@ flowchart TD
 
 <div align="center">
 
-```
+
 flowchart TD
 
     subgraph Data Layer
@@ -525,7 +520,7 @@ flowchart TD
     E --> F
 
     F --> G --> H --> I
-```
+
 
 </div>
 
@@ -557,7 +552,7 @@ flowchart TD
 
 <div align="center">
 
-```
+
 flowchart TD
 
     subgraph Signal Layer
@@ -582,7 +577,7 @@ flowchart TD
     end
 
     A --> B --> C --> D --> E --> F
-```
+
 
 </div>
 
@@ -604,7 +599,7 @@ flowchart TD
 
 <div align="center">
 
-```
+
 flowchart TD
 
     subgraph Interaction Layer
@@ -636,7 +631,7 @@ flowchart TD
     A --> B --> C --> D --> E --> F
     F --> G
     F --> H
-```
+
 
 </div>
 
@@ -653,7 +648,7 @@ flowchart TD
 
 <div align="center">
 
-```
+
 flowchart TD
 
     subgraph Perception Layer
@@ -675,7 +670,7 @@ flowchart TD
     end
 
     A --> B --> C --> D --> E --> F
-```
+
 
 </div>
 
