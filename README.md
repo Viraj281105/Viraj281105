@@ -56,8 +56,8 @@ class VirajJadhao:
             "Real-Time Inference Systems",
             "FPGA-Accelerated Edge AI",
         ]
-        self.fun_fact       = "I implement research papers from scratch before using libraries."
-        self.current_focus  = "Building AI systems that are causally grounded, not just statistically correlated."
+        self.fun_fact      = "I implement research papers from scratch before using libraries."
+        self.current_focus = "Building AI systems that are causally grounded, not just statistically correlated."
 
     def contact(self):
         return "Always open to research collaborations & challenging engineering roles 🤝"
@@ -120,32 +120,21 @@ class VirajJadhao:
 
 <br/>
 
+```mermaid
 flowchart TD
+    A["🏗 Architecture\nMicroservices + API Gateway"]
+    B["⚙️ Core Backend\nAsync · JWT · SSE Streaming"]
+    C["📘 API Layer\nREST · OpenAPI / Swagger"]
+    D["🧠 Data Intelligence\npgvector · FAISS RAG"]
+    E["📡 Real-Time Systems\nRedis Streams"]
+    F["🌍 Geospatial\nPostGIS · 3.5M+ records"]
+    G["🐳 Infrastructure\nDocker Compose · Nginx"]
+    H["🚀 Deployment\nCI/CD · Containerized Prod"]
 
-    A["🏗 Architecture<br/>Microservices + API Gateway"]
-
-    B["⚙️ Core Backend Engineering<br/>Async • JWT • SSE"]
-    C["📘 API Layer<br/>REST • OpenAPI/Swagger"]
-
-    D["🧠 Data & Intelligence<br/>pgvector • FAISS (RAG)"]
-    E["📡 Real-Time Systems<br/>Redis Streams"]
-    F["🌍 Geospatial Processing<br/>PostGIS (3.5M+ records)"]
-
-    G["🐳 Infrastructure<br/>Docker Compose • Nginx"]
-    H["🚀 Deployment<br/>CI/CD • Containerized Deployments"]
-
-    A --> B
-    A --> C
-
-    B --> D
-    B --> E
-    B --> F
-
-    D --> G
-    E --> G
-    F --> G
-
-    G --> H
+    A --> B & C
+    B --> D & E & F
+    D & E & F --> G --> H
+```
 
 </details>
 
@@ -253,17 +242,16 @@ flowchart TD
 ### 🩺 MedGuard — AI Medical Billing Auditor & Insurance Appeal Engine
 > **`Hackathon (Nexus 2.0)` · `Team of 2` · `🥉 Top 3 Placement`**
 
-<div align="center">
-
-
+```mermaid
 flowchart LR
-    A["📄 Doc Auditor<br/>LayoutLMv3 + EasyOCR"] --> 
-    B["🔬 Clinical Reviewer<br/>CGHS Benchmarking"] --> 
-    C["⚖️ Regulatory Advisor<br/>IRDAI Compliance"] --> 
-    D["✍️ Appeal Drafter<br/>Appeal Generation"] --> 
-    E["✅ QA Judge<br/>Quality Validation"]
+    A["📄 Doc Auditor\nLayoutLMv3 + EasyOCR"]
+    B["🔬 Clinical Reviewer\nCGHS Benchmarking"]
+    C["⚖️ Regulatory Advisor\nIRDAI Compliance"]
+    D["✍️ Appeal Drafter\nAppeal Generation"]
+    E["✅ QA Judge\nQuality Validation"]
 
-</div>
+    A --> B --> C --> D --> E
+```
 
 | Component | Technology | Technical Deep Dive |
 |:---------:|:----------:|:-------------------:|
@@ -281,7 +269,7 @@ flowchart LR
 ![Speed](https://img.shields.io/badge/Bill_Parsing-<500ms-10b981?style=flat-square)
 ![Accuracy](https://img.shields.io/badge/CGHS_Benchmark-94%25_Accuracy-3b82f6?style=flat-square)
 ![Appeals](https://img.shields.io/badge/Appeal_Generation-<15_seconds-f59e0b?style=flat-square)
-![Hallucination](https://img.shields.io/badge/Hallucination-Zero_(Grounded_RAG)-ef4444?style=flat-square)
+![Hallucination](https://img.shields.io/badge/Hallucination-Zero_Grounded_RAG-ef4444?style=flat-square)
 
 [![View Repository](https://img.shields.io/badge/📁_Repository-MedGuard-24243e?style=for-the-badge&logo=github)](https://github.com/Viraj281105/MedGuard)
 
@@ -292,37 +280,31 @@ flowchart LR
 ### 🌀 CausoScope — Structural Causal Modeling for Policy Evaluation
 > **`Hackathon` · `700K+ Records` · `Climate Policy Intelligence`**
 
-<div align="center">
-
-
+```mermaid
 flowchart TD
-
-    subgraph Ingestion Layer
+    subgraph Ingestion ["📥 Ingestion Layer"]
         A["Raw Policy Data"] --> B["Async Ingestion"]
     end
 
-    subgraph Storage Layer
+    subgraph Storage ["🗄️ Storage Layer"]
         C["PostgreSQL + pgvector"]
     end
 
-    subgraph Causal Engine
-        D["SCM / DAG (DoWhy)"]
-        E["Identifiability (Backdoor / Frontdoor)"]
-        F["ATE / CATE (IPW + DR)"]
-        G["Counterfactuals (do-calculus)"]
-        H["Sensitivity (Rosenbaum, E-values)"]
+    subgraph Causal ["🔬 Causal Engine"]
+        D["SCM / DAG — DoWhy"]
+        E["Identifiability — Backdoor / Frontdoor"]
+        F["ATE / CATE — IPW + Doubly Robust"]
+        G["Counterfactuals — do-calculus"]
+        H["Sensitivity — Rosenbaum · E-values"]
     end
 
-    subgraph Application Layer
+    subgraph App ["🖥️ Application Layer"]
         I["FastAPI Backend"]
         J["React + Plotly Dashboard"]
     end
 
-    A --> B --> C
-    C --> D --> E --> F --> G --> H
-    H --> I --> J
-
-</div>
+    B --> C --> D --> E --> F --> G --> H --> I --> J
+```
 
 <details>
 <summary><b>🔬 Research contribution breakdown</b></summary>
@@ -351,32 +333,29 @@ flowchart TD
 ### 🔍 Entailment-Based LLM Hallucination Detection
 > **`Production Pipeline` · `+25% Factual Reliability` · `Benchmarked on TruthfulQA`**
 
-<div align="center">
-
-
+```mermaid
 flowchart TD
-
-    subgraph Retrieval Layer
-        A["LLM Response"] --> B["Vector Retrieval (FAISS / pgvector)"]
+    subgraph Retrieval ["🔎 Retrieval Layer"]
+        A["LLM Response"] --> B["Vector Retrieval — FAISS / pgvector"]
         B --> C["Evidence Ranking & Context Assembly"]
     end
 
-    subgraph Verification Layer
-        C --> D["NLI Scoring (RoBERTa / DeBERTa)"]
-        D --> E["Calibration (ECE, Reliability)"]
+    subgraph Verification ["✅ Verification Layer"]
+        D["NLI Scoring — RoBERTa / DeBERTa"]
+        E["Calibration — ECE · Reliability Curves"]
     end
 
-    subgraph Analysis Layer
-        E --> F["Failure Analysis (Shift, Noise)"]
-        F --> G["SHAP Explainability"]
+    subgraph Analysis ["📊 Analysis Layer"]
+        F["Failure Mode Analysis — Shift · Noise"]
+        G["SHAP Explainability"]
     end
 
-    subgraph Interface Layer
-        G --> H["Gradio UI"]
+    subgraph Interface ["🖥️ Interface"]
+        H["Gradio UI"]
     end
 
-
-</div>
+    C --> D --> E --> F --> G --> H
+```
 
 <div align="center">
 
@@ -395,33 +374,25 @@ flowchart TD
 ### 🏦 FinGuard AI — Personal Finance Risk & Simulation Engine
 > **`In Development` · `Beta: 50+ Users` · `Spring Boot · FastAPI · React`**
 
-<div align="center">
-
-
+```mermaid
 flowchart TD
+    A["🏦 Bank Statements\nHDFC · ICICI · SBI · Axis · Yes Bank"]
+    B["🔡 Sentence-Transformers Embeddings"]
+    C["🔍 FAISS Vector Search"]
+    D["🏷️ Transaction Categorization\n91% Accuracy · 20+ categories"]
+    E["📊 5-Dimension Financial Risk Index"]
+    F["💧 Liquidity"]
+    G["💳 Debt Burden"]
+    H["📈 Volatility"]
+    I["🏦 Savings Stability"]
+    J["📂 Investment Diversification"]
+    K["🎲 Monte Carlo Simulation\n10,000 scenarios per run"]
+    L["📉 6-12 Month Cash Flow Forecast"]
 
-    A["Bank Statements<br/>(HDFC · ICICI · SBI · Axis · Yes Bank)"]
-    --> B["Sentence-Transformers Embeddings"]
-    --> C["FAISS Vector Search"]
-
-    C --> D["Transaction Categorization<br/>(91% Accuracy)"]
-
-    D --> E["5-Dimension Financial Risk Index<br/>(Weighted Scoring)"]
-
-    E --> F["Liquidity"]
-    E --> G["Debt Burden"]
-    E --> H["Volatility"]
-    E --> I["Savings Stability"]
-    E --> J["Investment Diversification"]
-
-    F --> K["Monte Carlo Simulation Engine<br/>(10,000 scenarios/run)"]
-    G --> K
-    H --> K
-    I --> K
-    J --> K
-
-
-</div>
+    A --> B --> C --> D --> E
+    E --> F & G & H & I & J
+    F & G & H & I & J --> K --> L
+```
 
 <div align="center">
 
@@ -440,32 +411,27 @@ flowchart TD
 ### 🌊 FloatChat — Natural Language to SQL over 3.5M Ocean Records
 > **`Production` · `TypeScript · FastAPI · React · PostGIS` · `2 Research Institutions`**
 
-<div align="center">
-
-
+```mermaid
 flowchart TD
-
-    subgraph Input Layer
-        A["Natural Language Query"]
+    subgraph Input ["💬 Input"]
+        A["Natural Language Query\ne.g. temperature anomalies in Arabian Sea during El Nino years"]
     end
 
-    subgraph Semantic Layer
-        B["Schema-Aware Parsing (ARGO Float Data)"]
+    subgraph Semantic ["🧠 Semantic Layer"]
+        B["Schema-Aware Parsing — 3.5M+ ARGO Float schema"]
         C["SQL Generation + Parameter Binding"]
     end
 
-    subgraph Data Layer
-        D["PostGIS Geospatial Execution (<200 ms)"]
+    subgraph Data ["🗄️ Data Layer"]
+        D["PostGIS Geospatial Execution — less than 200ms"]
     end
 
-    subgraph Visualization Layer
-        E["React + Plotly Dashboard"]
+    subgraph Viz ["📊 Visualization"]
+        E["React + Plotly Live Dashboard"]
     end
 
     A --> B --> C --> D --> E
-
-
-</div>
+```
 
 <div align="center">
 
@@ -483,46 +449,30 @@ flowchart TD
 ### ⚖️ Real-Time Multi-Agent Governance (RL from First Principles)
 > **`Research` · `Financial Markets` · `PPO/SAC Implemented from Scratch`**
 
-<div align="center">
-
-
+```mermaid
 flowchart TD
+    A["📡 Market Data Stream"]
 
-    subgraph Data Layer
-        A["Market Data Stream"]
-    end
-
-    subgraph Agent Layer
+    subgraph Agents ["🤖 Agent Layer"]
         B["Trading Agent"]
         C["Risk Agent"]
         D["Liquidity Agent"]
         E["Macro Agent"]
     end
 
-    subgraph Coordination Layer
-        F["Propose → Negotiate → Vote → Execute"]
-        G["Governance (Nash Bargaining + Meritocratic Voting)"]
+    subgraph Coord ["🤝 Coordination Layer"]
+        F["Propose then Negotiate then Vote then Execute"]
+        G["Governance — Nash Bargaining + Meritocratic Voting"]
     end
 
-    subgraph Learning Layer
-        H["RL Training (PPO / SAC)"]
-        I["Equilibrium & Stability Analysis"]
+    subgraph Learning ["🧠 Learning Layer"]
+        H["RL Training — PPO / SAC from scratch"]
+        I["Equilibrium and Stability Analysis"]
     end
 
-    A --> B
-    A --> C
-    A --> D
-    A --> E
-
-    B --> F
-    C --> F
-    D --> F
-    E --> F
-
-    F --> G --> H --> I
-
-
-</div>
+    A --> B & C & D & E
+    B & C & D & E --> F --> G --> H --> I
+```
 
 <details>
 <summary><b>⚙️ RL implementation details</b></summary>
@@ -548,43 +498,38 @@ flowchart TD
 ---
 
 ### 💓 ECG FPGA Accelerator — Edge Medical AI
-> **`FPGA Hackathon 2026` · `Xilinx Artix-7` · `100× Faster than CPU`**
+> **`FPGA Hackathon 2026` · `Xilinx Artix-7` · `100x Faster than CPU`**
 
-<div align="center">
-
-
+```mermaid
 flowchart TD
-
-    subgraph Signal Layer
-        A["ECG Input (Lead II)"]
+    subgraph Signal ["📶 Signal Layer"]
+        A["ECG Input — Lead II"]
     end
 
-    subgraph Processing Layer
+    subgraph Processing ["⚙️ Processing Layer"]
         B["Filtering + Normalization"]
     end
 
-    subgraph Inference Layer
-        C["1D CNN (INT8 Quantized)"]
+    subgraph Inference ["🧠 Inference Layer"]
+        C["1D CNN — INT8 Quantized Weights"]
     end
 
-    subgraph Hardware Layer
-        D["FPGA (Artix-7 · 100MHz · 50mW)"]
+    subgraph Hardware ["🖥️ Hardware Layer"]
+        D["Xilinx Artix-7 FPGA — 100MHz · 50mW"]
     end
 
-    subgraph Output Layer
-        E["<10ms Detection"]
-        F["Arrhythmia Classification"]
+    subgraph Output ["📋 Output Layer"]
+        E["Real-Time Detection — under 10ms"]
+        F["Classification: Normal / AFIB / PVC / Other"]
     end
 
     A --> B --> C --> D --> E --> F
-
-
-</div>
+```
 
 <div align="center">
 
 ![Latency](https://img.shields.io/badge/Inference_Latency-<10ms-10b981?style=flat-square)
-![Speedup](https://img.shields.io/badge/CPU_Speedup-100×_Faster-3b82f6?style=flat-square)
+![Speedup](https://img.shields.io/badge/CPU_Speedup-100x_Faster-3b82f6?style=flat-square)
 ![Power](https://img.shields.io/badge/Power-50mW-f59e0b?style=flat-square)
 ![Dataset](https://img.shields.io/badge/Dataset-MIT_BIH_Arrhythmia-a78bfa?style=flat-square)
 
@@ -597,43 +542,37 @@ flowchart TD
 ### 🤖 AutoStream Agent — Conversational Lead Qualification
 > **`Production Agents` · `LangGraph · RAG · FastAPI`**
 
-<div align="center">
-
-
+```mermaid
 flowchart TD
-
-    subgraph Interaction Layer
-        A["User Conversation"]
+    subgraph Input ["💬 Interaction Layer"]
+        A["Incoming User Conversation"]
     end
 
-    subgraph Context Layer
-        B["State Management (LangGraph)"]
+    subgraph Context ["🗂️ Context Layer"]
+        B["Multi-Turn State Management — LangGraph"]
     end
 
-    subgraph Understanding Layer
-        C["Intent + Entity Extraction (BERT)"]
+    subgraph NLU ["🧠 Understanding Layer"]
+        C["Intent Recognition + Entity Extraction — Fine-tuned BERT"]
     end
 
-    subgraph Knowledge Layer
-        D["RAG (FAISS / pgvector)"]
+    subgraph Knowledge ["📚 Knowledge Layer"]
+        D["RAG over Company Knowledge Base — FAISS / pgvector"]
     end
 
-    subgraph Decision Layer
-        E["Lead Scoring (BANT Model)"]
+    subgraph Decision ["🎯 Decision Layer"]
+        E["Lead Scoring — BANT: Budget · Authority · Need · Timeline"]
     end
 
-    subgraph Orchestration Layer
+    subgraph Orchestration ["⚙️ Orchestration Layer"]
         F["Agent Orchestration"]
         G["Fallback Handling"]
         H["Human-in-the-Loop Escalation"]
     end
 
     A --> B --> C --> D --> E --> F
-    F --> G
-    F --> H
-
-
-</div>
+    F --> G & H
+```
 
 <div align="center">
 
@@ -646,39 +585,34 @@ flowchart TD
 ### 🤼 Team Vulcans — Robocon 2026 Vision Pipeline
 > **`ABU Robocon Competition` · `AI & CV Lead` · `30 FPS on Jetson Nano`**
 
-<div align="center">
-
-
+```mermaid
 flowchart TD
-
-    subgraph Perception Layer
-        A["Camera Input (RGB)"]
-        B["YOLOv8 Detection"]
+    subgraph Perception ["👁️ Perception Layer"]
+        A["Camera Input — RGB"]
+        B["YOLOv8 Object Detection\nFine-tuned on competition field"]
         C["Pose Estimation + Localization"]
     end
 
-    subgraph Planning Layer
-        D["Trajectory Planning (MATLAB / Python)"]
+    subgraph Planning ["🗺️ Planning Layer"]
+        D["Real-Time Trajectory Planning — MATLAB / Python"]
     end
 
-    subgraph Deployment Layer
-        E["Jetson Nano (INT8 Optimized)"]
+    subgraph Deploy ["🚀 Deployment Layer"]
+        E["Jetson Nano — INT8 Quantized"]
     end
 
-    subgraph Execution Layer
-        F["30 FPS Autonomous Control"]
+    subgraph Execution ["🏆 Execution"]
+        F["30 FPS Autonomous Operation"]
     end
 
     A --> B --> C --> D --> E --> F
-
-
-</div>
+```
 
 <div align="center">
 
 ![FPS](https://img.shields.io/badge/Inference-30_FPS_on_Jetson_Nano-10b981?style=flat-square)
 ![Quant](https://img.shields.io/badge/Quantization-INT8-3b82f6?style=flat-square)
-![Mentored](https://img.shields.io/badge/Junior_Contributors_Mentored-4-f59e0b?style=flat-square)
+![Mentored](https://img.shields.io/badge/Junior_Contributors_Mentored-5-f59e0b?style=flat-square)
 
 [![View Repository](https://img.shields.io/badge/📁_Repository-Team_Vulcans-24243e?style=for-the-badge&logo=github)](https://github.com/Viraj281105/Team-Vulcans-Robocon-2026)
 
@@ -779,8 +713,8 @@ flowchart TD
 
 <div align="center">
 
-![AI Adventures](https://img.shields.io/badge/AI_Adventures-ML_%7C_DL_%7C_GenAI_Specializations-FF6B6B?style=flat-square&logo=academia)
-![IIT Bombay](https://img.shields.io/badge/IIT_Bombay-Core_Java_(Spoken_Tutorial)-0077B5?style=flat-square&logo=java)
+![AI Adventures](https://img.shields.io/badge/AI_Adventures-ML_%7C_DL_%7C_GenAI-FF6B6B?style=flat-square&logo=academia)
+![IIT Bombay](https://img.shields.io/badge/IIT_Bombay-Core_Java-0077B5?style=flat-square&logo=java)
 ![Udemy Python](https://img.shields.io/badge/Udemy-Python_Bootcamp-0089cf?style=flat-square&logo=udemy)
 ![Udemy SQL](https://img.shields.io/badge/Udemy-SQL_Complete_Course-0089cf?style=flat-square&logo=udemy)
 ![Udemy C++](https://img.shields.io/badge/Udemy-C%2B%2B_Bootcamp-00599C?style=flat-square&logo=cplusplus)
@@ -797,12 +731,12 @@ flowchart TD
 
 | Role | Organization | Key Achievements |
 |:----:|:------------:|:----------------:|
-| 🎯 **Hackathon Director** | College-Wide | Sole organizer & SPOC for institution-wide hackathon · **160 teams · 500+ participants** |
-| 🏛️ **Vice Chair** | ACM Student Chapter (SPPU) | Directed **6+ technical workshops** on ML/LLMs · served **1,000+ students** · 10+ external hackathons |
-| 💰 **Sponsorship Lead** | MPulse Technical Fest | Closed **30+ sponsors** · raised **₹1 Lakh+** through end-to-end acquisition |
+| 🎯 **Hackathon Director** | College-Wide | Sole organizer & SPOC · **160 teams · 500+ participants** |
+| 🏛️ **Vice Chair** | ACM Student Chapter (SPPU) | **6+ technical workshops** on ML/LLMs · **1,000+ students** · 10+ external hackathons |
+| 💰 **Sponsorship Lead** | MPulse Technical Fest | Closed **30+ sponsors** · raised **₹1 Lakh+** end-to-end |
 | 🤖 **AI & CV Lead** | Team Vulcans Robotics | Built CV pipeline for ABU Robocon 2026 · mentored **5+ junior contributors** |
-| 📝 **Technical Blogger** | ACM Chapter | Documented research on causal inference, LLM evaluation · fostered research culture |
-| 🏆 **Team Lead** | SIH · SKNCOE · PCCOE IGC | Directed multi-disciplinary teams delivering AI prototypes in **<36h** · multiple top finishes |
+| 📝 **Technical Blogger** | ACM Chapter | Research documentation on causal inference & LLM evaluation |
+| 🏆 **Team Lead** | SIH · SKNCOE · PCCOE IGC | Multi-disciplinary AI prototypes in **<36h** · multiple top finishes |
 
 </div>
 
@@ -883,24 +817,15 @@ flowchart TD
 
 ### 💡 Philosophy
 
-<h2 align="center">🧠 Philosophy</h2>
+<br/>
 
-<p align="center">
-  <i>"Correlation is not causation. I build systems that know the difference."</i>
-</p>
+*"Correlation is not causation. I build systems that know the difference."*
 
-<p align="center">
-  <i>"I implement research papers from scratch before importing a library — that’s how you actually learn."</i>
-</p>
+*"I implement research papers from scratch before importing a library — that's how you actually learn."*
 
-<p align="center">
-  <i>"Every system I build is meant to ship, not demo."</i>
-</p>
+*"Every system I build is meant to ship, not demo."*
 
-
-</div>
-
-<div align="center">
+<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,25:302b63,50:3d2b6e,75:302b63,100:0f0c29&height=140&section=footer&text=Build%20things%20worth%20explaining.&fontSize=22&fontColor=c4b5fd&fontAlignY=65&animation=fadeIn"/>
 
