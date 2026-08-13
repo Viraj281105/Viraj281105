@@ -14,9 +14,35 @@
 <p align="center">
   <a href="https://git.io/typing-svg">
     <img
-      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3500&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=I+don%27t+build+demos.+I+build+systems.;Causal+AI+%7C+LLM+Reliability+%7C+Multi-Agent+Pipelines.;From+research+paper+to+production+pipeline.;GenAI+Intern+%7C+9.13+CGPA+%7C+I+ship+real+things."
+      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3500&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=I+don%27t+build+demos.+I+build+systems.;Causal+AI+%7C+LLM+Reliability+%7C+Multi-Agent+Pipelines.;From+research+paper+to+production+pipeline.;GenAI+Intern+%40+SAS+R%26D+%7C+9.3+CGPA+%7C+I+ship+real+things."
       alt="Typing SVG"
     />
+  </a>
+</p>
+<br/>
+
+<!-- QUICK FACTS -->
+<p align="center">
+  <img src="https://img.shields.io/badge/🎓_CGPA-9.3-a78bfa?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/💼_Student_Intern-SAS_R%26D-a78bfa?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/🧪_Team-Causal_Inference_(CI)-a78bfa?style=for-the-badge&labelColor=0d1117" />
+</p>
+
+<!-- ABOUT -->
+<p align="center">
+  <b>Currently:</b> Student Intern at <b>SAS Research &amp; Development</b>, working within the <b>Causal Inference (CI) Department</b> —
+  bridging causal ML research with production-grade reliability engineering.
+</p>
+
+<p align="center">
+  🚀 I've shipped a stack of projects spanning LLM reliability, multi-agent pipelines, and causal inference tooling.
+  <br/>
+  Explore all of them here 👇
+</p>
+
+<p align="center">
+  <a href="https://github.com/Viraj281105?tab=repositories">
+    <img src="https://img.shields.io/badge/View_All_Projects-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 
@@ -359,8 +385,6 @@ LLM Response → Dense Vector Retrieval (pgvector)
 
 - **Sponsorship Lead**, MPulse Technical Fest — Closed **30+ sponsors** and raised **₹1 lakh+** through end-to-end acquisition (cold outreach, pitch decks, negotiations); largely funded the college technical fest with **500+ attendees**.
 
-- **AI & Computer Vision Lead**, Team Vulcans Robotics — Designed the computer vision pipeline for **ABU Robocon 2026** from scratch; deployed real-time object detection and localization systems on embedded hardware; mentored **4 junior contributors** on model integration, quantization, deployment workflows, and code review; represented the team at state-level robotics competitions.
-
 - **Team Lead**, SIH · SKNCOE Fusion 2025 · PCCOE IGC Hackathons — Directed multi-disciplinary teams delivering full-stack AI prototypes under tight deadlines; consistent top finishes across national and college-level competitions.
 
 ---
@@ -368,11 +392,39 @@ LLM Response → Dense Vector Retrieval (pgvector)
 ## 📊 GitHub Activity
 
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Viraj281105&label=Profile%20Views&color=a78bfa&style=flat" alt="profile views" />
+  <img src="https://img.shields.io/github/followers/Viraj281105?label=Followers&style=flat&color=a78bfa" alt="followers" />
+</p>
+
+<p align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Viraj281105&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&title_color=a78bfa&icon_color=a78bfa&text_color=ffffff&bg_color=0d1117&cache_seconds=1800" />
   <img width="49%" src="https://streak-stats.demolab.com?user=Viraj281105&theme=tokyonight&hide_border=true&stroke=a78bfa&ring=a78bfa&fire=ff6b6b&currStreakLabel=a78bfa&background=0d1117" />
 </p>
+
 <p align="center">
-  <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Viraj281105&layout=compact&theme=tokyonight&hide_border=true&title_color=a78bfa&text_color=ffffff&bg_color=0d1117&langs_count=7&cache_seconds=1800" />
+  <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Viraj281105&layout=compact&theme=tokyonight&hide_border=true&title_color=a78bfa&text_color=ffffff&bg_color=0d1117&langs_count=8&cache_seconds=1800" />
+  <img width="56%" src="https://github-readme-activity-graph.vercel.app/graph?username=Viraj281105&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=a78bfa&line=a78bfa&point=ffffff" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Viraj281105&theme=tokyonight&no-frame=true&no-bg=false&margin-w=8&column=7" />
+</p>
+
+<!-- Contribution snake animation — see setup note below -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Viraj281105/Viraj281105/output/github-contribution-grid-snake-dark.svg" alt="contribution snake" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/your-linkedin-here">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:your-email-here">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://twitter.com/your-twitter-here">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+  </a>
 </p>
 
 ---
