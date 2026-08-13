@@ -30,9 +30,9 @@
 
 <!-- ABOUT -->
 <p align="center">
-  <b>Currently:</b> Student Intern at <b>SAS Research &amp; Development</b>, working within the <b>Causal Inference (CI) Department</b> —
-  bridging causal ML research with production-grade reliability engineering.
+  <b>Currently:</b> Student Intern at <b>SAS Research &amp; Development</b>, working within the <b>Customer Intelligence (CI) Department</b> — the organization behind <b>CI360</b>, bridging causal ML research with production-grade reliability engineering.
 </p>
+
 
 <p align="center">
   🚀 I've shipped a stack of projects spanning LLM reliability, multi-agent pipelines, and causal inference tooling.
