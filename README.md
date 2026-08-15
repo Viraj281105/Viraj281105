@@ -25,7 +25,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/🎓_CGPA-9.368-a78bfa?style=for-the-badge&labelColor=0d1117" />
   <img src="https://img.shields.io/badge/💼_Student_Intern-SAS_R%26D-a78bfa?style=for-the-badge&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/🧪_Team-Causal_Inference_(CI)-a78bfa?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/🧪_Team-Customer_Intelligence(CI)-a78bfa?style=for-the-badge&labelColor=0d1117" />
 </p>
 
 <!-- ABOUT -->
