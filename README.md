@@ -14,7 +14,7 @@
 <p align="center">
   <a href="https://git.io/typing-svg">
     <img
-      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3500&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=I+don%27t+build+demos.+I+build+systems.;Causal+AI+%7C+LLM+Reliability+%7C+Multi-Agent+Pipelines.;From+research+paper+to+production+pipeline.;GenAI+Intern+%40+SAS+R%26D+%7C+9.3+CGPA+%7C+I+ship+real+things."
+      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3500&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=I+don%27t+build+demos.+I+build+systems.;Causal+AI+%7C+LLM+Reliability+%7C+Multi-Agent+Pipelines.;From+research+paper+to+production+pipeline.;GenAI+Intern+%40+SAS+R%26D+%7C+9.368+CGPA+%7C+I+ship+real+things."
       alt="Typing SVG"
     />
   </a>
@@ -23,7 +23,7 @@
 
 <!-- QUICK FACTS -->
 <p align="center">
-  <img src="https://img.shields.io/badge/🎓_CGPA-9.3-a78bfa?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/🎓_CGPA-9.368-a78bfa?style=for-the-badge&labelColor=0d1117" />
   <img src="https://img.shields.io/badge/💼_Student_Intern-SAS_R%26D-a78bfa?style=for-the-badge&labelColor=0d1117" />
   <img src="https://img.shields.io/badge/🧪_Team-Causal_Inference_(CI)-a78bfa?style=for-the-badge&labelColor=0d1117" />
 </p>
@@ -50,7 +50,7 @@
 
 ## 👋 About Me
 
-I'm a **Computer Engineering student at Savitribai Phule Pune University** (CGPA: 9.136/10, 2023–2027) and a **Generative AI Engineer** who builds production-grade AI systems — from multi-agent pipelines and causal inference engines to full-stack, containerized, deployable products.
+I'm a **Computer Engineering student at Savitribai Phule Pune University** (CGPA: 9.368/10, 2023–2027) and a **Generative AI Engineer** who builds production-grade AI systems — from multi-agent pipelines and causal inference engines to full-stack, containerized, deployable products.
 
 Most student AI projects are tutorials with a frontend slapped on. Mine aren't. I've shipped a **5-agent medical billing auditor** that generates IRDAI-compliant appeal letters in under 15 seconds, a **causal policy simulation engine** over 700K+ records, and an **NLI-based hallucination detector** benchmarked across 5+ LLM variants — the kind of work that holds up under scrutiny from engineers, not just professors.
 
