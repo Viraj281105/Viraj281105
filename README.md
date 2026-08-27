@@ -175,7 +175,7 @@ Working across a technical stack confidential to the role.
      TELEMETRY // GITHUB ACTIVITY
 ========================================================= -->
 
-## `// TELEMETRY_FEED`
+## TELEMETRY FEED
 
 <div align="center">
 
@@ -192,7 +192,7 @@ Working across a technical stack confidential to the role.
 
 <td width="50%" align="center">
 
-### `01 // SYSTEM METRICS`
+### 01 SYSTEM METRICS
 
 <img
 src="https://github-readme-stats.vercel.app/api?username=Viraj281105&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=00f0ff&icon_color=00f0ff&text_color=ffffff&ring_color=00f0ff&cache_seconds=86400"
@@ -204,7 +204,7 @@ alt="GitHub Statistics"
 
 <td width="50%" align="center">
 
-### `02 // STREAK PROTOCOL`
+### 02 STREAK PROTOCOL
 
 <img
 src="https://streak-stats.demolab.com?user=Viraj281105&theme=tokyonight&hide_border=true&background=0d1117&stroke=1e1b4b&ring=00f0ff&fire=a855f7&currStreakLabel=00f0ff&sideLabels=ffffff&dates=6366f1"
@@ -220,7 +220,7 @@ alt="GitHub Streak"
 
 <td width="50%" align="center">
 
-### `03 // LANGUAGE DISTRIBUTION`
+### 03 LANGUAGE DISTRIBUTION
 
 <img
 src="https://github-readme-stats.vercel.app/api/top-langs/?username=Viraj281105&layout=donut-vertical&hide_border=true&langs_count=8&bg_color=0d1117&title_color=00f0ff&text_color=ffffff&cache_seconds=86400"
@@ -232,7 +232,7 @@ alt="Most Used Languages"
 
 <td width="50%" align="center">
 
-### `04 // ACTIVITY STREAM`
+### 04 ACTIVITY STREAM
 
 <img
 src="https://github-readme-activity-graph.vercel.app/graph?username=Viraj281105&bg_color=0d1117&color=00f0ff&line=a855f7&point=ffffff&area=true&hide_border=true&custom_title=GITHUB%20ACTIVITY%20STREAM"
@@ -264,7 +264,7 @@ alt="GitHub Activity Graph"
 </div>
 ```
 
-## `// ACHIEVEMENT_MATRIX`
+## ACHIEVEMENT MATRIX
 
 <div align="center">
 
@@ -286,7 +286,7 @@ alt="GitHub Activity Graph"
 
 ---
 
-## `// SYSTEM_COMPONENTS`
+## SYSTEM COMPONENTS
 
 <div align="center">
 
@@ -313,7 +313,7 @@ alt="GitHub Activity Graph"
 
 ---
 
-## `// CONTRIBUTION_STREAM`
+## CONTRIBUTION STREAM
 
 <div align="center">
 
@@ -348,7 +348,7 @@ alt="GitHub Activity Graph"
 
 ---
 
-## `// CREDENTIAL_DATABASE`
+## CREDENTIAL DATABASE
 
 <div align="center">
 
@@ -362,7 +362,7 @@ alt="GitHub Activity Graph"
 
 <td width="50%" valign="top">
 
-### 🧠 `AI // INTELLIGENCE`
+### 🧠 AI // INTELLIGENCE
 
 | Organization | Credential |
 |:---|:---|
@@ -375,7 +375,7 @@ alt="GitHub Activity Graph"
 
 <td width="50%" valign="top">
 
-### ⚙️ `ENGINEERING // CLOUD`
+### ⚙️ ENGINEERING // CLOUD
 
 | Organization | Credential |
 |:---|:---|
@@ -396,7 +396,7 @@ alt="GitHub Activity Graph"
 
 ---
 
-## `// UPLINK_PORTAL`
+## UPLINK PORTAL
 
 <div align="center">
 
@@ -404,17 +404,6 @@ alt="GitHub Activity Graph"
 
 <br/><br/>
 
-```text
-┌──────────────────────────────────────────────────────┐
-│                                                      │
-│   INCOMING CONNECTIONS ACCEPTED                      │
-│                                                      │
-│   Looking to build something ambitious?              │
-│   Let's establish a connection.                      │
-│                                                      │
-└──────────────────────────────────────────────────────┘
-```
-<br/>
 
 <a href="mailto:viraj.jadhao28@gmail.com">
   <img src="https://img.shields.io/badge/EMAIL-SEND_TRANSMISSION-00f0ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117"/>
