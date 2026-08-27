@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="120" viewBox="0 0 480 120">
   <rect width="480" height="120" rx="6" fill="#0d1117" stroke="#00f0ff" stroke-width="1.5"/>
-  <text x="20" y="35" font-family="monospace" font-size="12" fill="#6366f1">&gt; LANGUAGE COMPILER STATUS: STANDBY</text>
-  <text x="20" y="60" font-family="monospace" font-size="14" fill="#00f0ff" font-weight="bold">AWAITING COMPILER ANALYSIS</text>
-  <text x="20" y="85" font-family="monospace" font-size="11" fill="#a855f7">TRIGGER GITHUB ACTIONS TO DETECT DEVELOPMENT STACK</text>
+  <text x="20" y="35" font-family="monospace" font-size="12" fill="#6366f1">&gt; SYSTEM STATUS: OFFLINE</text>
+  <text x="20" y="60" font-family="monospace" font-size="14" fill="#00f0ff" font-weight="bold">AWAITING INITIAL TELEMETRY UPLINK</text>
+  <text x="20" y="85" font-family="monospace" font-size="11" fill="#a855f7">TRIGGER GITHUB ACTIONS TO INITIALIZE DATASTREAM</text>
 </svg>

@@ -40,72 +40,69 @@
 ## <a name="whoami"></a>`> whoami`
 
 ```text
-Host Node:      SPPU
+Host Node:      SPPU (Pune, India)
 Designation:    Full-Stack AI Engineer
-Specialization: Multi-Agent Systems & Backend Architectures
+Specialization: Multi-Agent Systems, Causal AI & Robust Backend Architectures
 ```
 
-> I design and compile deterministic, agentic AI services backdropped by reliable microservice environments. Currently focusing on building causal graph policy models, entailment checkers for RAG systems, and robust backend engineering layers.
+> I build secure, high-throughput backend services and multi-agent systems designed to run complex AI reasoning workflows reliably at scale.
 
 ### `// CORE CAPABILITIES`
 ```text
-AI SYSTEMS        ████████████████████  [AGENTS / NLI]
-BACKEND           ███████████████████░  [SPRING BOOT / FASTAPI]
-RAG PIPELINES     ████████████████████  [dense/sparse indexing]
-INFRASTRUCTURE    ████████████████░░░░  [DOCKER / AWS]
+AI SYSTEMS        ████████████████████  [LangGraph / Agents]
+BACKEND           ███████████████████░  [Spring Boot / FastAPI]
+RAG / RETRIEVAL   ████████████████████  [pgvector / FAISS]
+FULL-STACK        ██████████████████░░  [React / Next.js]
+INFRASTRUCTURE    ████████████████░░░░  [Docker / AWS / Nginx]
 ```
 
 ---
 
-## `> SYSTEM_LOG`
-
+## `> SYSTEM_BOOT_SEQUENCE`
 ```text
-[OK] Core cognitive multi-agent modules active
-[OK] Entailment judge validation layer: ECE calibrated to 0.07
-[OK] Decoupled microservice pipelines initialized
-[OK] pgvector + FAISS semantic search clusters online
+> INITIALIZING PROFILE CORE LAYER...
+> [OK] SYSTEM CONSOLE DETECTED
+> [OK] LANGUAGE MATRICES BINDING
+> [OK] PROJECT NODES CONNECTING
+> [OK] UPLINK CHANNELS READY
 ```
 
 ---
 
 ## <a name="current-mission"></a>`> CURRENT_MISSION`
 
-### `// SYSTEM NODE 01` — ArogyaRakshak
-*   **Domain:** Healthcare AI & Compliance
-*   **Status:** `[ ● ONLINE ]`
-*   **Problem:** Complex billing validation and medical dialect transliteration across Tri-service Indian compliance.
-*   **Solution:** 5-agent LangGraph orchestration pipeline measuring medical logs against CGHS ceiling indexes, using dense SBERT/FAISS embeddings.
+### `// PRIMARY NODES`
+
+#### 🏥 **ArogyaRakshak** — Compliance Auditing & Healthcare Translater
+*   **Problem:** Complex billing validation and medical dialect translation across diverse Indian regional guidelines.
+*   **Solution:** Multi-agent LangGraph pipeline checking billing entries against government ceiling limits, utilizing IndicSBERT semantic embeddings.
 *   **Tech:** FastAPI · Next.js 15 · PostgreSQL/pgvector · FAISS · IndicSBERT · Docker
 
-### `// SYSTEM NODE 02` — FinGuard AI
-*   **Domain:** Financial Risk Simulation
-*   **Status:** `[ ● ACTIVE ]`
-*   **Problem:** Simulating cash-flow volatility and default bounds on high-throughput transactions.
-*   **Solution:** Asynchronous cash-flow risk simulator executing statement classification and structural causal modeling over 700K+ transactional histories.
+#### 🛡️ **FinGuard AI** — Asynchronous Cash-Flow Risk Simulator
+*   **Problem:** Predict cash-flow stability and simulate loan default matrices across 700K+ transactional history records.
+*   **Solution:** Asynchronous cash-flow risk processor leveraging structural causal modeling (SCM) to evaluate dynamic counterfactual policies.
 *   **Tech:** Spring Boot 3 · FastAPI · React · PostgreSQL · Docker · Nginx
-*   **Access:** [Access FinGuard AI Repository](https://github.com/Viraj281105/Finguard-AI)
+*   **Code:** [GitHub Repository](https://github.com/Viraj281105/Finguard-AI)
 
-### `// SYSTEM NODE 03` — Fact-Grounder
-*   **Domain:** Hallucination Mitigation (NLI)
-*   **Status:** `[ ● ACTIVE ]`
-*   **Problem:** Generative context drift and citation uncertainty in dense Retrieval Augmented Generation.
-*   **Solution:** An entailment-calibrated evaluation compiler executing asymmetric verification using specialized DeBERTa models vs Mistral.
+---
+
+### `// SECONDARY NODES`
+
+#### 🔍 **Fact-Grounder** — Hallucination Evaluation Compiler
+*   **Problem:** Ensuring accurate source citation and preventing generation drift in RAG pipelines.
+*   **Solution:** Entailment calibration engine translating check generations into formal NLI formulations evaluated via dual judge models.
 *   **Tech:** FastAPI · ChromaDB · RoBERTa-NLI · SvelteKit · Docker
-*   **Access:** [Access Fact-Grounder Repository](https://github.com/Viraj281105/AI-Hallucination-Detection-Application)
+*   **Code:** [GitHub Repository](https://github.com/Viraj281105/AI-Hallucination-Detection-Application)
 
-### `// SYSTEM NODE 04` — Fin Intel
-*   **Domain:** Governed Natural Language SQL
-*   **Status:** `[ ● DEPLOYED ]`
-*   **Problem:** SQL injection vulnerability and context leakage in unstructured database compiler tasks.
-*   **Solution:** Natural Language database compiler enforcing rule-bound execution tracing maps prior to query validation.
+#### 🏦 **Fin Intel** — Governed Natural Language SQL Compiler
+*   **Problem:** Preventing SQL injection vulnerabilities and context leaks in structured text-to-SQL runtimes.
+*   **Solution:** Executable SQL compiler generating trace routing maps and security constraints before database lookup.
 *   **Tech:** Python · FastAPI · HuggingFace Transformers · Docker
-*   **Access:** [Access Fin Intel Repository](https://github.com/Viraj281105/fin-intelligence-platform)
+*   **Code:** [GitHub Repository](https://github.com/Viraj281105/fin-intelligence-platform)
 
-### `// SYSTEM NODE 05` — Edge AI ECG
-*   **Domain:** Embedded Diagnostics
-*   **Status:** `[ ● ARCHIVED ]`
-*   **Problem:** Real-time diagnostic latency in resource-constrained medical environments.
-*   **Solution:** Quantized 1D CNN models compiled directly into FPGA gate-arrays for ultra low power diagnostic execution.
+#### ⚡ **Edge AI ECG** — Real-Time FPGA CNN Accelerator
+*   **Problem:** Low-latency, ultra-efficient ECG diagnostic detection on medical firmware.
+*   **Solution:** Quantized 1D CNN diagnostic classifier compiled and optimized for Artix-7 FPGA boards.
 *   **Tech:** Xilinx Vivado · Artix-7 FPGA · 1D CNN · INT8 Quantization
 
 ---
