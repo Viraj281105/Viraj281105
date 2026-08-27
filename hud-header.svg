@@ -2,9 +2,9 @@
   <defs>
     <!-- Background Gradient (Deep Space Obsidian) -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#030712" />
-      <stop offset="50%" stop-color="#080e1a" />
-      <stop offset="100%" stop-color="#030712" />
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="50%" stop-color="#0b0e14" />
+      <stop offset="100%" stop-color="#0d1117" />
     </linearGradient>
 
     <!-- Electric Cyan Glow -->
@@ -13,22 +13,22 @@
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
 
-    <!-- Indigo Accent Glow -->
-    <filter id="glowIndigo" x="-20%" y="-20%" width="140%" height="140%">
+    <!-- Purple Accent Glow -->
+    <filter id="glowPurple" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="5" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
   </defs>
 
   <style>
-    .grid { stroke: #1f2937; stroke-width: 0.5; opacity: 0.35; }
-    .grid-heavy { stroke: #374151; stroke-width: 0.8; opacity: 0.2; }
-    .cyan-glow { stroke: #00f5ff; stroke-width: 1.5; filter: url(#glowCyan); }
-    .indigo-glow { stroke: #6366f1; stroke-width: 1.2; filter: url(#glowIndigo); opacity: 0.8; }
-    .tech-line { stroke: #1f2937; stroke-width: 1; }
-    .text-title { font-family: system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 42px; fill: #ffffff; letter-spacing: 12px; }
-    .text-subtitle { font-family: 'Courier New', Courier, monospace; font-size: 13px; fill: #00f5ff; letter-spacing: 5px; font-weight: bold; }
-    .text-telemetry { font-family: 'Courier New', Courier, monospace; font-size: 9.5px; fill: #9ca3af; letter-spacing: 1.5px; }
+    .grid { stroke: #1f2937; stroke-width: 0.5; opacity: 0.25; }
+    .grid-heavy { stroke: #374151; stroke-width: 0.8; opacity: 0.15; }
+    .cyan-glow { stroke: #00f0ff; stroke-width: 1.5; filter: url(#glowCyan); }
+    .purple-glow { stroke: #a855f7; stroke-width: 1.2; filter: url(#glowPurple); opacity: 0.8; }
+    .tech-line { stroke: #3f3f46; stroke-width: 1; }
+    .text-title { font-family: 'JetBrains Mono', monospace, sans-serif; font-weight: 800; font-size: 42px; fill: #ffffff; letter-spacing: 12px; }
+    .text-subtitle { font-family: 'JetBrains Mono', Courier, monospace; font-size: 13px; fill: #00f0ff; letter-spacing: 5px; font-weight: bold; }
+    .text-telemetry { font-family: 'JetBrains Mono', Courier, monospace; font-size: 9.5px; fill: #a1a1aa; letter-spacing: 1.5px; }
     
     @keyframes pulse {
       0%, 100% { opacity: 0.3; }
@@ -44,7 +44,7 @@
     }
     @keyframes scan {
       0% { transform: translateY(0px); opacity: 0.1; }
-      50% { opacity: 0.4; }
+      50% { opacity: 0.3; }
       100% { transform: translateY(280px); opacity: 0.1; }
     }
     @keyframes flicker {
@@ -75,7 +75,7 @@
   </g>
 
   <!-- Laser Scan Beam -->
-  <line x1="0" y1="0" x2="1000" y2="0" stroke="#00f5ff" stroke-width="1" class="anim-scan-line" />
+  <line x1="0" y1="0" x2="1000" y2="0" stroke="#00f0ff" stroke-width="1" class="anim-scan-line" />
 
   <!-- Clean Minimalist Corner Brackets -->
   <g class="anim-flicker">
@@ -93,57 +93,57 @@
   <g class="anim-flicker" opacity="0.6">
     <!-- Top Bar Telemetry -->
     <line x1="120" y1="20" x2="400" y2="20" class="tech-line" />
-    <circle cx="120" cy="20" r="2.5" fill="#00f5ff" />
-    <circle cx="400" cy="20" r="1.5" fill="#6366f1" />
+    <circle cx="120" cy="20" r="2.5" fill="#00f0ff" />
+    <circle cx="400" cy="20" r="1.5" fill="#a855f7" />
 
     <!-- Bottom Bar Telemetry -->
     <line x1="600" y1="260" x2="880" y2="260" class="tech-line" />
-    <circle cx="600" cy="260" r="1.5" fill="#6366f1" />
-    <circle cx="880" cy="260" r="2.5" fill="#00f5ff" />
+    <circle cx="600" cy="260" r="1.5" fill="#a855f7" />
+    <circle cx="880" cy="260" r="2.5" fill="#00f0ff" />
   </g>
 
   <!-- Main Center Title & Branding -->
   <g transform="translate(85, 115)">
     <!-- Vertical Branding Bars -->
-    <rect x="-25" y="-30" width="4" height="50" fill="#00f5ff" />
-    <rect x="-25" y="25" width="4" height="20" fill="#6366f1" />
-    <rect x="-25" y="50" width="4" height="10" fill="#1f2937" />
+    <rect x="-25" y="-30" width="4" height="50" fill="#00f0ff" />
+    <rect x="-25" y="25" width="4" height="20" fill="#a855f7" />
+    <rect x="-25" y="50" width="4" height="10" fill="#27272a" />
 
     <text x="0" y="5" class="text-title anim-flicker">VIRAJ JADHAO</text>
     <text x="3" y="32" class="text-subtitle">[ CAUSAL AI &amp; SYSTEMS ENGINEER ]</text>
     
-    <!-- Dynamic State Telemetry Rows -->
+    <!-- Real Specialization and Location Telemetry -->
     <g transform="translate(3, 62)">
       <circle cx="0" cy="0" r="3" fill="#6366f1" />
       <text x="12" y="3" class="text-telemetry">SYS_NODE: ASIA_KOLKATA</text>
       
-      <circle cx="270" cy="0" r="3" fill="#00f5ff" />
-      <text x="282" y="3" class="text-telemetry">MEM_CGPA: 9.368_ALLOC</text>
+      <circle cx="270" cy="0" r="3" fill="#00f0ff" />
+      <text x="282" y="3" class="text-telemetry">CORE_STACK: SP_BOOT // FASTAPI</text>
       
-      <circle cx="530" cy="0" r="3" fill="#10b981" class="anim-pulse" />
-      <text x="542" y="3" class="text-telemetry">CAUSAL_SCM: ONLINE // ACTIVE</text>
+      <circle cx="560" cy="0" r="3" fill="#a855f7" class="anim-pulse" />
+      <text x="572" y="3" class="text-telemetry">FOCUS: MULTI-AGENT_SYSTEMS</text>
     </g>
   </g>
 
-  <!-- Diagnostic Holographic Ring (Right Side Alignment) -->
+  <!-- System Identity Node (Right Side) -->
   <g class="anim-flicker">
     <!-- Concentric Technical Rotators -->
-    <circle cx="860" cy="140" r="82" fill="none" stroke="#00f5ff" stroke-width="1.2" stroke-dasharray="20 40 60 10" class="anim-rotate-cw" />
-    <circle cx="860" cy="140" r="72" fill="none" stroke="#6366f1" stroke-width="1.5" stroke-dasharray="140 40" class="anim-rotate-ccw" />
-    <circle cx="860" cy="140" r="60" fill="none" stroke="#9ca3af" stroke-width="0.5" stroke-dasharray="2 8" />
+    <circle cx="860" cy="140" r="82" fill="none" stroke="#00f0ff" stroke-width="1.2" stroke-dasharray="20 40 60 10" class="anim-rotate-cw" />
+    <circle cx="860" cy="140" r="72" fill="none" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="140 40" class="anim-rotate-ccw" />
+    <circle cx="860" cy="140" r="60" fill="none" stroke="#52525b" stroke-width="0.5" stroke-dasharray="2 8" />
     
     <!-- Core Crosshairs -->
-    <path d="M 860,118 L 860,126 M 860,154 L 860,162 M 838,140 L 846,140 M 874,140 L 882,140" stroke="#00f5ff" stroke-width="1.5" fill="none" />
-    <circle cx="860" cy="140" r="6" fill="none" stroke="#10b981" stroke-width="1" class="anim-pulse" />
+    <path d="M 860,118 L 860,126 M 860,154 L 860,162 M 838,140 L 846,140 M 874,140 L 882,140" stroke="#00f0ff" stroke-width="1.5" fill="none" />
+    <circle cx="860" cy="140" r="6" fill="none" stroke="#00f0ff" stroke-width="1" class="anim-pulse" />
     
-    <!-- Lateral Metrics text -->
-    <text x="815" y="44" class="text-telemetry" fill="#00f5ff">INTEGRITY_100%</text>
-    <text x="815" y="234" class="text-telemetry" fill="#6366f1">DECOUPLED_SYNC</text>
+    <!-- Labels -->
+    <text x="825" y="44" class="text-telemetry" fill="#00f0ff">AI_SYSTEMS</text>
+    <text x="825" y="244" class="text-telemetry" fill="#a855f7">AGENT_NETWORKS</text>
   </g>
 
   <!-- Calibration Info Panel (Left Bottom) -->
-  <g transform="translate(85, 218)" class="text-telemetry" fill="#4b5563">
-    <text x="0" y="0">CORE: //TRANS.GATEWAY.V28.11.05</text>
-    <text x="0" y="10">KERNEL: IPW_DOUBLY_ROBUST_STABLE</text>
+  <g transform="translate(85, 218)" class="text-telemetry" fill="#52525b">
+    <text x="0" y="0">STABILITY_GRID: CAUSAL_SCM_STABLE</text>
+    <text x="0" y="10">ORCHESTRATION: LANGGRAPH_PIPELINES</text>
   </g>
 </svg>
