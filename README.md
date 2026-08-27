@@ -213,89 +213,45 @@
 
 ---
 
-## <a name="-telemetry_feed"></a>// TELEMETRY_FEED
+## <a name="-telemetry_feed"></a>// SYSTEM TELEMETRY CONTROL MATRIX
 
-<p align="center">
-  <img src="https://img.shields.io/badge/●_SYSTEM-LIVE-00f5ff?style=for-the-badge&labelColor=030712"/>
-  <img src="https://img.shields.io/badge/GITHUB-ACTIVITY-6366f1?style=for-the-badge&logo=github&logoColor=white&labelColor=030712"/>
-  <img src="https://img.shields.io/badge/DATASTREAM-ACTIVE-4b5563?style=for-the-badge&labelColor=030712"/>
-</p>
-
-<br/>
-
-<table width="100%">
-<tr>
-<td width="50%" align="center" valign="top">
-
-### // SYSTEM_METRICS
-
-<img src="./github-metrics.svg" width="100%" alt="System Metrics" />
-
-</td>
-<td width="50%" align="center" valign="top">
-
-### // ACTIVITY_STREAM
-
-<img src="./github-activity.svg" width="100%" alt="Activity Stream" />
-
-</td>
-</tr>
-<tr>
-<td width="50%" align="center" valign="top">
-
-### // LANGUAGE_DISTRIBUTION
-
-<img src="./github-languages.svg" width="100%" alt="Language Distribution" />
-
-</td>
-<td width="50%" align="center" valign="top">
-
-### // TELEMETRY_STATUS
-
-```text
-┌──────────────────────────────────────────────────────────┐
-│  TELEMETRY STATUS                                        │
-│                                                          │
-│  REPOSITORIES      ████████████████████  ONLINE          │
-│  CONTRIBUTIONS     ███████████████████░  TRACKING        │
-│  BUILD ACTIVITY    ████████████████████  ACTIVE          │
-│  CODEBASE          ███████████████████░  EVOLVING        │
-│                                                          │
-│  STREAM :: GITHUB // REAL-TIME ENGINEERING ACTIVITY      │
-└──────────────────────────────────────────────────────────┘
-```
-
-</td>
-</tr>
+<table width="100%" style="border-collapse: collapse; border: none; background: #030712;">
+  <tr>
+    <td colspan="2" style="border: 1px solid #1f2937; padding: 15px; background: #080e1a; text-align: center;">
+      <span style="font-family: monospace; color: #00f5ff; letter-spacing: 2px; font-weight: bold;">[ SYSTEM STATUS: INTEGRATED TELEMETRY STACK ]</span>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" style="border: 1px solid #1f2937; padding: 15px;">
+      <h4 style="font-family: monospace; color: #00f5ff; margin-top: 0;">// ENGINE CAPACITIES</h4>
+      <img src="./github-metrics.svg" width="100%" alt="System Metrics" />
+      <br/><br/>
+      <h4 style="font-family: monospace; color: #00f5ff;">// LANGUAGE COMPILATION</h4>
+      <img src="./github-languages.svg" width="100%" alt="Language Distribution" />
+    </td>
+    <td width="50%" valign="top" style="border: 1px solid #1f2937; padding: 15px;">
+      <h4 style="font-family: monospace; color: #6366f1; margin-top: 0;">// DATASTREAM ACTIVITY</h4>
+      <img src="./github-activity.svg" width="100%" alt="Activity Stream" />
+      <br/><br/>
+      <h4 style="font-family: monospace; color: #6366f1;">// ACHIEVEMENT REGISTRY</h4>
+      <img src="./github-achievements.svg" width="100%" alt="GitHub Achievement Matrix" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="border: 1px solid #1f2937; padding: 20px; background: #040814; text-align: center;">
+      <h4 style="font-family: monospace; color: #00f5ff; margin-top: 0; letter-spacing: 1px;">// DYNAMIC CONTRIBUTION SEED GRID</h4>
+      <img src="./output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub Contribution Snake" />
+      <br/><br/>
+      <p align="center">
+        <img src="https://komarev.com/ghpvc/?username=Viraj281105&label=PROFILE_READS&style=flat-square&color=00f5ff&labelColor=030712"/>
+        &nbsp;
+        <img src="https://img.shields.io/github/followers/Viraj281105?label=NETWORK_NODES&style=flat-square&color=00f5ff&labelColor=030712"/>
+        &nbsp;
+        <img src="https://img.shields.io/github/stars/Viraj281105?label=STARS_COLLECTED&style=flat-square&color=6366f1&labelColor=030712"/>
+      </p>
+    </td>
+  </tr>
 </table>
-
-<br/>
-
-## // ACHIEVEMENT_MATRIX
-
-<p align="center">
-  <img src="./github-achievements.svg" width="85%" alt="GitHub Achievement Matrix" />
-  <br/><br/>
-  <sub>RECOGNITION_LAYER // GITHUB ACHIEVEMENTS</sub>
-</p>
-
----
-
-## // CONTRIBUTION_STREAM
-
-<p align="center">
-  <img src="./output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub Contribution Snake" />
-  <br/><br/>
-  <sub>CONTRIBUTION MATRIX // ACTIVITY STREAM // CONTINUOUS</sub>
-  <br/><br/>
-  <img src="https://komarev.com/ghpvc/?username=Viraj281105&label=PROFILE_READS&style=flat-square&color=00f5ff&labelColor=030712"/>
-  &nbsp;
-  <img src="https://img.shields.io/github/followers/Viraj281105?label=NETWORK_NODES&style=flat-square&color=00f5ff&labelColor=030712"/>
-  &nbsp;
-  <img src="https://img.shields.io/github/stars/Viraj281105?label=STARS_COLLECTED&style=flat-square&color=6366f1&labelColor=030712"/>
-</p>
-
----
 
 ## // CREDENTIAL_DATABASE
 
