@@ -46,187 +46,82 @@
 
 ## // ARCHITECTURAL_MATRIX
 
-<table width="100%">
-  <!-- ROW 1: AROGYARAKSHAK -->
-  <tr>
-    <td width="30%" valign="top" bgcolor="#0d1117" style="border: 1px solid #161b22; padding: 12px;">
-      <code>PORT_ID :: 01</code><br/>
-      <h3>ArogyaRakshak</h3>
-      <span style="color: #52b788; font-weight: bold;">[ ● ONLINE ]</span><br/>
-      <code>THROUGHPUT: HIGH</code><br/>
-      <code>LATENCY: &lt;15s</code>
-    </td>
-    <td width="70%" valign="top" bgcolor="#0d1117" style="border: 1px solid #161b22; padding: 12px;">
-      <p><i>Tri-service Indian healthcare compliance core auditing billing entries, mapping PMJAY aid schemes, and translating local dialects to standard medicine APIs.</i></p>
-      <details>
-        <summary><b style="color: #52b788; cursor: pointer;">[ + ] DEPLOY DIAGNOSTICS &amp; METRICS</b></summary>
-        <br/>
-        <b>Core Modules:</b>
-        <ul>
-          <li><b>BillNyay Module:</b> 5-agent LangGraph pipeline checking medical bills against CGHS ceiling benchmarks.</li>
-          <li><b>SchemeSetu Module:</b> SBERT embedding matching using dense FAISS indexes over government PMJAY criteria.</li>
-          <li><b>DawaCheck Module:</b> LayoutLMv3 classification identifying medicine names and ceiling pricing bounds.</li>
-          <li><b>Kadi Router:</b> Dynamic transliteration layer binding local names (e.g. "क्रोसिन") to clinical entities ("Crocin").</li>
-        </ul>
-        <b>Signal Routing Topology:</b>
-        <pre>
-┌──────────────┐      ┌─────────────┐      ┌─────────────────────┐
-│ Ingestion PDF│ ──&gt;  │ Kadi Router │ ──&gt;  │ 5-Agent LangGraph   │
-└──────────────┘      └─────────────┘      └─────────────────────┘
-                             │
-                             └──&gt;  │ FAISS Vector Search │
-                                   └─────────────────────┘
-        </pre>
-        <code>STACK: FastAPI · Next.js 15 · PostgreSQL/pgvector · FAISS · IndicSBERT · Docker</code>
-      </details>
-    </td>
-  </tr>
+### 🏥 ArogyaRakshak — Tri-Service Patient Advocacy Platform
+> **PORT_ID :: 01** · `[ ● ONLINE ]` · `THROUGHPUT: HIGH` · `LATENCY: <15s`
 
-  <!-- ROW 2: FINGUARD AI -->
-  <tr>
-    <td width="30%" valign="top" bgcolor="#0d1117" style="border: 1px solid #161b22; padding: 12px;">
-      <code>PORT_ID :: 02</code><br/>
-      <h3>FinGuard AI</h3>
-      <span style="color: #52b788; font-weight: bold;">[ ● ONLINE ]</span><br/>
-      <code>THROUGHPUT: ASYNC</code><br/>
-      <code>BATCH_SIZE: 500+</code>
-    </td>
-    <td width="70%" valign="top" bgcolor="#0d1117" style="border: 1px solid #161b22; padding: 12px;">
-      <p><i>Asynchronous transactional risk engine simulating loan cancellations and predicting 6-month cash-flow stability matrices across 700K+ transactional records.</i></p>
-      <details>
-        <summary><b style="color: #52b788; cursor: pointer;">[ + ] DEPLOY DIAGNOSTICS &amp; METRICS</b></summary>
-        <br/>
-        <b>Core Capabilities:</b>
-        <ul>
-          <li><b>Risk Indexing:</b> Calculates default likelihoods on 5 distinct dimensions (liquidity, debt, volatility, savings, diversification).</li>
-          <li><b>Policy Simulator:</b> Interactive SCM engine enabling real-time counterfactual policy tests.</li>
-          <li><b>Async Processing:</b> Leverages decoupled pipelines executing statement analysis in &lt;60 seconds.</li>
-        </ul>
-        <b>Repository Link:</b><br/>
-        <a href="https://github.com/Viraj281105/Finguard-AI">
-          <img src="https://img.shields.io/badge/Access_Secure_Files-FinGuard_AI-52b788?style=for-the-badge&logo=github&labelColor=0d1117" />
-        </a>
-        <br/><br/>
-        <code>STACK: Spring Boot 3 · FastAPI · React · PostgreSQL/pgvector · Docker · Nginx</code>
-      </details>
-    </td>
-  </tr>
+Tri-service Indian healthcare compliance core auditing billing entries, mapping PMJAY aid schemes, and translating local dialects to standard medicine APIs.
+*   **BillNyay Module:** 5-agent LangGraph pipeline checking medical bills against CGHS ceiling benchmarks.
+*   **SchemeSetu Module:** SBERT embedding matching using dense FAISS indexes over government PMJAY criteria.
+*   **DawaCheck Module:** LayoutLMv3 classification identifying medicine names and ceiling pricing bounds.
+*   **Kadi Router:** Dynamic transliteration layer binding local names (e.g. "क्रोसिन") to clinical entities ("Crocin").
 
-  <!-- ROW 3: FACT-GROUNDER -->
-  <tr>
-    <td width="30%" valign="top" bgcolor="#0d1117" style="border: 1px solid #161b22; padding: 12px;">
-      <code>PORT_ID :: 03</code><br/>
-      <h3>Fact-Grounder</h3>
-      <span style="color: #52b788; font-weight: bold;">[ ● ACTIVE ]</span><br/>
-      <code>CALIBRATION: ECE 0.07</code><br/>
-      <code>JUDGES: DUAL</code>
-    </td>
-    <td width="70%" valign="top" bgcolor="#0d1117" style="border: 1px solid #161b22; padding: 12px;">
-      <p><i>Factual validation compiler translating generation checks into formal Natural Language Inference (NLI) formulations.</i></p>
-      <details>
-        <summary><b style="color: #52b788; cursor: pointer;">[ + ] DEPLOY DIAGNOSTICS &amp; METRICS</b></summary>
-        <br/>
-        <b>System Performance:</b>
-        <ul>
-          <li><b>Expected Calibration Error:</b> Suppressed error scores from 0.23 down to 0.07.</li>
-          <li><b>Asymmetric Judges:</b> Entailment tests run on specialized DeBERTa models vs Mistral 7B pipelines.</li>
-          <li><b>Integration:</b> Exposes headless endpoints for zero-latency RAG citation grounding.</li>
-        </ul>
-        <b>Repository Link:</b><br/>
-        <a href="https://github.com/Viraj281105/AI-Hallucination-Detection-Application">
-          <img src="https://img.shields.io/badge/Access_Secure_Files-Fact_Grounder-52b788?style=for-the-badge&logo=github&labelColor=0d1117" />
-        </a>
-        <br/><br/>
-        <code>STACK: FastAPI · ChromaDB · RoBERTa-NLI · SvelteKit · Docker</code>
-      </details>
-    </td>
-  </tr>
+`STACK: FastAPI · Next.js 15 · PostgreSQL/pgvector · FAISS · IndicSBERT · Docker`
 
-  <!-- ROW 4: FIN INTELLIGENCE -->
-  <tr>
-    <td width="30%" valign="top" bgcolor="#0d1117" style="border: 1px solid #161b22; padding: 12px;">
-      <code>PORT_ID :: 04</code><br/>
-      <h3>Fin Intel</h3>
-      <span style="color: #52b788; font-weight: bold;">[ ● ACTIVE ]</span><br/>
-      <code>COMPILER: NL-SQL</code><br/>
-      <code>SEC: INJECTION_BLOCKED</code>
-    </td>
-    <td width="70%" valign="top" bgcolor="#0d1117" style="border: 1px solid #161b22; padding: 12px;">
-      <p><i>Governed text-to-SQL execution engine generating reasoned, injection-proof database queries.</i></p>
-      <details>
-        <summary><b style="color: #52b788; cursor: pointer;">[ + ] DEPLOY DIAGNOSTICS &amp; METRICS</b></summary>
-        <br/>
-        <b>Governance Rules:</b>
-        <ul>
-          <li><b>Query Tracing:</b> Generates full step-by-step reasoning maps before execution.</li>
-          <li><b>Injection Shielding:</b> Pre-validation structures blocking context escape vectors.</li>
-          <li><b>Compliance:</b> Audit logging and role-based access tokens hardcoded in service nodes.</li>
-        </ul>
-        <b>Repository Link:</b><br/>
-        <a href="https://github.com/Viraj281105/fin-intelligence-platform">
-          <img src="https://img.shields.io/badge/Access_Secure_Files-Fin_Intel-52b788?style=for-the-badge&logo=github&labelColor=0d1117" />
-        </a>
-        <br/><br/>
-        <code>STACK: Python · FastAPI · HuggingFace Transformers · Docker</code>
-      </details>
-    </td>
-  </tr>
+---
 
-  <!-- ROW 5: EDGE AI -->
-  <tr>
-    <td width="30%" valign="top" bgcolor="#0d1117" style="border: 1px solid #161b22; padding: 12px;">
-      <code>PORT_ID :: 05</code><br/>
-      <h3>Edge AI</h3>
-      <span style="color: #52b788; font-weight: bold;">[ ● FIRMWARE ]</span><br/>
-      <code>SILICON: ARTIX-7</code><br/>
-      <code>LATENCY: &lt;10ms</code>
-    </td>
-    <td width="70%" valign="top" bgcolor="#0d1117" style="border: 1px solid #161b22; padding: 12px;">
-      <p><i>ECG diagnostic processor utilizing quantized 1D CNN models compiled directly into FPGA gate-arrays.</i></p>
-      <details>
-        <summary><b style="color: #52b788; cursor: pointer;">[ + ] DEPLOY DIAGNOSTICS &amp; METRICS</b></summary>
-        <br/>
-        <b>Hardware Specifications:</b>
-        <ul>
-          <li><b>Model Quantization:</b> INT8 weights optimized for resource-constrained FPGA slices.</li>
-          <li><b>Clock Speed:</b> Synchronized at 100MHz on Artix-7 fabric.</li>
-          <li><b>Power Envelope:</b> Ultra-efficient run cycles consuming &lt;50mW total draw.</li>
-        </ul>
-        <code>STACK: Xilinx Vivado · Artix-7 FPGA · 1D CNN · INT8 Quantization</code>
-      </details>
-    </td>
-  </tr>
-</table>
+### 🛡️ FinGuard AI — Asynchronous Financial Risk Simulator
+> **PORT_ID :: 02** · `[ ● ONLINE ]` · `THROUGHPUT: ASYNC` · `BATCH_SIZE: 500+`
+
+Asynchronous transactional risk engine simulating loan cancellations and predicting 6-month cash-flow stability matrices across 700K+ transactional records.
+*   **Risk Indexing:** Calculates default likelihoods on 5 distinct dimensions (liquidity, debt, volatility, savings, diversification).
+*   **Policy Simulator:** Interactive SCM engine enabling real-time counterfactual policy tests.
+*   **Async Processing:** Leverages decoupled pipelines executing statement analysis in &lt;60 seconds.
+
+[![Access Repository](https://img.shields.io/badge/Access_Secure_Files-FinGuard_AI-52b788?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Viraj281105/Finguard-AI)
+
+`STACK: Spring Boot 3 · FastAPI · React · PostgreSQL/pgvector · Docker · Nginx`
+
+---
+
+### 🔍 Fact-Grounder — Entailment-Calibrated Hallucination Engine
+> **PORT_ID :: 03** · `[ ● ACTIVE ]` · `CALIBRATION: ECE 0.07` · `JUDGES: DUAL`
+
+Factual validation compiler translating generation checks into formal Natural Language Inference (NLI) formulations.
+*   **System Performance:** Suppressed Expected Calibration Error (ECE) from 0.23 down to 0.07.
+*   **Asymmetric Judges:** Entailment tests run on specialized DeBERTa models vs Mistral 7B pipelines.
+*   **Integration:** Exposes headless endpoints for zero-latency RAG citation grounding.
+
+[![Access Repository](https://img.shields.io/badge/Access_Secure_Files-Fact_Grounder-52b788?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Viraj281105/AI-Hallucination-Detection-Application)
+
+`STACK: FastAPI · ChromaDB · RoBERTa-NLI · SvelteKit · Docker`
+
+---
+
+### 🏦 Fin Intel — Governed Natural Language SQL Compiler
+> **PORT_ID :: 04** · `[ ● ACTIVE ]` · `COMPILER: NL-SQL` · `SEC: INJECTION_BLOCKED`
+
+Governed text-to-SQL execution engine generating reasoned, injection-proof database queries.
+*   **Governance Rules:** Generates full step-by-step reasoning maps before execution.
+*   **Injection Shielding:** Pre-validation structures blocking context escape vectors.
+*   **Compliance:** Audit logging and role-based access tokens hardcoded in service nodes.
+
+[![Access Repository](https://img.shields.io/badge/Access_Secure_Files-Fin_Intel-52b788?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Viraj281105/fin-intelligence-platform)
+
+`STACK: Python · FastAPI · HuggingFace Transformers · Docker`
+
+---
+
+### ⚡ Edge AI — Real-time ECG FPGA Accelerator
+> **PORT_ID :: 05** · `[ ● FIRMWARE ]` · `SILICON: ARTIX-7` · `LATENCY: <10ms`
+
+ECG diagnostic processor utilizing quantized 1D CNN models compiled directly into FPGA gate-arrays.
+*   **Hardware Specifications:** INT8 weights optimized for resource-constrained FPGA slices.
+*   **Clock Speed:** Synchronized at 100MHz on Artix-7 fabric.
+*   **Power Envelope:** Ultra-efficient run cycles consuming &lt;50mW total draw.
+
+`STACK: Xilinx Vivado · Artix-7 FPGA · 1D CNN · INT8 Quantization`
 
 ---
 
 ## // EXPERIENCE_LOG
 
-<details open>
-  <summary><b style="color: #52b788; font-size: 16px; cursor: pointer;">🏢 SAS R&D — Customer Intelligence Department</b></summary>
-  <p style="padding-left: 16px;">
-    <b>Position:</b> AI Software Engineer Intern <br/>
-    <b>Tenure:</b> <i>Jul 2026 – Present</i> · Pune, India <br/>
-    <code>STATUS: ACTIVE</code>
-  </p>
-  <blockquote style="margin-left: 16px;">
-    Developing and deploying production-grade data pipelines and systems within confidential SaaS customer intelligence suites.
-  </blockquote>
-</details>
+### 🏢 SAS R&D — Customer Intelligence Department
+> **AI Software Engineer Intern** · *Jul 2026 – Present* · Pune, India · `STATUS: ACTIVE`
+*   Developing and deploying production-grade data pipelines and systems within confidential SaaS customer intelligence suites.
 
-<br/>
-
-<details>
-  <summary><b style="color: #52b788; font-size: 16px; cursor: pointer;">🤖 Prodigy InfoTech — Generative AI Intern</b></summary>
-  <p style="padding-left: 16px;">
-    <b>Position:</b> Core AI Intern <br/>
-    <b>Tenure:</b> <i>Jan – Feb 2026</i> · Remote <br/>
-    <code>STATUS: ARCHIVED</code>
-  </p>
-  <blockquote style="margin-left: 16px;">
-    Built and deployed 5 end-to-end generative models, spanning text (fine-tuning GPT-2) and vision architectures (cGAN facade segmenters, VGG-19 neural style transfer, and Stable Diffusion).
-  </blockquote>
-</details>
+### 🤖 Prodigy InfoTech — Generative AI Intern
+> **Core AI Intern** · *Jan – Feb 2026* · Remote · `STATUS: ARCHIVED`
+*   Built and deployed 5 end-to-end generative models, spanning text (fine-tuning GPT-2) and vision architectures (cGAN facade segmenters, VGG-19 neural style transfer, and Stable Diffusion).
 
 ---
 

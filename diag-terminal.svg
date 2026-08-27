@@ -1,24 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%" height="auto">
   <defs>
+    <!-- Background Gradient (Blending into GitHub dark mode) -->
     <linearGradient id="termBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0b0914" />
-      <stop offset="100%" stop-color="#05040a" />
+      <stop offset="0%" stop-color="#0a0d0b" />
+      <stop offset="100%" stop-color="#0d1117" />
     </linearGradient>
   </defs>
 
   <style>
-    .window-border { stroke: #1e1b4b; stroke-width: 1.5; fill: url(#termBg); }
-    .window-header { fill: #0f0d22; stroke: #1e1b4b; stroke-width: 1; }
-    .header-text { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #6366f1; letter-spacing: 2px; }
-    .log-time { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #a855f7; }
-    .log-success { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #00f0ff; font-weight: bold; }
-    .log-info { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #ffffff; }
+    .window-border { stroke: #1b241e; stroke-width: 1.5; fill: url(#termBg); }
+    .window-header { fill: #111813; stroke: #1b241e; stroke-width: 1; }
+    .header-text { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #52b788; letter-spacing: 2px; }
+    .log-time { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #40916c; }
+    .log-success { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #52b788; font-weight: bold; }
+    .log-info { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #e2e8f0; }
     .log-warning { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #f59e0b; }
     
     @keyframes pulseDot {
-      0% { opacity: 0.2; }
+      0% { opacity: 0.25; }
       50% { opacity: 1; }
-      100% { opacity: 0.2; }
+      100% { opacity: 0.25; }
     }
     @keyframes cursor {
       0%, 49% { opacity: 0; }
@@ -32,15 +33,15 @@
   <rect x="2" y="2" width="796" height="216" rx="6" ry="6" class="window-border" />
   
   <!-- Terminal Header -->
-  <path d="M 2,20 L 798,20" stroke="#1e1b4b" stroke-width="1.5" />
-  <circle cx="15" cy="11" r="4" fill="#ef4444" />
-  <circle cx="27" cy="11" r="4" fill="#eab308" />
-  <circle cx="39" cy="11" r="4" fill="#22c55e" />
+  <path d="M 2,20 L 798,20" stroke="#1b241e" stroke-width="1.5" />
+  <circle cx="15" cy="11" r="4" fill="#ea580c" />
+  <circle cx="27" cy="11" r="4" fill="#ca8a04" />
+  <circle cx="39" cy="11" r="4" fill="#16a34a" />
   <text x="60" y="14" class="header-text">SYSTEM CORE MONITOR // VIRAJ.JADHAO</text>
   
   <!-- Glowing online status -->
-  <circle cx="765" cy="11" r="3" fill="#00f0ff" class="anim-pulse-dot" />
-  <text x="773" y="14" font-family="Courier New" font-size="9" fill="#00f0ff">ONLINE</text>
+  <circle cx="765" cy="11" r="3" fill="#52b788" class="anim-pulse-dot" />
+  <text x="773" y="14" font-family="Courier New" font-size="9" fill="#52b788">ONLINE</text>
 
   <!-- Log Entries -->
   <g transform="translate(15, 45)">
@@ -98,7 +99,7 @@
       <tspan class="log-time">[19:58:30]</tspan>
       <tspan class="log-success" dx="10">[SYS]</tspan>
       <tspan class="log-info" dx="11">Current telemetry status: STABLE. Ready for input.</tspan>
-      <tspan fill="#00f0ff" class="anim-cursor" dx="5">_</tspan>
+      <tspan fill="#52b788" class="anim-cursor" dx="5">_</tspan>
     </text>
   </g>
 </svg>
