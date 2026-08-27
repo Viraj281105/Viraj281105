@@ -1,4 +1,6 @@
+<!-- ============================================ -->
 <!-- HUD HEADER SYSTEM -->
+<!-- ============================================ -->
 <p align="center">
   <img width="100%" src="./hud-header.svg" alt="HUD Diagnostic System Header" />
 </p>
@@ -6,14 +8,30 @@
 <!-- DYNAMIC TELEMETRY TAGLINE -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3500&pause=1000&color=00F0FF&center=true&vCenter=true&width=750&lines=System+Protocol%3A+Full-Stack+Engineering+%7C+Causal+%26+Multi-Agent+AI;Status%3A+Production-Grade+AI+Systems+%7C+Spring+Boot+%2B+FastAPI+Backends;Ingestion%3A+Tri-Service+Microservices+%7C+High-Throughput+Vector+Search;Query%3A+Entailment-Calibrated+Hallucination+Detection" alt="System Diagnostics Typewriter" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=1200&color=00F0FF&center=true&vCenter=true&width=980&lines=System+Protocol%3A+Full-Stack+Engineering+%7C+Causal+%26+Multi-Agent+AI;Status%3A+Production-Grade+AI+Systems+%7C+Spring+Boot+%2B+FastAPI+Backends;Ingestion%3A+Tri-Service+Microservices+%7C+High-Throughput+Vector+Search;Query%3A+Entailment-Calibrated+Hallucination+Detection" alt="System Diagnostics Typewriter" />
   </a>
 </p>
 
+<!-- CORE CAPABILITY BADGES -->
 <p align="center">
   <img src="https://img.shields.io/badge/CORE_CAPABILITY-FULL_STACK_AI_SYSTEMS-00f0ff?style=for-the-badge&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/ORCHESTRATION-LANGGRAPH%20%2F%20MULTI--AGENT-a855f7?style=for-the-badge&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/BACKEND-SPRING%20BOOT%20%2B%20FASTAPI-6366f1?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/ORCHESTRATION-LANGGRAPH_%2F_MULTI--AGENT-a855f7?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/BACKEND-SPRING_BOOT_%2B_FASTAPI-6366f1?style=for-the-badge&labelColor=0d1117" />
+</p>
+
+<!-- QUICK NAV -->
+<p align="center">
+  <a href="#️-currently-building">Projects</a> •
+  <a href="#-architectural-stack--pipelines">Stack</a> •
+  <a href="#-professional-experience">Experience</a> •
+  <a href="#-telemetry-feeds-live-activity-metrics">Metrics</a> •
+  <a href="#-uplink-portal">Contact</a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Viraj281105&label=PROFILE_VIEWS&color=00f0ff&style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/github/followers/Viraj281105?label=FOLLOWERS&style=for-the-badge&color=a855f7&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/STATUS-OPEN_TO_OPPORTUNITIES-39ff14?style=for-the-badge&labelColor=0d1117" />
 </p>
 
 ---
@@ -23,6 +41,7 @@
 <p align="center">
   <img width="100%" src="./diag-terminal.svg" alt="System Diagnostic Logs" />
 </p>
+
 ---
 
 ## 🛠️ ARCHITECTURAL STACK & PIPELINES
@@ -34,155 +53,96 @@
 ### 🧑‍💻 Core Languages
 `Python` `Java` `TypeScript` `C++`
 
-### 🧠 Causal Inference & Probabilistic AI
-* **Frameworks & Orchestration:** `DoWhy` | `LangGraph` | `LangChain` | `PyTorch` | `scikit-learn` | `Hugging Face Transformers`
-* **Foundational Mechanics:** Structural Causal Models (SCMs), Backdoor/Frontdoor Identifiability, Average & Conditional Average Treatment Effect (ATE/CATE) Estimation under distribution shift, Rosenbaum bounds sensitivity metrics, E-value sensitivity diagnostics, probabilistic calibration curves (ECE)
-* **Generative & Representation Learning:** LoRA adapter fine-tuning, conditional GANs (Pix2Pix U-Net/PatchGAN), Text-to-Image synthesis (Stable Diffusion), Neural Style Transfer (VGG-19 feature optimization), `sentence-transformers` embedding pipelines
-* **Applied ML & Forecasting:** Isolation Forest anomaly detection, time-series risk/cash-flow forecasting, schema-aware NLP-to-SQL query generation
-* **Explainability & Trust:** SHAP feature attribution, entailment-based hallucination detection (NLI formulation), zero-hallucination RAG citation schemas
+### 🧠 Agentic AI, Causal & Probabilistic Systems
+* **Frameworks & Orchestration:** `LangGraph` | `LangChain` | `PyTorch` | `scikit-learn` | `Hugging Face Transformers`
+* **Multi-Agent Pipelines:** sequential agent orchestration (5-stage LangGraph pipelines), schema-aware NL-to-SQL query generation, RAG citation grounding
+* **Causal Inference *(in active development)*:** `DoWhy` | Structural Causal Models, ATE/CATE estimation, Rosenbaum bounds sensitivity analysis
+* **Generative & Representation Learning:** LoRA adapter fine-tuning, conditional GANs (Pix2Pix U-Net/PatchGAN), text-to-image synthesis (Stable Diffusion), Neural Style Transfer (VGG-19 feature optimization), `sentence-transformers` embedding pipelines
+* **Applied ML & Forecasting:** Isolation Forest anomaly detection, time-series risk/cash-flow forecasting, Facebook Prophet
+* **Explainability & Trust:** SHAP feature attribution, entailment-based hallucination detection (NLI formulation), probabilistic calibration (ECE)
 
 ### 🎨 Frontend & Interactive UI
 * **Core Frameworks:** `React` | `Next.js 15`
 * **Styling & State Management:** `Tailwind CSS` | `Zustand`
-* **Data Visualization & Motion:** `Recharts` | `D3.js` | `Plotly` | `Framer Motion` | `Mapbox`
+* **Data Visualization & Motion:** `Recharts` | `D3.js` | `Plotly` | `Framer Motion`
 * **UX Patterns:** live SSE-driven streaming interfaces, real-time geospatial dashboards, animated multi-step agent execution views
 
 ### ⚙️ Distributed Systems & Backend
 * **Microservices:** `Spring Boot` (Java) | `FastAPI` (Python) | `Flask` | `Node.js`
 * **APIs & Auth:** RESTful API design, JWT-based authentication, async request handling, schema validation
 * **Architecture Patterns:** decoupled write-heavy ingestion vs. query-heavy retrieval pipelines, Server-Sent Events (SSE) streaming, asynchronous event brokers via Redis Streams, tri-service/multi-service orchestration
-* **Infrastructure & Tooling:** `Docker` | `Docker Compose` | `Nginx` | SSL/TLS reverse proxying, `Linux`, `Git`, production-grade serving configs
+* **Infrastructure & Tooling:** `Docker` | `Docker Compose` | `Nginx` (SSL/TLS reverse proxying) | `Linux` | `Git`
 
 ### 🗄️ Database & Retrieval Engineering
 * **Vector & Relational Engines:** `pgvector` (PostgreSQL) | `FAISS` (dense vector search) | `MongoDB` | `Redis` caching
 * **Geospatial:** `PostGIS` | `Mapbox`
-* **Search Paradigms:** hybrid sparse-dense index merging (BM25 + dense embeddings), sub-second semantic retrieval over multi-million-record clusters, dynamic parameter-bound geospatial query execution, schema-aware NL-to-SQL translation
+* **Search Paradigms:** hybrid sparse-dense index merging (BM25 + dense embeddings), sub-second semantic retrieval over multi-million-record clusters, schema-aware NL-to-SQL translation
+
 ---
 
 ## 🛰️ CURRENTLY BUILDING
 
 ## 🏥 AROGYARAKSHAK — AI-Driven Patient Advocacy Platform
+> Final Year Project · Team of 5 · PES Modern College of Engineering, SPPU
 
-> **Status:** Guide-approved, in implementation · **Context:** Final Year Engineering Project (Team of 5) · **Institution:** PES Modern College of Engineering, Pune (SPPU 2019 Pattern)
+Healthcare in India isn't hard because care is unavailable — it's hard because the paperwork *around* care is unreadable. One upload → three AI modules fight for you.
 
-**The problem:** Healthcare in India isn't hard to navigate because care is unavailable — it's hard because the systems *around* care are fragmented and opaque. Hospital bills are near-impossible for a patient to validate against regulatory benchmarks, government health schemes are buried across dense multilingual documentation nobody reads end to end, and medicine prices vary in ways patients have no way to catch.
+- 🧾 **BillNyay** — audits hospital bills against CGHS rates, drafts IRDAI-compliant appeal letters via a 5-agent pipeline
+- 🏛️ **SchemeSetu** — RAG over PMJAY/MJPJAY scheme docs, tells you exactly which government scheme you qualify for
+- 💊 **DawaCheck** — scans medicine strips, flags overcharging against NPPA ceiling prices, suggests generics
+- 🔗 **Kadi** — the shared context layer linking all three across **English, Hindi & Marathi**, using transliteration + cross-lingual embeddings to match "क्रोसिन" to "Crocin" automatically
 
-**How it works:**
+`FastAPI` `Next.js 15` `PostgreSQL` `pgvector` `FAISS` `Groq` `IndicXlit` `IndicSBERT` `Docker`
 
-Any Document (bill / prescription / rejection letter) │ Shared Extraction Agent │ Kadi — Shared Case Context Layer │            │            │ BillNyay    SchemeSetu    DawaCheck (bill audit  (scheme       (medicine
+*(Private repo — docs maintained separately)*
 
-- appeal)   eligibility)   pricing)
+---
 
-One upload feeds all three modules — a patient never re-uploads the same document twice.
+## 🛡️ FINGUARD AI — Know Your Financial Future Before It Happens
+> Viraj Jadhao + Bhumi · Mar–Jul 2026
 
-**The three modules:**
-- **BillNyay** *("Nyay" = justice)* — OCR extracts line items from a hospital bill, benchmarks them against CGHS government rate schedules, flags overcharges, and runs a 5-agent pipeline (Document Auditor → Clinical Reviewer → Regulatory Advisor → Appeal Drafter → QA Judge) to draft an IRDAI-compliant appeal letter as a downloadable PDF. Carries forward and refines an existing hackathon build rather than starting from scratch.
-- **SchemeSetu** — A short intake or a bill/prescription upload triggers a RAG layer over PMJAY (national) and MJPJAY (Maharashtra state) scheme documents; an agent reasons through eligibility rules and outputs which government scheme(s) apply plus a step-by-step claim guide.
-- **DawaCheck** — Upload a medicine strip photo or prescription; OCR reads the drug name/batch and benchmarks the MRP against NPPA ceiling prices for ~800–900 Schedule-I price-controlled formulations, flagging overcharging and suggesting generic substitutes. Deliberately scoped to Schedule-I only — the one segment with a clean, government-published ground-truth price.
+Upload a bank statement → get a live Financial Risk Score (0-100) → simulate "what if I close this loan?" and watch your risk shift in real time.
 
-**Kadi — the shared context layer** *(कड़ी — "link"):* not a fourth module, but the infrastructure that makes the three modules actually interoperate:
-- **Case & entity model** — `cases` / `entities` / `case_entities` tables sit alongside each module's own domain data in one Postgres instance.
-- **Entity resolution pipeline** (the project's genuine research contribution): three similarity signals feed one confidence score — string similarity (surface variants like "Paracetamol 650mg" vs "Paracetamol"), **IndicXlit** transliteration matching (AI4Bharat — catches same word, different script, e.g. क्रोसिन ↔ Crocin), and **IndicSBERT** cross-lingual embeddings (L3Cube, Pune — catches translated concepts, e.g. बुखार ↔ Fever). A logistic regression combines all three into one confidence score, routing to merge / ask-user / new-entity.
-- **Auto-triggering** — e.g. a bill mentioning a ₹4L cardiac surgery under general category silently checks SchemeSetu eligibility in the background and surfaces it alongside the BillNyay report, without a second upload.
-- **Consent boundary** — a user explicitly opts in per-case before SchemeSetu/DawaCheck can see what BillNyay found; nothing is pooled silently by default.
+- 🧠 91% accurate AI expense classification, trained on Indian bank statements
+- 🎮 **Live scenario simulator** — drag a parameter, watch the risk score + 6-month cash flow forecast update instantly
+- 📊 5-dimension composite risk index (liquidity, debt, volatility, savings, diversification)
+- ⚡ 500 transactions classified in under 60 seconds, async end-to-end
 
-**Multilingual — English, Hindi & Marathi, full scope:** touches OCR (Devanagari needs its own validation pass, separate from English OCR accuracy), UI, LLM output generation, and entity resolution independently — with native-speaker terminology QA on every generated appeal letter and scheme explanation, not just a fluency check.
+`Spring Boot 3` `FastAPI` `React + TS` `PostgreSQL/pgvector` `Docker` `Nginx`
 
-**Target evaluation metrics** (module-level, from the project's formal evaluation framework):
-| Metric | Target |
-|---|---|
-| Procedure Extraction Accuracy (BillNyay) | >95% |
-| Benchmark Mapping Accuracy (BillNyay) | >92% |
-| Billing Deviation Detection Precision/Recall | >90% / >90% |
-| Average Report Generation Time | <5 seconds |
+[![Repo](https://img.shields.io/badge/Access_Secure_Files-FinGuard_AI-00f0ff?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Viraj281105/Finguard-AI)
 
-**Research contribution:** the Kadi entity-resolution ablation (string-only vs. transliteration-only vs. embedding-only vs. combined, measured by precision/recall/F1) is being written up as a standalone research note — no published system combines phonetic transliteration and cross-lingual embeddings specifically for trilingual medical entity linking under OCR noise, which is the genuine open question here.
+---
 
-**Stack:** `FastAPI` `Next.js 15` `PostgreSQL` `pgvector` `FAISS` `Groq (openai/gpt-oss-120b)` `IndicXlit` `IndicSBERT` `Docker Compose`
+## 🔍 HALLUCINATION DETECTOR — Fact-Checking for LLM Output
+> Backend live · Retriever + NLI dual-judge system
 
-*(Private repository — full technical documentation maintained separately)*
+Treats "is this AI claim actually true" as a formal verification problem, not a vibe check — a retriever finds evidence, a specialized NLI model rules *Entails* or *Contradicts*.
 
-## 🛡️ FINGUARD AI — AI-Powered Personal Finance Risk Advisor
+- ⚖️ Dual-judge mode coming: fast (RoBERTa) vs. accurate (Mistral 7B) trade-off
+- 🔌 Headless REST API — drop into any app
+- 🏠 100% local vector KB (ChromaDB), zero external dependency
+- 🚢 CI/CD, full test suite, one-command Docker deploy
 
-> **Status:** In active development · **Team:** Viraj Jadhao + Bhumi · **Timeline:** March – July 2026 · *"Know your financial future before it happens."*
+`FastAPI` `ChromaDB` `RoBERTa-NLI` `SvelteKit` `Docker`
 
-**The problem:** Most finance apps tell you where your money *went*. Nothing mainstream tells you where it's *going* — or lets you test a decision before you make it.
+[![Repo](https://img.shields.io/badge/Access_Secure_Files-Hallucination_Detection-00f0ff?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Viraj281105/AI-Hallucination-Detection-Application)
 
-**How it works:** Upload a bank statement → AI classifies every transaction → get a Financial Risk Score (0–100) → see a 6-month cash flow forecast → run scenarios like "what if I close my personal loan?" and watch the risk score update instantly.
+---
 
-**Features:**
-| Feature | What it does |
-|---|---|
-| 🧠 AI Expense Classification | Two-stage ML pipeline, **91% accuracy** on Indian bank statements |
-| 📊 Financial Risk Score | Composite 0–100 index across 5 weighted dimensions: Liquidity (25%), Debt Burden (25%), Volatility (20%), Savings Stability (20%), Investment Diversification (10%) |
-| 📈 Cash Flow Forecasting | 3–12 month predictions with confidence bands, based on actual spending history |
-| 🎮 Scenario Simulator | Adjust real parameters (close a loan, increase SIP, cut dining spend) and see the risk score + cash flow shift live |
-| 💡 AI Recommendations | Prioritized, severity-ranked action items specific to the user's own data — not generic tips |
-| 📤 Bank Statement Import | HDFC, ICICI, SBI, Axis, Kotak supported; async processing, 500 rows classified in under 60 seconds |
+## 🏦 FIN INTELLIGENCE PLATFORM — Governed NL-to-SQL for Finance
+> Scaffold complete · Security-first by design
 
-**Architecture:** React frontend → Nginx (SSL) → Spring Boot backend (Auth/JWT, Data Ingestion, Risk Scoring, Scenario Engine, AI Gateway) → internal FastAPI AI microservices (`/classify`, `/risk-score`, `/forecast`, `/recommend`) → PostgreSQL + pgvector.
+Ask your financial database a question in plain English — safely. Every query is validated, explained, and audited before it ever touches real data.
 
-**Backend depth:** Spring Security 6 + JWT, Spring Data JPA/Hibernate/HikariCP, async CSV processing via `CompletableFuture`, Bucket4j rate limiting, Flyway migrations.
-**AI/ML depth:** `sentence-transformers/all-MiniLM-L6-v2` embeddings, FAISS similarity search, Isolation Forest anomaly detection, Facebook Prophet forecasting (Phase 2).
-**Security:** 15-min JWT access tokens + 7-day HttpOnly refresh cookies, BCrypt (cost 12), rate limiting on every endpoint, parameterized queries only, uploaded CSVs deleted post-parse.
+- 🛡️ SQL injection + prompt-injection guardrails baked in, not bolted on
+- 🔍 Every generated query ships with a **reasoning trace** — no black-box SQL
+- 🔐 Multi-tenant RBAC + full audit logging for compliance review
+- 📁 ADR-documented architecture (`docs/decisions/`)
 
-**Stack:** `Spring Boot 3 (Java 21)` `FastAPI (Python 3.11)` `React 18 + TypeScript` `PostgreSQL + pgvector` `Docker Compose` `Nginx + Let's Encrypt`
+`Python` `FastAPI` `HuggingFace Transformers` `Docker`
 
-[![FinGuard AI Repository](https://img.shields.io/badge/Access_Secure_Files-FinGuard_AI-00f0ff?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Viraj281105/Finguard-AI)
-
-## 🔍 AI HALLUCINATION DETECTION APPLICATION — Dual-Judge Fact Verification
-
-> **Status:** Backend operational, frontend in progress · **Architecture:** Retriever + NLI dual-judge system
-
-**The problem:** LLM output is fluent but not reliably grounded. This system treats "is this claim actually supported by evidence" as a formal, explainable verification problem instead of a vibe check.
-
-**How it works:** a "Retriever-Judge" workflow — the **Retriever** (`BAAI/bge-large-en-v1.5`) finds the most relevant evidence in a local vector knowledge base, and the **Judge** (`ynie/roberta-large-snli` — a specialized NLI model) determines whether that evidence *Contradicts* or *Entails* the claim.
-
-**Features:**
-- **REST API** — a fully headless FastAPI backend, integrable into any application
-- **100% local vector knowledge base** via ChromaDB — no external dependency for retrieval
-- **Dockerized & deployable** — containerized for one-command deployment to Render
-- *(in progress)* **Dual-judge selection** — choice between a `fast` judge (RoBERTa) and an `accurate` judge (Mistral 7B) for a speed-vs-accuracy trade-off
-- *(in progress)* **Live web search fallback** — if the local knowledge base has no relevant evidence
-- *(in progress)* **Full-stack UI** — SvelteKit/React frontend deploying on Vercel
-
-**Engineering practice:** built as a complete production-shaped system, not a notebook — includes a CI/CD pipeline (GitHub Actions), a `pytest` test suite, and a tracked `PLAN.md` sprint roadmap, run as a professional Git workflow (branching strategy + commit conventions) despite being a solo project.
-
-**Stack:** `FastAPI` `ChromaDB` `sentence-transformers` `transformers (RoBERTa-large-NLI)` `SvelteKit/React` `Tailwind CSS` `Docker` `Render` `Vercel`
-
-[![AI Hallucination Detection Repository](https://img.shields.io/badge/Access_Secure_Files-Hallucination_Detection-00f0ff?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Viraj281105/AI-Hallucination-Detection-Application)
-
-## 🏦 FINANCIAL INTELLIGENCE PLATFORM — Enterprise NL-to-SQL for Finance
-
-> **Status:** 🚧 Active development — scaffold complete · **Focus:** Governed, explainable natural-language database querying
-
-**The problem:** Analysts and risk teams need to query complex financial databases without waiting on an engineer to write SQL — but a naive NL-to-SQL tool in a financial context is a security and compliance liability, not just a convenience feature.
-
-**Core capabilities:**
-- **Natural Language → SQL** via fine-tuned and RAG-augmented LLMs
-- **Query validation & safety** enforced before any statement touches the database
-- **Explainable outputs** — every generated query ships with a reasoning trace
-- **Governance & audit logging** for compliance review
-- **Secure multi-tenant API** with role-based access control
-
-**Modular layered architecture:**
-| Layer | Responsibility |
-|---|---|
-| `src/api/` | FastAPI REST endpoints, request routing, auth middleware |
-| `src/core/` | Query orchestration, session management |
-| `src/llm/` | LLM interface, prompt templates, model loading |
-| `src/rag/` | Retrieval-augmented generation, vector store integration |
-| `src/sql/` | SQL generation, validation, sanitization, execution |
-| `src/security/` | Input/output guardrails, PII detection, injection prevention |
-| `src/pipelines/` | End-to-end inference chaining |
-
-**Security-first by design:** SQL injection prevention via sanitization/parameterization, PII detection before any logging or output exposure, prompt-injection guardrails, JWT auth with RBAC, full audit logging on every query execution.
-
-**Stack:** `Python 3.10+` `FastAPI` `HuggingFace Transformers` `Docker Compose` — repo structured with dedicated `docs/architecture/`, `docs/security/`, and `docs/decisions/` (ADRs)
-
-[![Financial Intelligence Platform Repository](https://img.shields.io/badge/Access_Secure_Files-Fin_Intelligence-00f0ff?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Viraj281105/fin-intelligence-platform)
-
-Still open from last time: what to do with **ClimateX**/**FloatChat** (secondary table, or drop), and whether to drop the **DaaviSetu** naming reference for good.
+[![Repo](https://img.shields.io/badge/Access_Secure_Files-Fin_Intelligence-00f0ff?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Viraj281105/fin-intelligence-platform)
 
 ---
 
@@ -190,135 +150,292 @@ Still open from last time: what to do with **ClimateX**/**FloatChat** (secondary
 
 <details open>
 <summary><b>🏢 SAS R&D — Customer Intelligence Department</b></summary>
-<br />
 
-> **Role:** Intern · **Duration:** 11 months (July 2, 2026 – onward) · **Engagement:** Full-time, paid
+> **Intern** · 11 months (Jul 2026 – present) · Full-time, paid
 
-Currently interning in the Customer Intelligence department, working across a technical stack that's confidential to the role. The **Traffic-Simulation** project below was the technical assessment for this position — a demonstration of engineering ability during the evaluation process, not the ongoing work itself, which remains internal.
+Working across a technical stack confidential to the role.
 
 </details>
 
 <details>
 <summary><b>🤖 Prodigy InfoTech — Generative AI Intern</b></summary>
-<br />
 
-> **Duration:** Jan 2026 – Feb 2026 · **Format:** Remote
+> **Remote** · Jan – Feb 2026
 
-Completed 5 end-to-end generative AI tasks spanning language and vision:
+5 end-to-end generative AI builds, language + vision:
+- Fine-tuned GPT-2 on a domain corpus; built N-gram Markov text generation from scratch (bigram → weighted n-gram)
+- Built a conditional GAN (Pix2Pix, U-Net + PatchGAN) for facade segmentation; Neural Style Transfer via VGG-19; deployed Stable Diffusion for text-to-image
 
-- **Language:** Fine-tuned GPT-2 on a domain-specific corpus using Hugging Face Transformers; implemented N-gram Markov chain text generation from scratch (bigram through weighted n-gram), evaluating trade-offs across generative approaches in text vs. vision.
-- **Vision:** Built a conditional GAN (U-Net + PatchGAN) for Pix2Pix image-to-image translation on building facade segmentation; implemented Neural Style Transfer via VGG-19 feature optimization; deployed Stable Diffusion for text-to-image synthesis.
-
-`Hugging Face Transformers` `GPT-2` `Pix2Pix (cGAN)` `Neural Style Transfer` `Stable Diffusion`
+`Hugging Face` `GPT-2` `Pix2Pix (cGAN)` `Neural Style Transfer` `Stable Diffusion`
 
 </details>
-
 ---
 
-## 📊 TELEMETRY FEEDS (LIVE ACTIVITY METRICS)
+<!-- =========================================================
+     TELEMETRY // GITHUB ACTIVITY
+========================================================= -->
+
+## `// TELEMETRY_FEED`
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/●_SYSTEM-LIVE-00f0ff?style=for-the-badge&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/GITHUB-ACTIVITY-6366f1?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/DATASTREAM-ACTIVE-a855f7?style=for-the-badge&labelColor=0d1117"/>
+
+</div>
+
+<br/>
 
 <table width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <b>SYSTEM METRICS</b><br/><br/>
-      <img src="https://github-readme-stats.vercel.app/api?username=Viraj281105&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&title_color=00f0ff&icon_color=00f0ff&text_color=ffffff&bg_color=0d1117&cache_seconds=1800" width="100%" />
-    </td>
-    <td width="50%" align="center">
-      <b>STREAK ACTIVITY</b><br/><br/>
-      <img src="https://streak-stats.demolab.com?user=Viraj281105&theme=tokyonight&hide_border=true&stroke=00f0ff&ring=00f0ff&fire=a855f7&currStreakLabel=00f0ff&background=0d1117" width="100%" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <b>CORE SYSTEM LANGUAGES</b><br/><br/>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Viraj281105&layout=compact&theme=tokyonight&hide_border=true&title_color=00f0ff&text_color=ffffff&bg_color=0d1117&langs_count=8&cache_seconds=1800" width="100%" />
-    </td>
-    <td width="50%" align="center">
-      <b>SYS_ACTIVITY DIAGRAM</b><br/><br/>
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Viraj281105&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00f0ff&line=00f0ff&point=ffffff" width="100%" />
-    </td>
-  </tr>
+<tr>
+
+<td width="50%" align="center">
+
+### `01 // SYSTEM METRICS`
+
+<img
+src="https://github-readme-stats.vercel.app/api?username=Viraj281105&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=00f0ff&icon_color=00f0ff&text_color=ffffff&ring_color=00f0ff&cache_seconds=86400"
+width="100%"
+alt="GitHub Statistics"
+/>
+
+</td>
+
+<td width="50%" align="center">
+
+### `02 // STREAK PROTOCOL`
+
+<img
+src="https://streak-stats.demolab.com?user=Viraj281105&theme=tokyonight&hide_border=true&background=0d1117&stroke=1e1b4b&ring=00f0ff&fire=a855f7&currStreakLabel=00f0ff&sideLabels=ffffff&dates=6366f1"
+width="100%"
+alt="GitHub Streak"
+/>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" align="center">
+
+### `03 // LANGUAGE DISTRIBUTION`
+
+<img
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=Viraj281105&layout=donut-vertical&hide_border=true&langs_count=8&bg_color=0d1117&title_color=00f0ff&text_color=ffffff&cache_seconds=86400"
+width="100%"
+alt="Most Used Languages"
+/>
+
+</td>
+
+<td width="50%" align="center">
+
+### `04 // ACTIVITY STREAM`
+
+<img
+src="https://github-readme-activity-graph.vercel.app/graph?username=Viraj281105&bg_color=0d1117&color=00f0ff&line=a855f7&point=ffffff&area=true&hide_border=true&custom_title=GITHUB%20ACTIVITY%20STREAM"
+width="100%"
+alt="GitHub Activity Graph"
+/>
+
+</td>
+
+</tr>
 </table>
 
+<br/>
+
+<div align="center">
+
+```text
+┌──────────────────────────────────────────────────────────┐
+│  TELEMETRY STATUS                                        │
+│                                                          │
+│  REPOSITORIES      ████████████████████  ONLINE          │
+│  CONTRIBUTIONS     ███████████████████░  TRACKING        │
+│  BUILD ACTIVITY    ████████████████████  ACTIVE          │
+│  CODEBASE          ███████████████████░  EVOLVING        │
+│                                                          │
+│  STREAM :: GITHUB // REAL-TIME ENGINEERING ACTIVITY      │
+└──────────────────────────────────────────────────────────┘
+
+</div>
+```
+
+## `// ACHIEVEMENT_MATRIX`
+
+<div align="center">
+
+<img
+  src="https://github-profile-trophy.vercel.app/?username=Viraj281105&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&margin-h=6&row=1&column=7"
+  width="90%"
+  alt="GitHub Achievement Matrix"
+/>
+
+<br/>
+
+<sub>
+
+`RECOGNITION_LAYER // GITHUB ACHIEVEMENTS`
+
+</sub>
+
+</div>
+
 ---
 
-### 🏆 ACHIEVEMENT MATRIX
+## `// SYSTEM_COMPONENTS`
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Viraj281105&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&row=1&column=7" width="100%" />
-</p>
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,java,cpp,ts,go&theme=dark&perline=5" />
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=fastapi,spring,react,nextjs,tailwind&theme=dark&perline=5" />
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,docker,nginx&theme=dark&perline=5" />
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=git,github,linux,aws&theme=dark&perline=4" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/AI%20%2F%20ML-LANGGRAPH%20·%20LANGCHAIN%20·%20PYTORCH%20·%20RAG-00f0ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/SYSTEMS-MICROSERVICES%20·%20APIs%20·%20SSE%20·%20ASYNC-a855f7?style=for-the-badge&labelColor=0d1117" />
+
+</div>
 
 ---
 
-### 🧬 SYSTEM COMPONENTS — SKILL MATRIX
+## `// CONTRIBUTION_STREAM`
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,ts,cpp,fastapi,spring,react,nextjs,postgres,docker,git,linux&theme=dark&perline=6" />
-</p>
+<div align="center">
+
+<img src="https://img.shields.io/badge/●_LIVE-CONTRIBUTION_STREAM-00f0ff?style=for-the-badge&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/GITHUB-ACTIVITY-a855f7?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/>
+
+<br/><br/>
+
+<img
+  src="https://raw.githubusercontent.com/Viraj281105/Viraj281105/output/github-contribution-grid-snake-dark.svg"
+  width="100%"
+  alt="GitHub Contribution Snake"
+/>
+
+<br/><br/>
+
+<sub>
+
+`CONTRIBUTION MATRIX // ACTIVITY STREAM // CONTINUOUS`
+
+</sub>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=Viraj281105&label=PROFILE_READS&style=flat-square&color=00f0ff&labelColor=0d1117"/>
+&nbsp;
+<img src="https://img.shields.io/github/followers/Viraj281105?label=NETWORK_NODES&style=flat-square&color=00f0ff&labelColor=0d1117"/>
+&nbsp;
+<img src="https://img.shields.io/github/stars/Viraj281105?label=STARS_COLLECTED&style=flat-square&color=a855f7&labelColor=0d1117"/>
+
+</div>
 
 ---
 
-### 🐍 CONTRIBUTION GRID — LIVE SNAKE FEED
+## `// CREDENTIAL_DATABASE`
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Viraj281105/Viraj281105/output/github-contribution-grid-snake-dark.svg" width="100%" />
-</p>
+<div align="center">
 
----
+<img src="https://img.shields.io/badge/CREDENTIALS-VERIFIED-00f0ff?style=for-the-badge&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/DOMAIN-AI_%2F_ENGINEERING-a855f7?style=for-the-badge&labelColor=0d1117"/>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Viraj281105&label=DATASTREAM_READS&color=00f0ff&style=flat-square" />
-  <img src="https://img.shields.io/github/followers/Viraj281105?label=NETWORK_NODES&style=flat-square&color=00f0ff" />
-  <img src="https://img.shields.io/github/stars/Viraj281105?label=STARS_COLLECTED&style=flat-square&color=a855f7" />
-</p>
----
-
-## 📝 CREDENTIAL LOG & FIELD RECORD
+<br/><br/>
 
 <table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🔑 AI & Cognitive Networks</h4>
-      <ul>
-        <li><img src="https://img.shields.io/badge/-Google-4285F4?style=flat-square&logo=google&logoColor=white" /> <b>Google × Hack2Skill</b> — 5-Day AI Agents Intensive Course</li>
-        <li><img src="https://img.shields.io/badge/-AICTE-FF6F00?style=flat-square" /> <b>AICTE Virtual Internship</b> — Google AI/ML Program</li>
-        <li><img src="https://img.shields.io/badge/-Google-4285F4?style=flat-square&logo=google&logoColor=white" /> <b>AI Adventures (Google)</b> — ML, DL & GenAI</li>
-        <li><img src="https://img.shields.io/badge/-GUVI-00599C?style=flat-square" /> <b>HCL GUVI</b> — AI/ML Certification</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>📦 Distributed Architectures</h4>
-      <ul>
-        <li><img src="https://img.shields.io/badge/-AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white" /> <b>AWS</b> — Cloud Foundations</li>
-        <li><img src="https://img.shields.io/badge/-Prodigy_InfoTech-6366f1?style=flat-square" /> <b>Prodigy InfoTech</b> — Generative AI Internship (Jan–Feb 2026)</li>
-        <li><img src="https://img.shields.io/badge/-IIT_Bombay-a855f7?style=flat-square" /> <b>IIT Bombay</b> — Core Java Certification</li>
-      </ul>
-    </td>
-  </tr>
+<tr>
+
+<td width="50%" valign="top">
+
+### 🧠 `AI // INTELLIGENCE`
+
+| Organization | Credential |
+|:---|:---|
+| **Google × Hack2Skill** | AI Agents Intensive · 5 Days |
+| **AICTE × Google** | AI / ML Virtual Internship |
+| **Google AI Adventures** | ML · DL · Generative AI |
+| **HCL × GUVI** | AI / ML Certification |
+
+</td>
+
+<td width="50%" valign="top">
+
+### ⚙️ `ENGINEERING // CLOUD`
+
+| Organization | Credential |
+|:---|:---|
+| **AWS** | Cloud Foundations |
+| **Prodigy InfoTech** | Generative AI Internship · 2026 |
+| **IIT Bombay** | Core Java Certification |
+
+</td>
+
+</tr>
 </table>
+
+<br/>
+
+<img src="https://img.shields.io/badge/VERIFICATION_STATUS-ALL_SYSTEMS_GREEN-00f0ff?style=flat-square&labelColor=0d1117"/>
+
+</div>
 
 ---
 
-## 📡 UPLINK PORTAL
+## `// UPLINK_PORTAL`
 
-<p align="center">
-  <img src="https://img.shields.io/badge/STATUS-OPEN_TO_OPPORTUNITIES-00f0ff?style=for-the-badge&labelColor=0d1117" />
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="mailto:viraj.jadhao28@gmail.com">
-    <img src="https://img.shields.io/badge/ESTABLISH_UPLINK-EMAIL-00f0ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" />
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/viraj-jadhao-0771b830b/">
-    <img src="https://img.shields.io/badge/ESTABLISH_UPLINK-LINKEDIN-a855f7?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/Viraj281105">
-    <img src="https://img.shields.io/badge/ESTABLISH_UPLINK-GITHUB-6366f1?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
-  </a>
-</p>
+<img src="https://img.shields.io/badge/●_STATUS-OPEN_TO_OPPORTUNITIES-00f0ff?style=for-the-badge&labelColor=0d1117"/>
 
-<p align="center">
-  <sub style="color: #52525b">SYSTEM TERMINAL SECURED. ACCESS GRANTED.</sub>
-</p>
+<br/><br/>
+
+```text
+┌──────────────────────────────────────────────────────┐
+│                                                      │
+│   INCOMING CONNECTIONS ACCEPTED                      │
+│                                                      │
+│   Looking to build something ambitious?              │
+│   Let's establish a connection.                      │
+│                                                      │
+└──────────────────────────────────────────────────────┘
+```
+<br/>
+
+<a href="mailto:viraj.jadhao28@gmail.com">
+  <img src="https://img.shields.io/badge/EMAIL-SEND_TRANSMISSION-00f0ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117"/>
+</a>
+
+&nbsp;&nbsp;
+
+<a href="https://www.linkedin.com/in/viraj-jadhao-0771b830b/">
+  <img src="https://img.shields.io/badge/LINKEDIN-OPEN_CHANNEL-a855f7?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117"/>
+</a>
+
+&nbsp;&nbsp;
+
+<a href="https://github.com/Viraj281105">
+  <img src="https://img.shields.io/badge/GITHUB-ACCESS_CORE-6366f1?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/>
+</a>
+
+<br/><br/>
+
+<sub>
+CONNECTION SECURE // CHANNELS OPEN // ACCESS GRANTED
+</sub>
+
+</div>
