@@ -175,7 +175,7 @@ Working across a technical stack confidential to the role.
      TELEMETRY // GITHUB ACTIVITY
 ========================================================= -->
 
-## TELEMETRY FEED
+## `// TELEMETRY_FEED`
 
 <div align="center">
 
@@ -189,65 +189,32 @@ Working across a technical stack confidential to the role.
 
 <table width="100%">
 <tr>
+<td width="50%" align="center" valign="top">
 
-<td width="50%" align="center">
+### `// SYSTEM_METRICS`
 
-### 01 SYSTEM METRICS
-
-<img
-src="https://github-readme-stats.vercel.app/api?username=Viraj281105&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=00f0ff&icon_color=00f0ff&text_color=ffffff&ring_color=00f0ff&cache_seconds=86400"
-width="100%"
-alt="GitHub Statistics"
-/>
+<img src="./github-metrics.svg" width="100%" alt="System Metrics" />
 
 </td>
+<td width="50%" align="center" valign="top">
 
-<td width="50%" align="center">
+### `// ACTIVITY_STREAM`
 
-### 02 STREAK PROTOCOL
-
-<img
-src="https://streak-stats.demolab.com?user=Viraj281105&theme=tokyonight&hide_border=true&background=0d1117&stroke=1e1b4b&ring=00f0ff&fire=a855f7&currStreakLabel=00f0ff&sideLabels=ffffff&dates=6366f1"
-width="100%"
-alt="GitHub Streak"
-/>
+<img src="./github-activity.svg" width="100%" alt="Activity Stream" />
 
 </td>
-
 </tr>
-
 <tr>
+<td width="50%" align="center" valign="top">
 
-<td width="50%" align="center">
+### `// LANGUAGE_DISTRIBUTION`
 
-### 03 LANGUAGE DISTRIBUTION
-
-<img
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=Viraj281105&layout=donut-vertical&hide_border=true&langs_count=8&bg_color=0d1117&title_color=00f0ff&text_color=ffffff&cache_seconds=86400"
-width="100%"
-alt="Most Used Languages"
-/>
+<img src="./github-languages.svg" width="100%" alt="Language Distribution" />
 
 </td>
+<td width="50%" align="center" valign="top">
 
-<td width="50%" align="center">
-
-### 04 ACTIVITY STREAM
-
-<img
-src="https://github-readme-activity-graph.vercel.app/graph?username=Viraj281105&bg_color=0d1117&color=00f0ff&line=a855f7&point=ffffff&area=true&hide_border=true&custom_title=GITHUB%20ACTIVITY%20STREAM"
-width="100%"
-alt="GitHub Activity Graph"
-/>
-
-</td>
-
-</tr>
-</table>
-
-<br/>
-
-<div align="center">
+### `// TELEMETRY_STATUS`
 
 ```text
 ┌──────────────────────────────────────────────────────────┐
@@ -260,19 +227,19 @@ alt="GitHub Activity Graph"
 │                                                          │
 │  STREAM :: GITHUB // REAL-TIME ENGINEERING ACTIVITY      │
 └──────────────────────────────────────────────────────────┘
-
-</div>
 ```
 
-## ACHIEVEMENT MATRIX
+</td>
+</tr>
+</table>
+
+<br/>
+
+## `// ACHIEVEMENT_MATRIX`
 
 <div align="center">
 
-<img
-  src="https://github-profile-trophy.vercel.app/?username=Viraj281105&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&margin-h=6&row=1&column=7"
-  width="90%"
-  alt="GitHub Achievement Matrix"
-/>
+<img src="./github-achievements.svg" width="85%" alt="GitHub Achievement Matrix" />
 
 <br/>
 
@@ -286,47 +253,65 @@ alt="GitHub Activity Graph"
 
 ---
 
-## SYSTEM COMPONENTS
+## `// SYSTEM_COMPONENTS`
+
+<table width="100%">
+<tr>
+<td width="25%" valign="top">
+
+### 💻 LANGUAGES
+- **Python**
+- **Java**
+- **C++**
+- **TypeScript**
+- **Go**
+
+</td>
+<td width="25%" valign="top">
+
+### ⚙️ BACKEND
+- **FastAPI**
+- **Spring Boot**
+- **Node.js**
+
+</td>
+<td width="25%" valign="top">
+
+### 🎨 FRONTEND
+- **React**
+- **Next.js**
+- **Tailwind CSS**
+
+</td>
+<td width="25%" valign="top">
+
+### 🗄️ INFRASTRUCTURE
+- **PostgreSQL**
+- **Redis**
+- **MongoDB**
+- **Docker**
+- **Nginx**
+- **Linux**
+- **Git**
+- **AWS**
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,java,cpp,ts,go&theme=dark&perline=5" />
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=fastapi,spring,react,nextjs,tailwind&theme=dark&perline=5" />
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,docker,nginx&theme=dark&perline=5" />
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=git,github,linux,aws&theme=dark&perline=4" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/AI%20%2F%20ML-LANGGRAPH%20·%20LANGCHAIN%20·%20PYTORCH%20·%20RAG-00f0ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/SYSTEMS-MICROSERVICES%20·%20APIs%20·%20SSE%20·%20ASYNC-a855f7?style=for-the-badge&labelColor=0d1117" />
-
+<img src="https://img.shields.io/badge/AI%20%2F%20ML-LANGGRAPH%20·%20LANGCHAIN%20·%20PYTORCH%20·%20RAG%20·%20CAUSAL%20INFERENCE%20·%20NLI%20·%20TRANSFORMERS-00f0ff?style=for-the-badge&labelColor=0d1117" />
 </div>
 
 ---
 
-## CONTRIBUTION STREAM
+## `// CONTRIBUTION_STREAM`
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/●_LIVE-CONTRIBUTION_STREAM-00f0ff?style=for-the-badge&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/GITHUB-ACTIVITY-a855f7?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/>
-
-<br/><br/>
-
-<img
-  src="https://raw.githubusercontent.com/Viraj281105/Viraj281105/output/github-contribution-grid-snake-dark.svg"
-  width="100%"
-  alt="GitHub Contribution Snake"
-/>
+<img src="./output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub Contribution Snake" />
 
 <br/><br/>
 
@@ -348,62 +333,45 @@ alt="GitHub Activity Graph"
 
 ---
 
-## CREDENTIAL DATABASE
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/CREDENTIALS-VERIFIED-00f0ff?style=for-the-badge&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/DOMAIN-AI_%2F_ENGINEERING-a855f7?style=for-the-badge&labelColor=0d1117"/>
-
-<br/><br/>
+## `// CREDENTIAL_DATABASE`
 
 <table width="100%">
 <tr>
-
 <td width="50%" valign="top">
 
 ### 🧠 AI // INTELLIGENCE
-
-| Organization | Credential |
-|:---|:---|
-| **Google × Hack2Skill** | AI Agents Intensive · 5 Days |
-| **AICTE × Google** | AI / ML Virtual Internship |
-| **Google AI Adventures** | ML · DL · Generative AI |
-| **HCL × GUVI** | AI / ML Certification |
+- **Google × Hack2Skill** — AI Agents Intensive
+- **AICTE × Google** — AI / ML Virtual Internship
+- **Google AI Adventures** — ML / DL / GenAI
+- **HCL × GUVI** — AI / ML Certification
 
 </td>
-
 <td width="50%" valign="top">
 
 ### ⚙️ ENGINEERING // CLOUD
-
-| Organization | Credential |
-|:---|:---|
-| **AWS** | Cloud Foundations |
-| **Prodigy InfoTech** | Generative AI Internship · 2026 |
-| **IIT Bombay** | Core Java Certification |
+- **AWS** — Cloud Foundations
+- **Prodigy InfoTech** — Generative AI Internship · 2026
+- **IIT Bombay** — Core Java Certification
 
 </td>
-
 </tr>
 </table>
 
 <br/>
 
+<div align="center">
 <img src="https://img.shields.io/badge/VERIFICATION_STATUS-ALL_SYSTEMS_GREEN-00f0ff?style=flat-square&labelColor=0d1117"/>
-
 </div>
 
 ---
 
-## UPLINK PORTAL
+## `// UPLINK_PORTAL`
 
 <div align="center">
 
 <img src="https://img.shields.io/badge/●_STATUS-OPEN_TO_OPPORTUNITIES-00f0ff?style=for-the-badge&labelColor=0d1117"/>
 
 <br/><br/>
-
 
 <a href="mailto:viraj.jadhao28@gmail.com">
   <img src="https://img.shields.io/badge/EMAIL-SEND_TRANSMISSION-00f0ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117"/>
