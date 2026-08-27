@@ -27,7 +27,7 @@ jobs:
           filename: github-metrics.svg
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
-          theme: terminal
+          config_theme: terminal
           output_action: none
 
       - name: Generate language distribution metrics
@@ -42,7 +42,7 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_ignored: html, css, tex
           config_timezone: Asia/Kolkata
-          theme: terminal
+          config_theme: terminal
           output_action: none
 
       - name: Generate achievements matrix
@@ -58,7 +58,7 @@ jobs:
           plugin_achievements_limit: 8
           plugin_achievements_display: compact
           config_timezone: Asia/Kolkata
-          theme: terminal
+          config_theme: terminal
           output_action: none
 
       - name: Generate recent activity stream
@@ -73,7 +73,7 @@ jobs:
           plugin_activity_days: 14
           plugin_activity_filter: all
           config_timezone: Asia/Kolkata
-          theme: terminal
+          config_theme: terminal
           output_action: none
 
       - name: Commit and push changes
