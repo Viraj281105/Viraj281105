@@ -8,30 +8,30 @@
 <!-- DYNAMIC TELEMETRY TAGLINE -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=1200&color=00F0FF&center=true&vCenter=true&width=980&lines=System+Protocol%3A+Full-Stack+Engineering+%7C+Causal+%26+Multi-Agent+AI;Status%3A+Production-Grade+AI+Systems+%7C+Spring+Boot+%2B+FastAPI+Backends;Ingestion%3A+Tri-Service+Microservices+%7C+High-Throughput+Vector+Search;Query%3A+Entailment-Calibrated+Hallucination+Detection" alt="System Diagnostics Typewriter" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=1200&color=52B788&center=true&vCenter=true&width=980&lines=System+Protocol%3A+Full-Stack+Engineering+%7C+Causal+%26+Multi-Agent+AI;Status%3A+Production-Grade+AI+Systems+%7C+Spring+Boot+%2B+FastAPI+Backends;Ingestion%3A+Tri-Service+Microservices+%7C+High-Throughput+Vector+Search;Query%3A+Entailment-Calibrated+Hallucination+Detection" alt="System Diagnostics Typewriter" />
   </a>
 </p>
 
 <!-- CORE CAPABILITY BADGES -->
 <p align="center">
-  <img src="https://img.shields.io/badge/CORE_CAPABILITY-FULL_STACK_AI_SYSTEMS-00f0ff?style=for-the-badge&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/ORCHESTRATION-LANGGRAPH_%2F_MULTI--AGENT-a855f7?style=for-the-badge&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/BACKEND-SPRING_BOOT_%2B_FASTAPI-6366f1?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/CORE_CAPABILITY-FULL_STACK_AI_SYSTEMS-52b788?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/ORCHESTRATION-LANGGRAPH_%2F_MULTI--AGENT-2d6a4f?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/BACKEND-SPRING_BOOT_%2B_FASTAPI-40916c?style=for-the-badge&labelColor=0d1117" />
 </p>
 
 <!-- QUICK NAV -->
 <p align="center">
-  <a href="#-architectural-matrix--currently-building">Architectures</a> •
+  <a href="#-architectural_matrix">Architectures</a> •
   <a href="#-system_components">Stack</a> •
-  <a href="#-professional-experience-log">Experience</a> •
+  <a href="#-experience_log">Experience</a> •
   <a href="#-telemetry_feed">Telemetry</a> •
   <a href="#-uplink_portal">Uplink</a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Viraj281105&label=PROFILE_VIEWS&color=00f0ff&style=for-the-badge&labelColor=0d1117" />
-  <img src="https://img.shields.io/github/followers/Viraj281105?label=FOLLOWERS&style=for-the-badge&color=a855f7&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/STATUS-OPEN_TO_OPPORTUNITIES-39ff14?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://komarev.com/ghpvc/?username=Viraj281105&label=PROFILE_VIEWS&color=52b788&style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/github/followers/Viraj281105?label=FOLLOWERS&style=for-the-badge&color=2d6a4f&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/STATUS-OPEN_TO_OPPORTUNITIES-52b788?style=for-the-badge&labelColor=0d1117" />
 </p>
 
 ---
@@ -44,7 +44,7 @@
 
 ---
 
-## 🛰️ ARCHITECTURAL MATRIX // CURRENTLY BUILDING
+## // ARCHITECTURAL_MATRIX
 
 <table width="100%">
   <!-- ROW 1: AROGYARAKSHAK -->
@@ -52,14 +52,14 @@
     <td width="30%" valign="top" bgcolor="#0d1117" style="border: 1px solid #161b22; padding: 12px;">
       <code>PORT_ID :: 01</code><br/>
       <h3>ArogyaRakshak</h3>
-      <span style="color: #39ff14; font-weight: bold;">[ ● ONLINE ]</span><br/>
+      <span style="color: #52b788; font-weight: bold;">[ ● ONLINE ]</span><br/>
       <code>THROUGHPUT: HIGH</code><br/>
       <code>LATENCY: &lt;15s</code>
     </td>
     <td width="70%" valign="top" bgcolor="#0d1117" style="border: 1px solid #161b22; padding: 12px;">
       <p><i>Tri-service Indian healthcare compliance core auditing billing entries, mapping PMJAY aid schemes, and translating local dialects to standard medicine APIs.</i></p>
       <details>
-        <summary><b style="color: #00f0ff; cursor: pointer;">[ + ] DEPLOY DIAGNOSTICS &amp; METRICS</b></summary>
+        <summary><b style="color: #52b788; cursor: pointer;">[ + ] DEPLOY DIAGNOSTICS &amp; METRICS</b></summary>
         <br/>
         <b>Core Modules:</b>
         <ul>
@@ -87,14 +87,14 @@
     <td width="30%" valign="top" bgcolor="#0d1117" style="border: 1px solid #161b22; padding: 12px;">
       <code>PORT_ID :: 02</code><br/>
       <h3>FinGuard AI</h3>
-      <span style="color: #39ff14; font-weight: bold;">[ ● ONLINE ]</span><br/>
+      <span style="color: #52b788; font-weight: bold;">[ ● ONLINE ]</span><br/>
       <code>THROUGHPUT: ASYNC</code><br/>
       <code>BATCH_SIZE: 500+</code>
     </td>
     <td width="70%" valign="top" bgcolor="#0d1117" style="border: 1px solid #161b22; padding: 12px;">
       <p><i>Asynchronous transactional risk engine simulating loan cancellations and predicting 6-month cash-flow stability matrices across 700K+ transactional records.</i></p>
       <details>
-        <summary><b style="color: #00f0ff; cursor: pointer;">[ + ] DEPLOY DIAGNOSTICS &amp; METRICS</b></summary>
+        <summary><b style="color: #52b788; cursor: pointer;">[ + ] DEPLOY DIAGNOSTICS &amp; METRICS</b></summary>
         <br/>
         <b>Core Capabilities:</b>
         <ul>
@@ -104,7 +104,7 @@
         </ul>
         <b>Repository Link:</b><br/>
         <a href="https://github.com/Viraj281105/Finguard-AI">
-          <img src="https://img.shields.io/badge/Access_Secure_Files-FinGuard_AI-00f0ff?style=for-the-badge&logo=github&labelColor=0d1117" />
+          <img src="https://img.shields.io/badge/Access_Secure_Files-FinGuard_AI-52b788?style=for-the-badge&logo=github&labelColor=0d1117" />
         </a>
         <br/><br/>
         <code>STACK: Spring Boot 3 · FastAPI · React · PostgreSQL/pgvector · Docker · Nginx</code>
@@ -117,14 +117,14 @@
     <td width="30%" valign="top" bgcolor="#0d1117" style="border: 1px solid #161b22; padding: 12px;">
       <code>PORT_ID :: 03</code><br/>
       <h3>Fact-Grounder</h3>
-      <span style="color: #a855f7; font-weight: bold;">[ ● ACTIVE ]</span><br/>
+      <span style="color: #52b788; font-weight: bold;">[ ● ACTIVE ]</span><br/>
       <code>CALIBRATION: ECE 0.07</code><br/>
       <code>JUDGES: DUAL</code>
     </td>
     <td width="70%" valign="top" bgcolor="#0d1117" style="border: 1px solid #161b22; padding: 12px;">
       <p><i>Factual validation compiler translating generation checks into formal Natural Language Inference (NLI) formulations.</i></p>
       <details>
-        <summary><b style="color: #00f0ff; cursor: pointer;">[ + ] DEPLOY DIAGNOSTICS &amp; METRICS</b></summary>
+        <summary><b style="color: #52b788; cursor: pointer;">[ + ] DEPLOY DIAGNOSTICS &amp; METRICS</b></summary>
         <br/>
         <b>System Performance:</b>
         <ul>
@@ -134,7 +134,7 @@
         </ul>
         <b>Repository Link:</b><br/>
         <a href="https://github.com/Viraj281105/AI-Hallucination-Detection-Application">
-          <img src="https://img.shields.io/badge/Access_Secure_Files-Fact_Grounder-00f0ff?style=for-the-badge&logo=github&labelColor=0d1117" />
+          <img src="https://img.shields.io/badge/Access_Secure_Files-Fact_Grounder-52b788?style=for-the-badge&logo=github&labelColor=0d1117" />
         </a>
         <br/><br/>
         <code>STACK: FastAPI · ChromaDB · RoBERTa-NLI · SvelteKit · Docker</code>
@@ -147,14 +147,14 @@
     <td width="30%" valign="top" bgcolor="#0d1117" style="border: 1px solid #161b22; padding: 12px;">
       <code>PORT_ID :: 04</code><br/>
       <h3>Fin Intel</h3>
-      <span style="color: #a855f7; font-weight: bold;">[ ● ACTIVE ]</span><br/>
+      <span style="color: #52b788; font-weight: bold;">[ ● ACTIVE ]</span><br/>
       <code>COMPILER: NL-SQL</code><br/>
       <code>SEC: INJECTION_BLOCKED</code>
     </td>
     <td width="70%" valign="top" bgcolor="#0d1117" style="border: 1px solid #161b22; padding: 12px;">
       <p><i>Governed text-to-SQL execution engine generating reasoned, injection-proof database queries.</i></p>
       <details>
-        <summary><b style="color: #00f0ff; cursor: pointer;">[ + ] DEPLOY DIAGNOSTICS &amp; METRICS</b></summary>
+        <summary><b style="color: #52b788; cursor: pointer;">[ + ] DEPLOY DIAGNOSTICS &amp; METRICS</b></summary>
         <br/>
         <b>Governance Rules:</b>
         <ul>
@@ -164,7 +164,7 @@
         </ul>
         <b>Repository Link:</b><br/>
         <a href="https://github.com/Viraj281105/fin-intelligence-platform">
-          <img src="https://img.shields.io/badge/Access_Secure_Files-Fin_Intel-00f0ff?style=for-the-badge&logo=github&labelColor=0d1117" />
+          <img src="https://img.shields.io/badge/Access_Secure_Files-Fin_Intel-52b788?style=for-the-badge&logo=github&labelColor=0d1117" />
         </a>
         <br/><br/>
         <code>STACK: Python · FastAPI · HuggingFace Transformers · Docker</code>
@@ -177,14 +177,14 @@
     <td width="30%" valign="top" bgcolor="#0d1117" style="border: 1px solid #161b22; padding: 12px;">
       <code>PORT_ID :: 05</code><br/>
       <h3>Edge AI</h3>
-      <span style="color: #6366f1; font-weight: bold;">[ ● FIRMWARE ]</span><br/>
+      <span style="color: #52b788; font-weight: bold;">[ ● FIRMWARE ]</span><br/>
       <code>SILICON: ARTIX-7</code><br/>
       <code>LATENCY: &lt;10ms</code>
     </td>
     <td width="70%" valign="top" bgcolor="#0d1117" style="border: 1px solid #161b22; padding: 12px;">
       <p><i>ECG diagnostic processor utilizing quantized 1D CNN models compiled directly into FPGA gate-arrays.</i></p>
       <details>
-        <summary><b style="color: #00f0ff; cursor: pointer;">[ + ] DEPLOY DIAGNOSTICS &amp; METRICS</b></summary>
+        <summary><b style="color: #52b788; cursor: pointer;">[ + ] DEPLOY DIAGNOSTICS &amp; METRICS</b></summary>
         <br/>
         <b>Hardware Specifications:</b>
         <ul>
@@ -200,10 +200,10 @@
 
 ---
 
-## 💼 PROFESSIONAL EXPERIENCE LOG
+## // EXPERIENCE_LOG
 
 <details open>
-  <summary><b style="color: #00f0ff; font-size: 16px; cursor: pointer;">🏢 SAS R&D — Customer Intelligence Department</b></summary>
+  <summary><b style="color: #52b788; font-size: 16px; cursor: pointer;">🏢 SAS R&D — Customer Intelligence Department</b></summary>
   <p style="padding-left: 16px;">
     <b>Position:</b> AI Software Engineer Intern <br/>
     <b>Tenure:</b> <i>Jul 2026 – Present</i> · Pune, India <br/>
@@ -217,7 +217,7 @@
 <br/>
 
 <details>
-  <summary><b style="color: #00f0ff; font-size: 16px; cursor: pointer;">🤖 Prodigy InfoTech — Generative AI Intern</b></summary>
+  <summary><b style="color: #52b788; font-size: 16px; cursor: pointer;">🤖 Prodigy InfoTech — Generative AI Intern</b></summary>
   <p style="padding-left: 16px;">
     <b>Position:</b> Core AI Intern <br/>
     <b>Tenure:</b> <i>Jan – Feb 2026</i> · Remote <br/>
@@ -230,7 +230,7 @@
 
 ---
 
-## `// SYSTEM_COMPONENTS`
+## // SYSTEM_COMPONENTS
 
 <table width="100%">
 <tr>
@@ -279,18 +279,18 @@
 <br/>
 
 <div align="center">
-<img src="https://img.shields.io/badge/AI%20%2F%20ML-LANGGRAPH%20·%20LANGCHAIN%20·%20PYTORCH%20·%20RAG%20·%20CAUSAL%20INFERENCE%20·%20NLI%20·%20TRANSFORMERS-00f0ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/AI%20%2F%20ML-LANGGRAPH%20·%20LANGCHAIN%20·%20PYTORCH%20·%20RAG%20·%20CAUSAL%20INFERENCE%20·%20NLI%20·%20TRANSFORMERS-52b788?style=for-the-badge&labelColor=0d1117" />
 </div>
 
 ---
 
-## `// TELEMETRY_FEED`
+## // TELEMETRY_FEED
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/●_SYSTEM-LIVE-00f0ff?style=for-the-badge&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/GITHUB-ACTIVITY-6366f1?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/DATASTREAM-ACTIVE-a855f7?style=for-the-badge&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/●_SYSTEM-LIVE-52b788?style=for-the-badge&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/GITHUB-ACTIVITY-40916c?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/DATASTREAM-ACTIVE-2d6a4f?style=for-the-badge&labelColor=0d1117"/>
 
 </div>
 
@@ -300,14 +300,14 @@
 <tr>
 <td width="50%" align="center" valign="top">
 
-### `// SYSTEM_METRICS`
+### // SYSTEM_METRICS
 
 <img src="./github-metrics.svg" width="100%" alt="System Metrics" />
 
 </td>
 <td width="50%" align="center" valign="top">
 
-### `// ACTIVITY_STREAM`
+### // ACTIVITY_STREAM
 
 <img src="./github-activity.svg" width="100%" alt="Activity Stream" />
 
@@ -316,14 +316,14 @@
 <tr>
 <td width="50%" align="center" valign="top">
 
-### `// LANGUAGE_DISTRIBUTION`
+### // LANGUAGE_DISTRIBUTION
 
 <img src="./github-languages.svg" width="100%" alt="Language Distribution" />
 
 </td>
 <td width="50%" align="center" valign="top">
 
-### `// TELEMETRY_STATUS`
+### // TELEMETRY_STATUS
 
 ```text
 ┌──────────────────────────────────────────────────────────┐
@@ -344,7 +344,7 @@
 
 <br/>
 
-## `// ACHIEVEMENT_MATRIX`
+## // ACHIEVEMENT_MATRIX
 
 <div align="center">
 
@@ -354,7 +354,7 @@
 
 <sub>
 
-`RECOGNITION_LAYER // GITHUB ACHIEVEMENTS`
+RECOGNITION_LAYER // GITHUB ACHIEVEMENTS
 
 </sub>
 
@@ -362,7 +362,7 @@
 
 ---
 
-## `// CONTRIBUTION_STREAM`
+## // CONTRIBUTION_STREAM
 
 <div align="center">
 
@@ -372,23 +372,23 @@
 
 <sub>
 
-`CONTRIBUTION MATRIX // ACTIVITY STREAM // CONTINUOUS`
+CONTRIBUTION MATRIX // ACTIVITY STREAM // CONTINUOUS
 
 </sub>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=Viraj281105&label=PROFILE_READS&style=flat-square&color=00f0ff&labelColor=0d1117"/>
+<img src="https://komarev.com/ghpvc/?username=Viraj281105&label=PROFILE_READS&style=flat-square&color=52b788&labelColor=0d1117"/>
 &nbsp;
-<img src="https://img.shields.io/github/followers/Viraj281105?label=NETWORK_NODES&style=flat-square&color=00f0ff&labelColor=0d1117"/>
+<img src="https://img.shields.io/github/followers/Viraj281105?label=NETWORK_NODES&style=flat-square&color=52b788&labelColor=0d1117"/>
 &nbsp;
-<img src="https://img.shields.io/github/stars/Viraj281105?label=STARS_COLLECTED&style=flat-square&color=a855f7&labelColor=0d1117"/>
+<img src="https://img.shields.io/github/stars/Viraj281105?label=STARS_COLLECTED&style=flat-square&color=2d6a4f&labelColor=0d1117"/>
 
 </div>
 
 ---
 
-## `// CREDENTIAL_DATABASE`
+## // CREDENTIAL_DATABASE
 
 <table width="100%">
 <tr>
@@ -415,33 +415,33 @@
 <br/>
 
 <div align="center">
-<img src="https://img.shields.io/badge/VERIFICATION_STATUS-ALL_SYSTEMS_GREEN-00f0ff?style=flat-square&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/VERIFICATION_STATUS-ALL_SYSTEMS_GREEN-52b788?style=flat-square&labelColor=0d1117"/>
 </div>
 
 ---
 
-## `// UPLINK_PORTAL`
+## // UPLINK_PORTAL
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/●_STATUS-OPEN_TO_OPPORTUNITIES-00f0ff?style=for-the-badge&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/●_STATUS-OPEN_TO_OPPORTUNITIES-52b788?style=for-the-badge&labelColor=0d1117"/>
 
 <br/><br/>
 
 <a href="mailto:viraj.jadhao28@gmail.com">
-  <img src="https://img.shields.io/badge/EMAIL-SEND_TRANSMISSION-00f0ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117"/>
+  <img src="https://img.shields.io/badge/EMAIL-SEND_TRANSMISSION-52b788?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117"/>
 </a>
 
 &nbsp;&nbsp;
 
 <a href="https://www.linkedin.com/in/viraj-jadhao-0771b830b/">
-  <img src="https://img.shields.io/badge/LINKEDIN-OPEN_CHANNEL-a855f7?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117"/>
+  <img src="https://img.shields.io/badge/LINKEDIN-OPEN_CHANNEL-2d6a4f?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117"/>
 </a>
 
 &nbsp;&nbsp;
 
 <a href="https://github.com/Viraj281105">
-  <img src="https://img.shields.io/badge/GITHUB-ACCESS_CORE-6366f1?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/>
+  <img src="https://img.shields.io/badge/GITHUB-ACCESS_CORE-40916c?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/>
 </a>
 
 <br/><br/>
