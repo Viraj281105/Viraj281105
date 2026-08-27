@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="100%" height="auto">
   <defs>
-    <!-- Background Gradient -->
+    <!-- Background Gradient (Smooth blend into GitHub dark mode) -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080711" />
-      <stop offset="50%" stop-color="#0c0b1e" />
-      <stop offset="100%" stop-color="#05040a" />
+      <stop offset="0%" stop-color="#0a0d14" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#0c0e15" />
     </linearGradient>
 
     <!-- Hologram Cyan Glow -->
     <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feGaussianBlur stdDeviation="5" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
 
@@ -18,16 +18,23 @@
       <feGaussianBlur stdDeviation="4" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
+    
+    <!-- Neon Green Glow (matching the status lights) -->
+    <filter id="glowGreen" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
   </defs>
 
   <style>
-    .grid { stroke: #1e1b4b; stroke-width: 0.5; opacity: 0.4; }
-    .grid-highlight { stroke: #818cf8; stroke-width: 1; opacity: 0.15; }
+    .grid { stroke: #161b22; stroke-width: 0.5; opacity: 0.5; }
+    .grid-highlight { stroke: #6366f1; stroke-width: 0.8; opacity: 0.2; }
     .neon-cyan { stroke: #00f0ff; stroke-width: 1.5; filter: url(#glowCyan); }
     .neon-purple { stroke: #a855f7; stroke-width: 1.5; filter: url(#glowPurple); }
-    .neon-dim { stroke: #00f0ff; stroke-width: 1; opacity: 0.3; }
-    .text-title { font-family: 'Courier New', Courier, monospace; font-weight: 900; font-size: 42px; fill: #ffffff; letter-spacing: 6px; }
-    .text-subtitle { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #00f0ff; letter-spacing: 4px; opacity: 0.9; }
+    .neon-green { stroke: #39ff14; stroke-width: 1.2; filter: url(#glowGreen); }
+    .neon-dim { stroke: #00f0ff; stroke-width: 1; opacity: 0.25; }
+    .text-title { font-family: 'Courier New', Courier, monospace; font-weight: 900; font-size: 40px; fill: #ffffff; letter-spacing: 7px; }
+    .text-subtitle { font-family: 'Courier New', Courier, monospace; font-size: 13px; fill: #00f0ff; letter-spacing: 3px; font-weight: bold; }
     .text-telemetry { font-family: 'Courier New', Courier, monospace; font-size: 10px; fill: #6366f1; letter-spacing: 1px; }
     
     @keyframes pulse {
@@ -50,86 +57,106 @@
     }
     @keyframes flicker {
       0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% { opacity: 0.99; }
-      20%, 21.999%, 63%, 63.999%, 65%, 69.999% { opacity: 0.4; }
+      20%, 21.999%, 63%, 63.999%, 65%, 69.999% { opacity: 0.35; }
     }
 
     .anim-pulse { animation: pulse 3s infinite; }
-    .anim-rotate-cw { transform-origin: 850px 140px; animation: rotateCW 20s linear infinite; }
-    .anim-rotate-ccw { transform-origin: 850px 140px; animation: rotateCCW 12s linear infinite; }
-    .anim-flicker { animation: flicker 4s infinite; }
-    .anim-scan-line { animation: scan 8s linear infinite; }
+    .anim-rotate-cw { transform-origin: 870px 140px; animation: rotateCW 25s linear infinite; }
+    .anim-rotate-ccw { transform-origin: 870px 140px; animation: rotateCCW 15s linear infinite; }
+    .anim-flicker { animation: flicker 6s infinite; }
+    .anim-scan-line { animation: scan 10s linear infinite; }
   </style>
 
   <!-- Background -->
   <rect width="1000" height="280" fill="url(#bgGrad)" />
 
-  <!-- Grid Pattern -->
+  <!-- Technical Grid Pattern -->
   <g>
-    <path d="M 0,40 L 1000,40 M 0,80 L 1000,80 M 0,120 L 1000,120 M 0,160 L 1000,160 M 0,200 L 1000,200 M 0,240 L 1000,240" class="grid" />
+    <path d="M 0,35 L 1000,35 M 0,70 L 1000,70 M 0,105 L 1000,105 M 0,140 L 1000,140 M 0,175 L 1000,175 M 0,210 L 1000,210 M 0,245 L 1000,245" class="grid" />
     <path d="M 100,0 L 100,280 M 200,0 L 200,280 M 300,0 L 300,280 M 400,0 L 400,280 M 500,0 L 500,280 M 600,0 L 600,280 M 700,0 L 700,280 M 800,0 L 800,280 M 900,0 L 900,280" class="grid" />
-    <!-- Diagonal futuristic tech accent lines -->
-    <line x1="0" y1="0" x2="150" y2="150" class="grid-highlight" />
-    <line x1="1000" y1="0" x2="850" y2="150" class="grid-highlight" />
+    
+    <!-- Schematic Accent Lines -->
+    <line x1="0" y1="0" x2="140" y2="140" class="grid-highlight" />
+    <line x1="1000" y1="0" x2="860" y2="140" class="grid-highlight" />
+    <line x1="1000" y1="280" x2="860" y2="140" class="grid-highlight" />
+    <line x1="0" y1="280" x2="140" y2="140" class="grid-highlight" />
   </g>
 
   <!-- Animated Scanning line -->
-  <line x1="0" y1="0" x2="1000" y2="0" stroke="#00f0ff" stroke-width="0.7" opacity="0.3" class="anim-scan-line" />
+  <line x1="0" y1="0" x2="1000" y2="0" stroke="#00f0ff" stroke-width="0.8" opacity="0.25" class="anim-scan-line" />
 
-  <!-- Left HUD Panel & Borders -->
+  <!-- Outer Console Frames -->
   <g class="anim-flicker">
-    <!-- Top bracket -->
-    <path d="M 30,20 L 70,20 M 30,20 L 30,50" class="neon-cyan" fill="none" />
-    <!-- Bottom bracket -->
-    <path d="M 30,260 L 70,260 M 30,260 L 30,230" class="neon-cyan" fill="none" />
-    <!-- Right bracket border -->
-    <path d="M 970,20 L 930,20 M 970,20 L 970,50" class="neon-cyan" fill="none" />
-    <path d="M 970,260 L 930,260 M 970,260 L 970,230" class="neon-cyan" fill="none" />
+    <!-- Top-Left Corner Bracket -->
+    <path d="M 25,15 L 80,15 M 25,15 L 25,70" class="neon-cyan" fill="none" />
+    <!-- Bottom-Left Corner Bracket -->
+    <path d="M 25,265 L 80,265 M 25,265 L 25,210" class="neon-cyan" fill="none" />
+    <!-- Top-Right Corner Bracket -->
+    <path d="M 975,15 L 920,15 M 975,15 L 975,70" class="neon-cyan" fill="none" />
+    <!-- Bottom-Right Corner Bracket -->
+    <path d="M 975,265 L 920,265 M 975,265 L 975,210" class="neon-cyan" fill="none" />
   </g>
 
-  <!-- Horizontal Tech Divider Bars -->
-  <line x1="50" y1="35" x2="950" y2="35" class="neon-dim" />
-  <line x1="50" y1="245" x2="950" y2="245" class="neon-dim" />
+  <!-- Horizontal Guard Rails -->
+  <line x1="40" y1="25" x2="960" y2="25" class="neon-dim" />
+  <line x1="40" y1="255" x2="960" y2="255" class="neon-dim" />
 
-  <!-- Main System Title Info -->
-  <g transform="translate(80, 110)">
-    <!-- Tech node indicator -->
-    <rect x="-20" y="-30" width="8" height="35" fill="#00f0ff" class="anim-pulse" />
+  <!-- Cyber-Botanical Vector Accents (Inspired by hanging vines over mirror setup) -->
+  <g opacity="0.6">
+    <!-- Hanging schematic leaf node 1 -->
+    <path d="M 30,15 Q 40,40 55,50 T 70,80" stroke="#39ff14" stroke-width="0.8" fill="none" opacity="0.7"/>
+    <circle cx="55" cy="50" r="3" fill="#39ff14" class="anim-pulse"/>
+    <path d="M 55,50 Q 45,60 38,58" stroke="#39ff14" stroke-width="0.6" fill="none"/>
+    <path d="M 70,80 Q 80,85 85,75" stroke="#39ff14" stroke-width="0.6" fill="none"/>
     
-    <text x="0" y="0" class="text-title anim-flicker">VIRAJ JADHAO</text>
-    <text x="5" y="32" class="text-subtitle">[ COGNITIVE ARCHITECT &amp; SYSTEMS ENGINEER ]</text>
+    <!-- Hanging schematic leaf node 2 -->
+    <path d="M 970,15 Q 960,45 940,60 T 925,95" stroke="#39ff14" stroke-width="0.8" fill="none" opacity="0.7"/>
+    <circle cx="940" cy="60" r="3" fill="#39ff14" class="anim-pulse"/>
+    <path d="M 940,60 Q 950,70 955,65" stroke="#39ff14" stroke-width="0.6" fill="none"/>
+  </g>
+
+  <!-- Main Identity block -->
+  <g transform="translate(85, 115)">
+    <!-- Custom RGB status bar (reflecting your physical monitor backlight) -->
+    <rect x="-25" y="-30" width="6" height="42" fill="#00f0ff" />
+    <rect x="-25" y="12" width="6" height="15" fill="#a855f7" />
+    <rect x="-25" y="27" width="6" height="15" fill="#39ff14" />
     
-    <!-- Sub-status nodes -->
-    <g transform="translate(5, 65)">
-      <circle cx="0" cy="0" r="3" fill="#a855f7" />
-      <text x="12" y="4" class="text-telemetry">SYS.LOC: SAVITRIBAI PHULE SPPU</text>
+    <text x="0" y="2" class="text-title anim-flicker">VIRAJ JADHAO</text>
+    <text x="3" y="32" class="text-subtitle">[ CAUSAL AI &amp; SYSTEMS ENGINEER ]</text>
+    
+    <!-- System Telemetry Nodes -->
+    <g transform="translate(3, 62)">
+      <circle cx="0" cy="0" r="3.5" fill="#a855f7" />
+      <text x="12" y="3.5" class="text-telemetry">LOC: ASIA_KOLKATA // HOST_NODE_SPPU</text>
       
-      <circle cx="280" cy="0" r="3" fill="#00f0ff" />
-      <text x="292" y="4" class="text-telemetry">MEM.ALLOC: 9.368 CGPA</text>
+      <circle cx="295" cy="0" r="3.5" fill="#00f0ff" />
+      <text x="307" y="3.5" class="text-telemetry">MEM.ALLOC: 9.368_CGPA</text>
       
-      <circle cx="500" cy="0" r="3" fill="#00f0ff" />
-      <text x="512" y="4" class="text-telemetry">CORE: CAUSAL AI // AGENT NETWORKS</text>
+      <circle cx="515" cy="0" r="3.5" fill="#39ff14" class="anim-pulse" />
+      <text x="527" y="3.5" class="text-telemetry">STABILITY: CAUSAL_SCM_ROBUST</text>
     </g>
   </g>
 
-  <!-- Diagnostics Ring (Right Hand Side) -->
+  <!-- Diagnostic Reticle Console (Right Side) -->
   <g class="anim-flicker">
-    <!-- Outer solid diagnostic circle -->
-    <circle cx="850" cy="140" r="90" fill="none" stroke="#00f0ff" stroke-width="1" stroke-dasharray="10 40 50 10 5 15" class="anim-rotate-cw" />
-    <circle cx="850" cy="140" r="80" fill="none" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="100 20 40 20" class="anim-rotate-ccw" />
-    <circle cx="850" cy="140" r="68" fill="none" stroke="#00f0ff" stroke-width="0.5" stroke-dasharray="2 4" />
+    <!-- Outer concentric rings -->
+    <circle cx="870" cy="140" r="85" fill="none" stroke="#00f0ff" stroke-width="1.2" stroke-dasharray="15 35 45 15" class="anim-rotate-cw" />
+    <circle cx="870" cy="140" r="75" fill="none" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="110 30" class="anim-rotate-ccw" />
+    <circle cx="870" cy="140" r="62" fill="none" stroke="#39ff14" stroke-width="0.5" stroke-dasharray="2 6" />
     
-    <!-- Inner Target Reticle -->
-    <path d="M 850,115 L 850,125 M 850,155 L 850,165 M 825,140 L 835,140 M 865,140 L 875,140" stroke="#00f0ff" stroke-width="1.5" fill="none" />
-    <circle cx="850" cy="140" r="10" fill="none" stroke="#00f0ff" stroke-width="1" class="anim-pulse" />
+    <!-- Central Reticle Sight -->
+    <path d="M 870,115 L 870,123 M 870,157 L 870,165 M 845,140 L 853,140 M 887,140 L 895,140" stroke="#00f0ff" stroke-width="1.5" fill="none" />
+    <circle cx="870" cy="140" r="8" fill="none" stroke="#39ff14" stroke-width="1.2" class="anim-pulse" />
     
-    <!-- Telemetry Marks -->
-    <text x="815" y="40" class="text-telemetry" fill="#00f0ff">SYS_ACTIVE: 99.82%</text>
-    <text x="815" y="235" class="text-telemetry" fill="#a855f7">RETICLE_CALIBRATED</text>
+    <!-- Real-time metrics values -->
+    <text x="825" y="42" class="text-telemetry" fill="#00f0ff">SYS_INTEGRITY: 100%</text>
+    <text x="825" y="235" class="text-telemetry" fill="#39ff14">GRID_SYNC_ACTIVE</text>
   </g>
 
-  <!-- Decorative Telemetry Data Left Side -->
-  <g transform="translate(80, 215)" class="text-telemetry" fill="#52525b">
-    <text x="0" y="0">STARK_NET_ADDR: //V28.11.05.SEC_ALPHA</text>
-    <text x="0" y="12">CAUSALITY_INDEX_EST: ATE_94.82%_CONF</text>
+  <!-- Left Side Calibration Console Data -->
+  <g transform="translate(85, 215)" class="text-telemetry" fill="#52525b">
+    <text x="0" y="0">CORE_ADDR: //NET.GATEWAY.V28.11.05</text>
+    <text x="0" y="11">MODEL_EST: IPW_DOUBLY_ROBUST_CALIBRATED</text>
   </g>
 </svg>
