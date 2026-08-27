@@ -1,6 +1,6 @@
-<!-- ============================================ -->
+<!-- ========================================================================= -->
 <!-- HUD HEADER SYSTEM -->
-<!-- ============================================ -->
+<!-- ========================================================================= -->
 <p align="center">
   <img width="100%" src="./hud-header.svg" alt="HUD Diagnostic System Header" />
 </p>
@@ -8,30 +8,30 @@
 <!-- DYNAMIC TELEMETRY TAGLINE -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=1200&color=52B788&center=true&vCenter=true&width=980&lines=System+Protocol%3A+Full-Stack+Engineering+%7C+Causal+%26+Multi-Agent+AI;Status%3A+Production-Grade+AI+Systems+%7C+Spring+Boot+%2B+FastAPI+Backends;Ingestion%3A+Tri-Service+Microservices+%7C+High-Throughput+Vector+Search;Query%3A+Entailment-Calibrated+Hallucination+Detection" alt="System Diagnostics Typewriter" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=1200&color=00F5FF&center=true&vCenter=true&width=980&lines=System+Protocol%3A+Full-Stack+Engineering+%7C+Causal+%26+Multi-Agent+AI;Status%3A+Production-Grade+AI+Systems+%7C+Spring+Boot+%2B+FastAPI+Backends;Ingestion%3A+Tri-Service+Microservices+%7C+High-Throughput+Vector+Search;Query%3A+Entailment-Calibrated+Hallucination+Detection" alt="System Diagnostics Typewriter" />
   </a>
 </p>
 
 <!-- CORE CAPABILITY BADGES -->
 <p align="center">
-  <img src="https://img.shields.io/badge/CORE_CAPABILITY-FULL_STACK_AI_SYSTEMS-52b788?style=for-the-badge&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/ORCHESTRATION-LANGGRAPH_%2F_MULTI--AGENT-2d6a4f?style=for-the-badge&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/BACKEND-SPRING_BOOT_%2B_FASTAPI-40916c?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/CORE_CAPABILITY-FULL_STACK_AI_SYSTEMS-00f5ff?style=for-the-badge&labelColor=030712" />
+  <img src="https://img.shields.io/badge/ORCHESTRATION-LANGGRAPH_%2F_MULTI--AGENT-6366f1?style=for-the-badge&labelColor=030712" />
+  <img src="https://img.shields.io/badge/BACKEND-SPRING_BOOT_%2B_FASTAPI-4b5563?style=for-the-badge&labelColor=030712" />
 </p>
 
 <!-- QUICK NAV -->
 <p align="center">
-  <a href="#-architectural_matrix">Architectures</a> •
-  <a href="#-system_components">Stack</a> •
-  <a href="#-experience_log">Experience</a> •
-  <a href="#-telemetry_feed">Telemetry</a> •
-  <a href="#-uplink_portal">Uplink</a>
+  <a href="#-architectural_matrix"><b>System Architectures</b></a> •
+  <a href="#-system-components"><b>Stack Components</b></a> •
+  <a href="#-experience_log"><b>Experience Log</b></a> •
+  <a href="#-telemetry_feed"><b>Live Telemetry</b></a> •
+  <a href="#-uplink_portal"><b>Uplink Channels</b></a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Viraj281105&label=PROFILE_VIEWS&color=52b788&style=for-the-badge&labelColor=0d1117" />
-  <img src="https://img.shields.io/github/followers/Viraj281105?label=FOLLOWERS&style=for-the-badge&color=2d6a4f&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/STATUS-OPEN_TO_OPPORTUNITIES-52b788?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://komarev.com/ghpvc/?username=Viraj281105&label=PROFILE_VIEWS&color=00f5ff&style=for-the-badge&labelColor=030712" />
+  <img src="https://img.shields.io/github/followers/Viraj281105?label=FOLLOWERS&style=for-the-badge&color=6366f1&labelColor=030712" />
+  <img src="https://img.shields.io/badge/STATUS-OPEN_TO_OPPORTUNITIES-00f5ff?style=for-the-badge&labelColor=030712" />
 </p>
 
 ---
@@ -44,88 +44,124 @@
 
 ---
 
-## // ARCHITECTURAL_MATRIX
+## <a name="-architectural_matrix"></a>// ARCHITECTURAL MATRIX
 
-### 🏥 ArogyaRakshak — Tri-Service Patient Advocacy Platform
-> **PORT_ID :: 01** · `[ ● ONLINE ]` · `THROUGHPUT: HIGH` · `LATENCY: <15s`
-
-Tri-service Indian healthcare compliance core auditing billing entries, mapping PMJAY aid schemes, and translating local dialects to standard medicine APIs.
-*   **BillNyay Module:** 5-agent LangGraph pipeline checking medical bills against CGHS ceiling benchmarks.
-*   **SchemeSetu Module:** SBERT embedding matching using dense FAISS indexes over government PMJAY criteria.
-*   **DawaCheck Module:** LayoutLMv3 classification identifying medicine names and ceiling pricing bounds.
-*   **Kadi Router:** Dynamic transliteration layer binding local names (e.g. "क्रोसिन") to clinical entities ("Crocin").
-
-`STACK: FastAPI · Next.js 15 · PostgreSQL/pgvector · FAISS · IndicSBERT · Docker`
-
----
-
-### 🛡️ FinGuard AI — Asynchronous Financial Risk Simulator
-> **PORT_ID :: 02** · `[ ● ONLINE ]` · `THROUGHPUT: ASYNC` · `BATCH_SIZE: 500+`
-
-Asynchronous transactional risk engine simulating loan cancellations and predicting 6-month cash-flow stability matrices across 700K+ transactional records.
-*   **Risk Indexing:** Calculates default likelihoods on 5 distinct dimensions (liquidity, debt, volatility, savings, diversification).
-*   **Policy Simulator:** Interactive SCM engine enabling real-time counterfactual policy tests.
-*   **Async Processing:** Leverages decoupled pipelines executing statement analysis in &lt;60 seconds.
-
-[![Access Repository](https://img.shields.io/badge/Access_Secure_Files-FinGuard_AI-52b788?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Viraj281105/Finguard-AI)
-
-`STACK: Spring Boot 3 · FastAPI · React · PostgreSQL/pgvector · Docker · Nginx`
-
----
-
-### 🔍 Fact-Grounder — Entailment-Calibrated Hallucination Engine
-> **PORT_ID :: 03** · `[ ● ACTIVE ]` · `CALIBRATION: ECE 0.07` · `JUDGES: DUAL`
-
-Factual validation compiler translating generation checks into formal Natural Language Inference (NLI) formulations.
-*   **System Performance:** Suppressed Expected Calibration Error (ECE) from 0.23 down to 0.07.
-*   **Asymmetric Judges:** Entailment tests run on specialized DeBERTa models vs Mistral 7B pipelines.
-*   **Integration:** Exposes headless endpoints for zero-latency RAG citation grounding.
-
-[![Access Repository](https://img.shields.io/badge/Access_Secure_Files-Fact_Grounder-52b788?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Viraj281105/AI-Hallucination-Detection-Application)
-
-`STACK: FastAPI · ChromaDB · RoBERTa-NLI · SvelteKit · Docker`
-
----
-
-### 🏦 Fin Intel — Governed Natural Language SQL Compiler
-> **PORT_ID :: 04** · `[ ● ACTIVE ]` · `COMPILER: NL-SQL` · `SEC: INJECTION_BLOCKED`
-
-Governed text-to-SQL execution engine generating reasoned, injection-proof database queries.
-*   **Governance Rules:** Generates full step-by-step reasoning maps before execution.
-*   **Injection Shielding:** Pre-validation structures blocking context escape vectors.
-*   **Compliance:** Audit logging and role-based access tokens hardcoded in service nodes.
-
-[![Access Repository](https://img.shields.io/badge/Access_Secure_Files-Fin_Intel-52b788?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Viraj281105/fin-intelligence-platform)
-
-`STACK: Python · FastAPI · HuggingFace Transformers · Docker`
-
----
-
-### ⚡ Edge AI — Real-time ECG FPGA Accelerator
-> **PORT_ID :: 05** · `[ ● FIRMWARE ]` · `SILICON: ARTIX-7` · `LATENCY: <10ms`
-
-ECG diagnostic processor utilizing quantized 1D CNN models compiled directly into FPGA gate-arrays.
-*   **Hardware Specifications:** INT8 weights optimized for resource-constrained FPGA slices.
-*   **Clock Speed:** Synchronized at 100MHz on Artix-7 fabric.
-*   **Power Envelope:** Ultra-efficient run cycles consuming &lt;50mW total draw.
-
-`STACK: Xilinx Vivado · Artix-7 FPGA · 1D CNN · INT8 Quantization`
+<table width="100%" style="border-collapse: collapse; border: none;">
+  <tr>
+    <td style="border: none; padding: 15px 0;">
+      <h3>🏥 ArogyaRakshak — Tri-Service Patient Advocacy Platform</h3>
+      <p><i>PORT_ID :: 01 · <code>[ ● ONLINE ]</code> · THROUGHPUT: HIGH · LATENCY: &lt;15s</i></p>
+      <p>Tri-service Indian healthcare compliance core auditing billing entries, mapping PMJAY aid schemes, and translating local dialects to standard medicine APIs.</p>
+      <ul>
+        <li><b>BillNyay Module:</b> 5-agent LangGraph pipeline checking medical bills against CGHS ceiling benchmarks.</li>
+        <li><b>SchemeSetu Module:</b> SBERT embedding matching using dense FAISS indexes over government PMJAY criteria.</li>
+        <li><b>DawaCheck Module:</b> LayoutLMv3 classification identifying medicine names and ceiling pricing bounds.</li>
+        <li><b>Kadi Router:</b> Dynamic transliteration layer binding local names (e.g. "क्रोसिन") to clinical entities ("Crocin").</li>
+      </ul>
+      <p><code>STACK: FastAPI · Next.js 15 · PostgreSQL/pgvector · FAISS · IndicSBERT · Docker</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; padding: 15px 0; border-top: 1px solid #1f2937;">
+      <h3>🛡️ FinGuard AI — Asynchronous Financial Risk Simulator</h3>
+      <p><i>PORT_ID :: 02 · <code>[ ● ONLINE ]</code> · THROUGHPUT: ASYNC · BATCH_SIZE: 500+</i></p>
+      <p>Asynchronous transactional risk engine simulating loan cancellations and predicting 6-month cash-flow stability matrices across 700K+ transactional records.</p>
+      <ul>
+        <li><b>Risk Indexing:</b> Calculates default likelihoods on 5 distinct dimensions (liquidity, debt, volatility, savings, diversification).</li>
+        <li><b>Policy Simulator:</b> Interactive SCM engine enabling real-time counterfactual policy tests.</li>
+        <li><b>Async Processing:</b> Leverages decoupled pipelines executing statement analysis in &lt;60 seconds.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/Viraj281105/Finguard-AI">
+          <img src="https://img.shields.io/badge/Access_Secure_Files-FinGuard_AI-00f5ff?style=for-the-badge&logo=github&labelColor=030712" />
+        </a>
+      </p>
+      <p><code>STACK: Spring Boot 3 · FastAPI · React · PostgreSQL/pgvector · Docker · Nginx</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; padding: 15px 0; border-top: 1px solid #1f2937;">
+      <h3>🔍 Fact-Grounder — Entailment-Calibrated Hallucination Engine</h3>
+      <p><i>PORT_ID :: 03 · <code>[ ● ACTIVE ]</code> · CALIBRATION: ECE 0.07 · JUDGES: DUAL</i></p>
+      <p>Factual validation compiler translating generation checks into formal Natural Language Inference (NLI) formulations.</p>
+      <ul>
+        <li><b>System Performance:</b> Suppressed Expected Calibration Error (ECE) from 0.23 down to 0.07.</li>
+        <li><b>Asymmetric Judges:</b> Entailment tests run on specialized DeBERTa models vs Mistral 7B pipelines.</li>
+        <li><b>Integration:</b> Exposes headless endpoints for zero-latency RAG citation grounding.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/Viraj281105/AI-Hallucination-Detection-Application">
+          <img src="https://img.shields.io/badge/Access_Secure_Files-Fact_Grounder-00f5ff?style=for-the-badge&logo=github&labelColor=030712" />
+        </a>
+      </p>
+      <p><code>STACK: FastAPI · ChromaDB · RoBERTa-NLI · SvelteKit · Docker</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; padding: 15px 0; border-top: 1px solid #1f2937;">
+      <h3>🏦 Fin Intel — Governed Natural Language SQL Compiler</h3>
+      <p><i>PORT_ID :: 04 · <code>[ ● ACTIVE ]</code> · COMPILER: NL-SQL · SEC: INJECTION_BLOCKED</i></p>
+      <p>Governed text-to-SQL execution engine generating reasoned, injection-proof database queries.</p>
+      <ul>
+        <li><b>Governance Rules:</b> Generates full step-by-step reasoning maps before execution.</li>
+        <li><b>Injection Shielding:</b> Pre-validation structures blocking context escape vectors.</li>
+        <li><b>Compliance:</b> Audit logging and role-based access tokens hardcoded in service nodes.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/Viraj281105/fin-intelligence-platform">
+          <img src="https://img.shields.io/badge/Access_Secure_Files-Fin_Intel-00f5ff?style=for-the-badge&logo=github&labelColor=030712" />
+        </a>
+      </p>
+      <p><code>STACK: Python · FastAPI · HuggingFace Transformers · Docker</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; padding: 15px 0; border-top: 1px solid #1f2937;">
+      <h3>⚡ Edge AI — Real-time ECG FPGA Accelerator</h3>
+      <p><i>PORT_ID :: 05 · <code>[ ● FIRMWARE ]</code> · SILICON: ARTIX-7 · LATENCY: &lt;10ms</i></p>
+      <p>ECG diagnostic processor utilizing quantized 1D CNN models compiled directly into FPGA gate-arrays.</p>
+      <ul>
+        <li><b>Hardware Specifications:</b> INT8 weights optimized for resource-constrained FPGA slices.</li>
+        <li><b>Clock Speed:</b> Synchronized at 100MHz on Artix-7 fabric.</li>
+        <li><b>Power Envelope:</b> Ultra-efficient run cycles consuming &lt;50mW total draw.</li>
+      </ul>
+      <p><code>STACK: Xilinx Vivado · Artix-7 FPGA · 1D CNN · INT8 Quantization</code></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## // EXPERIENCE_LOG
 
-### 🏢 SAS R&D — Customer Intelligence Department
-> **AI Software Engineer Intern** · *Jul 2026 – Present* · Pune, India · `STATUS: ACTIVE`
-*   Developing and deploying production-grade data pipelines and systems within confidential SaaS customer intelligence suites.
-
-### 🤖 Prodigy InfoTech — Generative AI Intern
-> **Core AI Intern** · *Jan – Feb 2026* · Remote · `STATUS: ARCHIVED`
-*   Built and deployed 5 end-to-end generative models, spanning text (fine-tuning GPT-2) and vision architectures (cGAN facade segmenters, VGG-19 neural style transfer, and Stable Diffusion).
+<table width="100%" style="border-collapse: collapse; border: none;">
+  <tr>
+    <td width="30%" valign="top" style="border: none; padding: 10px 0;">
+      <b>SAS R&D</b><br/>
+      <i>Customer Intelligence Dept</i>
+    </td>
+    <td width="70%" valign="top" style="border: none; padding: 10px 0;">
+      <b>AI Software Engineer Intern</b><br/>
+      Jul 2026 – Present · Pune, India · <code>STATUS: ACTIVE</code>
+      <p>Developing and deploying production-grade data pipelines and systems within confidential SaaS customer intelligence suites.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="30%" valign="top" style="border: none; padding: 10px 0; border-top: 1px solid #1f2937;">
+      <b>Prodigy InfoTech</b><br/>
+      <i>Core AI Division</i>
+    </td>
+    <td width="70%" valign="top" style="border: none; padding: 10px 0; border-top: 1px solid #1f2937;">
+      <b>Generative AI Intern</b><br/>
+      Jan – Feb 2026 · Remote · <code>STATUS: ARCHIVED</code>
+      <p>Built and deployed 5 end-to-end generative models, spanning text (fine-tuning GPT-2) and vision architectures (cGAN facade segmenters, VGG-19 neural style transfer, and Stable Diffusion).</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## // SYSTEM_COMPONENTS
+## <a name="-system-components"></a>// SYSTEM COMPONENTS
 
 <table width="100%">
 <tr>
@@ -163,8 +199,6 @@ ECG diagnostic processor utilizing quantized 1D CNN models compiled directly int
 - **MongoDB**
 - **Docker**
 - **Nginx**
-- **Linux**
-- **Git**
 - **AWS**
 
 </td>
@@ -173,21 +207,19 @@ ECG diagnostic processor utilizing quantized 1D CNN models compiled directly int
 
 <br/>
 
-<div align="center">
-<img src="https://img.shields.io/badge/AI%20%2F%20ML-LANGGRAPH%20·%20LANGCHAIN%20·%20PYTORCH%20·%20RAG%20·%20CAUSAL%20INFERENCE%20·%20NLI%20·%20TRANSFORMERS-52b788?style=for-the-badge&labelColor=0d1117" />
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/AI%20%2F%20ML-LANGGRAPH%20·%20LANGCHAIN%20·%20PYTORCH%20·%20RAG%20·%20CAUSAL%20INFERENCE%20·%20NLI%20·%20TRANSFORMERS-00f5ff?style=for-the-badge&labelColor=030712" />
+</p>
 
 ---
 
-## // TELEMETRY_FEED
+## <a name="-telemetry_feed"></a>// TELEMETRY_FEED
 
-<div align="center">
-
-<img src="https://img.shields.io/badge/●_SYSTEM-LIVE-52b788?style=for-the-badge&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/GITHUB-ACTIVITY-40916c?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/DATASTREAM-ACTIVE-2d6a4f?style=for-the-badge&labelColor=0d1117"/>
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/●_SYSTEM-LIVE-00f5ff?style=for-the-badge&labelColor=030712"/>
+  <img src="https://img.shields.io/badge/GITHUB-ACTIVITY-6366f1?style=for-the-badge&logo=github&logoColor=white&labelColor=030712"/>
+  <img src="https://img.shields.io/badge/DATASTREAM-ACTIVE-4b5563?style=for-the-badge&labelColor=030712"/>
+</p>
 
 <br/>
 
@@ -241,45 +273,27 @@ ECG diagnostic processor utilizing quantized 1D CNN models compiled directly int
 
 ## // ACHIEVEMENT_MATRIX
 
-<div align="center">
-
-<img src="./github-achievements.svg" width="85%" alt="GitHub Achievement Matrix" />
-
-<br/>
-
-<sub>
-
-RECOGNITION_LAYER // GITHUB ACHIEVEMENTS
-
-</sub>
-
-</div>
+<p align="center">
+  <img src="./github-achievements.svg" width="85%" alt="GitHub Achievement Matrix" />
+  <br/><br/>
+  <sub>RECOGNITION_LAYER // GITHUB ACHIEVEMENTS</sub>
+</p>
 
 ---
 
 ## // CONTRIBUTION_STREAM
 
-<div align="center">
-
-<img src="./output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub Contribution Snake" />
-
-<br/><br/>
-
-<sub>
-
-CONTRIBUTION MATRIX // ACTIVITY STREAM // CONTINUOUS
-
-</sub>
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=Viraj281105&label=PROFILE_READS&style=flat-square&color=52b788&labelColor=0d1117"/>
-&nbsp;
-<img src="https://img.shields.io/github/followers/Viraj281105?label=NETWORK_NODES&style=flat-square&color=52b788&labelColor=0d1117"/>
-&nbsp;
-<img src="https://img.shields.io/github/stars/Viraj281105?label=STARS_COLLECTED&style=flat-square&color=2d6a4f&labelColor=0d1117"/>
-
-</div>
+<p align="center">
+  <img src="./output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub Contribution Snake" />
+  <br/><br/>
+  <sub>CONTRIBUTION MATRIX // ACTIVITY STREAM // CONTINUOUS</sub>
+  <br/><br/>
+  <img src="https://komarev.com/ghpvc/?username=Viraj281105&label=PROFILE_READS&style=flat-square&color=00f5ff&labelColor=030712"/>
+  &nbsp;
+  <img src="https://img.shields.io/github/followers/Viraj281105?label=NETWORK_NODES&style=flat-square&color=00f5ff&labelColor=030712"/>
+  &nbsp;
+  <img src="https://img.shields.io/github/stars/Viraj281105?label=STARS_COLLECTED&style=flat-square&color=6366f1&labelColor=030712"/>
+</p>
 
 ---
 
@@ -309,40 +323,28 @@ CONTRIBUTION MATRIX // ACTIVITY STREAM // CONTINUOUS
 
 <br/>
 
-<div align="center">
-<img src="https://img.shields.io/badge/VERIFICATION_STATUS-ALL_SYSTEMS_GREEN-52b788?style=flat-square&labelColor=0d1117"/>
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/VERIFICATION_STATUS-ALL_SYSTEMS_GREEN-00f5ff?style=flat-square&labelColor=030712"/>
+</p>
 
 ---
 
-## // UPLINK_PORTAL
+## <a name="-uplink_portal"></a>// UPLINK_PORTAL
 
-<div align="center">
-
-<img src="https://img.shields.io/badge/●_STATUS-OPEN_TO_OPPORTUNITIES-52b788?style=for-the-badge&labelColor=0d1117"/>
-
-<br/><br/>
-
-<a href="mailto:viraj.jadhao28@gmail.com">
-  <img src="https://img.shields.io/badge/EMAIL-SEND_TRANSMISSION-52b788?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117"/>
-</a>
-
-&nbsp;&nbsp;
-
-<a href="https://www.linkedin.com/in/viraj-jadhao-0771b830b/">
-  <img src="https://img.shields.io/badge/LINKEDIN-OPEN_CHANNEL-2d6a4f?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117"/>
-</a>
-
-&nbsp;&nbsp;
-
-<a href="https://github.com/Viraj281105">
-  <img src="https://img.shields.io/badge/GITHUB-ACCESS_CORE-40916c?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/>
-</a>
-
-<br/><br/>
-
-<sub>
-CONNECTION SECURE // CHANNELS OPEN // ACCESS GRANTED
-</sub>
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/●_STATUS-OPEN_TO_OPPORTUNITIES-00f5ff?style=for-the-badge&labelColor=030712"/>
+  <br/><br/>
+  <a href="mailto:viraj.jadhao28@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-SEND_TRANSMISSION-00f5ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=030712"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/viraj-jadhao-0771b830b/">
+    <img src="https://img.shields.io/badge/LINKEDIN-OPEN_CHANNEL-6366f1?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=030712"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Viraj281105">
+    <img src="https://img.shields.io/badge/GITHUB-ACCESS_CORE-4b5563?style=for-the-badge&logo=github&logoColor=white&labelColor=030712"/>
+  </a>
+  <br/><br/>
+  <sub>CONNECTION SECURE // CHANNELS OPEN // ACCESS GRANTED</sub>
+</p>
