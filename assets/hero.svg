@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#03050c"/>
+      <stop offset="50%" stop-color="#080e21"/>
+      <stop offset="100%" stop-color="#050814"/>
+    </linearGradient>
+
+    <!-- Typography Gradients -->
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+
+    <linearGradient id="roleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+
+    <!-- Ambient Glows -->
+    <radialGradient id="glowCyan" cx="90%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    
+    <radialGradient id="glowViolet" cx="10%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Technical Grid Pattern -->
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M 34 0 L 0 0 0 34" fill="none" stroke="#312e81" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+
+    <!-- Visual Filters -->
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Node Gradients -->
+    <linearGradient id="nodeOrch" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="nodeCyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="nodeEmerald" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="480" fill="url(#bg)"/>
+  <rect width="1200" height="480" fill="url(#grid)"/>
+  
+  <!-- Glow Layers -->
+  <rect width="1200" height="480" fill="url(#glowCyan)"/>
+  <rect width="1200" height="480" fill="url(#glowViolet)"/>
+
+  <!-- Card Frame Outline -->
+  <rect x="15" y="15" width="1170" height="450" rx="12" fill="none" stroke="#312e81" stroke-opacity="0.25" stroke-width="1.5"/>
+
+  <!-- HUD Corner Brackets -->
+  <path d="M 22 42 V 28 Q 22 22 28 22 H 42" fill="none" stroke="#22d3ee" stroke-opacity="0.4" stroke-width="2"/>
+  <path d="M 1178 42 V 28 Q 1178 22 1172 22 H 1158" fill="none" stroke="#22d3ee" stroke-opacity="0.4" stroke-width="2"/>
+  <path d="M 22 438 V 452 Q 22 458 28 458 H 42" fill="none" stroke="#22d3ee" stroke-opacity="0.4" stroke-width="2"/>
+  <path d="M 1178 438 V 452 Q 1178 458 1172 458 H 1158" fill="none" stroke="#22d3ee" stroke-opacity="0.4" stroke-width="2"/>
+
+  <!-- Left Column: Profile Card Content -->
+  <g transform="translate(80, 0)">
+    <!-- Metadata State Tag -->
+    <text x="0" y="85" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" letter-spacing="3" fill="#818cf8" font-weight="600">[ SYSTEM_OPERATIONAL // CORE_ACTIVE ]</text>
+    
+    <!-- Primary Identity -->
+    <text x="0" y="150" font-family="system-ui, -apple-system, sans-serif" font-size="58" font-weight="800" fill="url(#nameGrad)" letter-spacing="-1.5">VIRAJ JADHAO</text>
+    <text x="0" y="195" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="url(#roleGrad)" letter-spacing="1.5">AI SYSTEMS ENGINEER</text>
+    
+    <!-- Subtle Physical Meta Data -->
+    <text x="0" y="232" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#94a3b8">
+       Pune, India  ·  GitHub  ·  LinkedIn
+    </text>
+
+    <!-- Splitter -->
+    <line x1="0" y1="262" x2="600" y2="262" stroke="#312e81" stroke-opacity="0.35" stroke-width="1"/>
+
+    <!-- Focus Areas -->
+    <text x="0" y="295" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11" letter-spacing="2" fill="#818cf8" font-weight="600">FOCUS AREAS</text>
+    <text x="0" y="325" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#cbd5e1" letter-spacing="-0.2">
+      Multi-Agent AI  ·  GenAI  ·  Causal AI  ·  Backend Systems  ·  Full-Stack Engineering  ·  Applied ML
+    </text>
+
+    <!-- Core Technologies -->
+    <text x="0" y="370" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11" letter-spacing="2" fill="#22d3ee" font-weight="600">CORE TECHNOLOGIES</text>
+
+    <!-- Technology Capsules (Row 1) -->
+    <g transform="translate(0, 390)">
+      <!-- Python -->
+      <rect x="0" y="0" width="76" height="26" rx="13" fill="#0b1021" stroke="#312e81" stroke-opacity="0.6" stroke-width="1.2"/>
+      <text x="38" y="17" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" fill="#e2e8f0" font-weight="500" text-anchor="middle">Python</text>
+      
+      <!-- Java -->
+      <rect x="88" y="0" width="62" height="26" rx="13" fill="#0b1021" stroke="#312e81" stroke-opacity="0.6" stroke-width="1.2"/>
+      <text x="119" y="17" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" fill="#e2e8f0" font-weight="500" text-anchor="middle">Java</text>
+
+      <!-- Go -->
+      <rect x="162" y="0" width="48" height="26" rx="13" fill="#0b1021" stroke="#312e81" stroke-opacity="0.6" stroke-width="1.2"/>
+      <text x="186" y="17" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" fill="#e2e8f0" font-weight="500" text-anchor="middle">Go</text>
+
+      <!-- FastAPI -->
+      <rect x="222" y="0" width="84" height="26" rx="13" fill="#0b1021" stroke="#312e81" stroke-opacity="0.6" stroke-width="1.2"/>
+      <text x="264" y="17" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" fill="#e2e8f0" font-weight="500" text-anchor="middle">FastAPI</text>
+
+      <!-- Spring Boot -->
+      <rect x="318" y="0" width="112" height="26" rx="13" fill="#0b1021" stroke="#312e81" stroke-opacity="0.6" stroke-width="1.2"/>
+      <text x="374" y="17" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" fill="#e2e8f0" font-weight="500" text-anchor="middle">Spring Boot</text>
+
+      <!-- React -->
+      <rect x="442" y="0" width="70" height="26" rx="13" fill="#0b1021" stroke="#312e81" stroke-opacity="0.6" stroke-width="1.2"/>
+      <text x="477" y="17" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" fill="#e2e8f0" font-weight="500" text-anchor="middle">React</text>
+    </g>
+
+    <!-- Technology Capsules (Row 2) -->
+    <g transform="translate(0, 424)">
+      <!-- PostgreSQL -->
+      <rect x="0" y="0" width="102" height="26" rx="13" fill="#0b1021" stroke="#312e81" stroke-opacity="0.6" stroke-width="1.2"/>
+      <text x="51" y="17" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" fill="#e2e8f0" font-weight="500" text-anchor="middle">PostgreSQL</text>
+
+      <!-- PyTorch -->
+      <rect x="114" y="0" width="84" height="26" rx="13" fill="#0b1021" stroke="#312e81" stroke-opacity="0.6" stroke-width="1.2"/>
+      <text x="156" y="17" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" fill="#e2e8f0" font-weight="500" text-anchor="middle">PyTorch</text>
+
+      <!-- LangGraph -->
+      <rect x="210" y="0" width="98" height="26" rx="13" fill="#0b1021" stroke="#312e81" stroke-opacity="0.6" stroke-width="1.2"/>
+      <text x="259" y="17" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" fill="#e2e8f0" font-weight="500" text-anchor="middle">LangGraph</text>
+
+      <!-- Docker -->
+      <rect x="320" y="0" width="76" height="26" rx="13" fill="#0b1021" stroke="#312e81" stroke-opacity="0.6" stroke-width="1.2"/>
+      <text x="358" y="17" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" fill="#e2e8f0" font-weight="500" text-anchor="middle">Docker</text>
+    </g>
+  </g>
+
+  <!-- Right Column: Abstract Causal & Agentic Systems Diagram -->
+  <g transform="translate(930, 240)">
+    <!-- Ambient glowing core circle -->
+    <circle cx="0" cy="0" r="38" fill="#818cf8" fill-opacity="0.08" filter="url(#soft)"/>
+    
+    <!-- Path Definitions (Invisible layout lines for animations) -->
+    <path id="path_in_core" d="M -110 70 L 0 0" fill="none"/>
+    <path id="path_caus_core" d="M -110 -70 L 0 0" fill="none"/>
+    <path id="path_core_mem" d="M 0 0 L 110 -70" fill="none"/>
+    <path id="path_core_eval" d="M 0 0 L 110 70" fill="none"/>
+    <path id="path_eval_in" d="M 110 70 L -110 70" fill="none"/>
+
+    <!-- Static Structural Connections -->
+    <line x1="-110" y1="70" x2="0" y2="0" stroke="#312e81" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <line x1="-110" y1="-70" x2="0" y2="0" stroke="#312e81" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <line x1="0" y1="0" x2="110" y2="-70" stroke="#312e81" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <line x1="0" y1="0" x2="110" y2="70" stroke="#312e81" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <line x1="110" y1="70" x2="-110" y2="70" stroke="#312e81" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="5 5"/>
+
+    <!-- Animated Data Pulses along Paths -->
+    <circle r="4" fill="#a78bfa" filter="url(#glow)">
+      <animateMotion dur="5.5s" repeatCount="indefinite">
+        <mpath href="#path_in_core"/>
+      </animateMotion>
+    </circle>
+    <circle r="4" fill="#22d3ee" filter="url(#glow)">
+      <animateMotion dur="4.2s" repeatCount="indefinite">
+        <mpath href="#path_caus_core"/>
+      </animateMotion>
+    </circle>
+    <circle r="4" fill="#34d399" filter="url(#glow)">
+      <animateMotion dur="4.8s" repeatCount="indefinite">
+        <mpath href="#path_core_mem"/>
+      </animateMotion>
+    </circle>
+    <circle r="4" fill="#818cf8" filter="url(#glow)">
+      <animateMotion dur="6s" repeatCount="indefinite">
+        <mpath href="#path_core_eval"/>
+      </animateMotion>
+    </circle>
+    <circle r="3" fill="#cbd5e1" opacity="0.6">
+      <animateMotion dur="8s" repeatCount="indefinite">
+        <mpath href="#path_eval_in"/>
+      </animateMotion>
+    </circle>
+
+    <!-- Node Rings & Circles -->
+    
+    <!-- Core: Cognitive Orchestrator -->
+    <circle cx="0" cy="0" r="18" fill="url(#nodeOrch)" stroke="#ffffff" stroke-opacity="0.3" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="24" fill="none" stroke="#818cf8" stroke-opacity="0.5" stroke-width="1">
+      <animate attributeName="r" values="24;36;24" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.5;0;0.5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="34" font-family="'JetBrains Mono', 'Fira Code', monospace" font-weight="600" font-size="10" fill="#a78bfa" text-anchor="middle" letter-spacing="0.5">ORCHESTRATOR</text>
+
+    <!-- Left Top: Causal Engine -->
+    <circle cx="-110" cy="-70" r="12" fill="url(#nodeCyan)"/>
+    <circle cx="-110" cy="-70" r="16" fill="none" stroke="#22d3ee" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="-110" y="-90" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="9" fill="#94a3b8" text-anchor="middle">CAUSAL SIM</text>
+
+    <!-- Left Bottom: Real-Time Ingest -->
+    <circle cx="-110" cy="70" r="12" fill="url(#nodeOrch)"/>
+    <circle cx="-110" cy="70" r="16" fill="none" stroke="#818cf8" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="-110" y="93" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="9" fill="#94a3b8" text-anchor="middle">REALTIME INGEST</text>
+
+    <!-- Right Top: Vector Knowledge -->
+    <circle cx="110" cy="-70" r="12" fill="url(#nodeEmerald)"/>
+    <circle cx="110" cy="-70" r="16" fill="none" stroke="#34d399" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="110" y="-90" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="9" fill="#94a3b8" text-anchor="middle">VECTOR DB</text>
+
+    <!-- Right Bottom: NLI Evaluator -->
+    <circle cx="110" cy="70" r="12" fill="url(#nodeCyan)"/>
+    <circle cx="110" cy="70" r="16" fill="none" stroke="#22d3ee" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="110" y="93" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="9" fill="#94a3b8" text-anchor="middle">NLI JUDGE</text>
+  </g>
+</svg>
