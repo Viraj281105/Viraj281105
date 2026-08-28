@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="100%" height="auto" style="border-radius: 6px; font-family: 'JetBrains Mono', 'Fira Code', monospace; background: #070913; border: 1.5px solid #1e1b4b;">
+  <style>
+    .node-box { fill: #0d1127; stroke: #312e81; stroke-width: 1.5; }
+    .node-title { fill: #ffffff; font-size: 11px; font-weight: bold; }
+    .node-subtitle { fill: #64748b; font-size: 9px; }
+    .edge-line { stroke: #1e1b4b; stroke-width: 1.5; fill: none; }
+    .active-edge { stroke: #a855f7; stroke-width: 2; fill: none; stroke-linecap: round; stroke-dasharray: 8, 25; }
+    
+    @keyframes flow {
+      0% { stroke-dashoffset: 100; }
+      100% { stroke-dashoffset: 0; }
+    }
+    
+    .flow-anim { animation: flow 4s linear infinite; }
+  </style>
+
+  <!-- Connective lines -->
+  <line class="edge-line" x1="140" y1="60" x2="660" y2="60" />
+  <path class="active-edge flow-anim" d="M 140 60 L 660 60" />
+
+  <!-- Node 1: Document Auditor -->
+  <g transform="translate(25, 30)">
+    <rect class="node-box" width="115" height="60" rx="4" stroke="#a855f7" />
+    <text class="node-title" x="10" y="24">Doc Auditor</text>
+    <text class="node-subtitle" x="10" y="39">LayoutLMv3</text>
+    <text class="node-subtitle" x="10" y="50">EasyOCR Ingest</text>
+  </g>
+
+  <!-- Node 2: Clinical Reviewer -->
+  <g transform="translate(180, 30)">
+    <rect class="node-box" width="115" height="60" rx="4" />
+    <text class="node-title" x="10" y="24">Clin Reviewer</text>
+    <text class="node-subtitle" x="10" y="39">CGHS Rules</text>
+    <text class="node-subtitle" x="10" y="50">Rates Auditor</text>
+  </g>
+
+  <!-- Node 3: Regulatory Advisor -->
+  <g transform="translate(335, 30)">
+    <rect class="node-box" width="125" height="60" rx="4" />
+    <text class="node-title" x="10" y="24">Reg Advisor</text>
+    <text class="node-subtitle" x="10" y="39">IRDAI Compliance</text>
+    <text class="node-subtitle" x="10" y="50">Grounded RAG</text>
+  </g>
+
+  <!-- Node 4: Appeal Drafter -->
+  <g transform="translate(500, 30)">
+    <rect class="node-box" width="115" height="60" rx="4" />
+    <text class="node-title" x="10" y="24">Appeal Drafter</text>
+    <text class="node-subtitle" x="10" y="39">PDF Generation</text>
+    <text class="node-subtitle" x="10" y="50">Draft Compiler</text>
+  </g>
+
+  <!-- Node 5: QA Judge -->
+  <g transform="translate(655, 30)">
+    <rect class="node-box" width="115" height="60" rx="4" stroke="#10b981" />
+    <text class="node-title" x="10" y="24">QA Judge</text>
+    <text class="node-subtitle" x="10" y="39">Validation check</text>
+    <text class="node-subtitle" x="10" y="50" fill="#10b981">IRDAI verified</text>
+  </g>
+</svg>

@@ -123,18 +123,9 @@ One upload feeds all three modules — a patient never re-uploads the same docum
   </tr>
 </table>
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    5-AGENT SEQUENTIAL PIPELINE                  │
-├─────────────┬─────────────┬─────────────┬─────────────┬─────────┤
-│  Document   │  Clinical   │ Regulatory  │   Appeal    │  QA     │
-│  Auditor    │  Reviewer   │  Advisor    │   Drafter   │  Judge  │
-└──────┬──────┴──────┬──────┴──────┬──────┴──────┬──────┴────┬────┘
-       │             │             │             │          │
-       ▼             ▼             ▼             ▼          ▼
-   LayoutLMv3      CGHS Rate     IRDAI         Appeal     Quality
-   + EasyOCR     Benchmarking  Compliance    Generation  Validation
-```
+<p align="center">
+  <img width="100%" src="assets/medguard-architecture.svg" alt="MedGuard Agentic Pipeline Architecture" />
+</p>
 
 | Component | Technology | Technical Deep Dive |
 |-----------|------------|---------------------|
@@ -184,16 +175,9 @@ One upload feeds all three modules — a patient never re-uploads the same docum
 * **Sentiment Analysis:** Implemented **live sentiment analysis** (BERT/RoBERTa) over Twitter + news streams with state-wise topic clustering.
 * **Scale Ingestion:** Async ingestion pipelines over **700,000+ heterogeneous policy and climate records** with sub-second semantic retrieval.
 
-```
-IMD/CPCB/Twitter Streams → Async Ingestion → PostgreSQL + pgvector + MongoDB
-                                                        ↓
-                              SCM / DAG Construction (DoWhy) ←→ RAG over MoEFCC Reports
-                                                        ↓
-                         Counterfactual Simulation Engine (do-calculus)
-                         Sentiment Analysis (BERT/RoBERTa) — state-wise clustering
-                                                        ↓
-                    FastAPI Backend → React + Mapbox + Recharts + Plotly Dashboard
-```
+<p align="center">
+  <img width="100%" src="assets/climatex-architecture.svg" alt="ClimateX Causal Pipeline Architecture" />
+</p>
 
 **Key Results:**
 * Reproducible counterfactual policy simulations with calibrated uncertainty.
@@ -227,29 +211,9 @@ IMD/CPCB/Twitter Streams → Async Ingestion → PostgreSQL + pgvector + MongoDB
   </tr>
 </table>
 
-```mermaid
-flowchart TD
-    subgraph Retrieval ["🔎 Retrieval Layer"]
-        A["LLM Response"] --> B["Vector Retrieval — FAISS / pgvector"]
-        B --> C["Evidence Ranking & Context Assembly"]
-    end
-
-    subgraph Verification ["✅ Verification Layer"]
-        D["NLI Scoring — RoBERTa / DeBERTa"]
-        E["Calibration — ECE · Reliability Curves"]
-    end
-
-    subgraph Analysis ["📊 Analysis Layer"]
-        F["Failure Mode Analysis — Shift · Noise"]
-        G["SHAP Explainability"]
-    end
-
-    subgraph Interface ["🖥️ Interface"]
-        H["Gradio UI"]
-    end
-
-    C --> D --> E --> F --> G --> H
-```
+<p align="center">
+  <img width="100%" src="assets/hallucination-architecture.svg" alt="Hallucination Detection Retriever-Judge Architecture" />
+</p>
 
 **Technical Implementation:**
 * **Inference Pipeline:** Formulated hallucination detection as a **conditional inference problem**: given retrieved evidence `E` and generated claim `C`, estimate `P(entailment | E, C)`.
@@ -257,15 +221,7 @@ flowchart TD
 * **Failure Modes:** Identified systematic degradation under **retrieval noise, semantic drift, and distribution shift**; exposed failure modes including overconfident contradiction misclassification and hallucination in low-evidence contexts.
 * **Adaptation:** Designed independent microservices for retrieval, entailment, and confidence scoring — enabling **hot-swappable model backends**.
 
-```
-LLM Response → Dense Vector Retrieval (pgvector)
-                        ↓
-            Evidence Ranking & Context Assembly
-                        ↓
-         DeBERTa NLI Entailment Scoring (ECE-calibrated)
-                        ↓
-    Confidence Calibration → SHAP XAI Verdict (Gradio UI)
-```
+<!-- Architecture flow represented in the embedded SVG above -->
 
 **Key Results:**
 * >25% improvement in factual reliability on benchmark datasets.
@@ -385,7 +341,7 @@ Completed 5 end-to-end generative AI tasks spanning language and vision:
 
 ---
 
-## 📊 TELEMETRY FEEDS (LIVE ACTIVITY METRICS)
+## 📊 GitHub Activity
 
 The dashboard below maps real, live telemetry streams compiled daily from my active repositories, languages, and commit paths.
 

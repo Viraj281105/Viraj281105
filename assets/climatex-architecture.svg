@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="100%" height="auto" style="border-radius: 6px; font-family: 'JetBrains Mono', 'Fira Code', monospace; background: #070913; border: 1.5px solid #1e1b4b;">
+  <style>
+    .node-box { fill: #0d1127; stroke: #312e81; stroke-width: 1.5; }
+    .node-title { fill: #ffffff; font-size: 11px; font-weight: bold; }
+    .node-subtitle { fill: #64748b; font-size: 9px; }
+    .edge-line { stroke: #1e1b4b; stroke-width: 1.5; fill: none; }
+    .active-edge { stroke: #6366f1; stroke-width: 2; fill: none; stroke-linecap: round; stroke-dasharray: 8, 25; }
+    
+    @keyframes flow {
+      0% { stroke-dashoffset: 100; }
+      100% { stroke-dashoffset: 0; }
+    }
+    
+    .flow-anim { animation: flow 4.5s linear infinite; }
+  </style>
+
+  <!-- Connective lines -->
+  <line class="edge-line" x1="140" y1="60" x2="660" y2="60" />
+  <path class="active-edge flow-anim" d="M 140 60 L 660 60" />
+
+  <!-- Node 1: Ingestion -->
+  <g transform="translate(25, 30)">
+    <rect class="node-box" width="115" height="60" rx="4" stroke="#6366f1" />
+    <text class="node-title" x="10" y="24">Async Ingest</text>
+    <text class="node-subtitle" x="10" y="39">IMD/CPCB streams</text>
+    <text class="node-subtitle" x="10" y="50">pgvector + Mongo</text>
+  </g>
+
+  <!-- Node 2: SCM Construction -->
+  <g transform="translate(180, 30)">
+    <rect class="node-box" width="125" height="60" rx="4" />
+    <text class="node-title" x="10" y="24">SCM Construction</text>
+    <text class="node-subtitle" x="10" y="39">DAG Building</text>
+    <text class="node-subtitle" x="10" y="50">DoWhy engine</text>
+  </g>
+
+  <!-- Node 3: Policy Simulator -->
+  <g transform="translate(345, 30)">
+    <rect class="node-box" width="115" height="60" rx="4" />
+    <text class="node-title" x="10" y="24">Causal Simulator</text>
+    <text class="node-subtitle" x="10" y="39">do-calculus ATE</text>
+    <text class="node-subtitle" x="10" y="50">Rosenbaum sensitivity</text>
+  </g>
+
+  <!-- Node 4: NLP Sentiment -->
+  <g transform="translate(500, 30)">
+    <rect class="node-box" width="115" height="60" rx="4" />
+    <text class="node-title" x="10" y="24">NLP Sentiment</text>
+    <text class="node-subtitle" x="10" y="39">BERT / RoBERTa</text>
+    <text class="node-subtitle" x="10" y="50">State clustering</text>
+  </g>
+
+  <!-- Node 5: Dashboard Visualizer -->
+  <g transform="translate(655, 30)">
+    <rect class="node-box" width="115" height="60" rx="4" stroke="#10b981" />
+    <text class="node-title" x="10" y="24">Dashboard UI</text>
+    <text class="node-subtitle" x="10" y="39">React + Mapbox</text>
+    <text class="node-subtitle" x="10" y="50" fill="#10b981">Plotly simulator</text>
+  </g>
+</svg>

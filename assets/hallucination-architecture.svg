@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="100%" height="auto" style="border-radius: 6px; font-family: 'JetBrains Mono', 'Fira Code', monospace; background: #070913; border: 1.5px solid #1e1b4b;">
+  <style>
+    .node-box { fill: #0d1127; stroke: #312e81; stroke-width: 1.5; }
+    .node-title { fill: #ffffff; font-size: 11px; font-weight: bold; }
+    .node-subtitle { fill: #64748b; font-size: 9px; }
+    .edge-line { stroke: #1e1b4b; stroke-width: 1.5; fill: none; }
+    .active-edge { stroke: #10b981; stroke-width: 2; fill: none; stroke-linecap: round; stroke-dasharray: 8, 25; }
+    
+    @keyframes flow {
+      0% { stroke-dashoffset: 100; }
+      100% { stroke-dashoffset: 0; }
+    }
+    
+    .flow-anim { animation: flow 3.8s linear infinite; }
+  </style>
+
+  <!-- Connective lines -->
+  <line class="edge-line" x1="140" y1="60" x2="660" y2="60" />
+  <path class="active-edge flow-anim" d="M 140 60 L 660 60" />
+
+  <!-- Node 1: Response Input -->
+  <g transform="translate(25, 30)">
+    <rect class="node-box" width="115" height="60" rx="4" stroke="#10b981" />
+    <text class="node-title" x="10" y="24">LLM Response</text>
+    <text class="node-subtitle" x="10" y="39">Raw generation</text>
+    <text class="node-subtitle" x="10" y="50">Claim Extraction</text>
+  </g>
+
+  <!-- Node 2: Dense Retrieval -->
+  <g transform="translate(180, 30)">
+    <rect class="node-box" width="115" height="60" rx="4" />
+    <text class="node-title" x="10" y="24">Dense Retrieval</text>
+    <text class="node-subtitle" x="10" y="39">FAISS / pgvector</text>
+    <text class="node-subtitle" x="10" y="50">BGE Embeddings</text>
+  </g>
+
+  <!-- Node 3: Context Assembly -->
+  <g transform="translate(335, 30)">
+    <rect class="node-box" width="125" height="60" rx="4" />
+    <text class="node-title" x="10" y="24">Context Assembly</text>
+    <text class="node-subtitle" x="10" y="39">Evidence ranking</text>
+    <text class="node-subtitle" x="10" y="50">Overlap validation</text>
+  </g>
+
+  <!-- Node 4: NLI Entailment -->
+  <g transform="translate(500, 30)">
+    <rect class="node-box" width="115" height="60" rx="4" />
+    <text class="node-title" x="10" y="24">NLI Scoring</text>
+    <text class="node-subtitle" x="10" y="39">DeBERTa / RoBERTa</text>
+    <text class="node-subtitle" x="10" y="50">ECE calibrated</text>
+  </g>
+
+  <!-- Node 5: Explainable Output -->
+  <g transform="translate(655, 30)">
+    <rect class="node-box" width="115" height="60" rx="4" stroke="#a855f7" />
+    <text class="node-title" x="10" y="24">SHAP Verdict</text>
+    <text class="node-subtitle" x="10" y="39">Gradio UI / API</text>
+    <text class="node-subtitle" x="10" y="50" fill="#a855f7">Entailment check</text>
+  </g>
+</svg>
