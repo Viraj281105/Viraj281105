@@ -88,5 +88,6 @@ jobs:
             echo "No changes in generated metrics. Skipping commit."
           else
             git commit -m "chore: update GitHub metrics SVGs"
+            git pull --rebase origin main
             git push
           fi
