@@ -99,7 +99,7 @@
 
   <!-- AGENTIC AI & ML Node -->
   <g transform="translate(225, 170)">
-    <circle r="18" class="node-bg" stroke="#a855f7" stroke-width="2" class="node-glow" />
+    <circle r="18" class="node-bg node-glow" stroke="#a855f7" stroke-width="2" />
     <circle r="4" class="glow-dot" style="color: #a855f7;" />
     <text class="node-text" x="0" y="-25" text-anchor="middle" fill="#a855f7">AGENTIC AI</text>
     <!-- Sub-nodes -->
@@ -115,7 +115,7 @@
 
   <!-- BACKEND ARCHITECTURES Node -->
   <g transform="translate(425, 70)">
-    <circle r="18" class="node-bg" stroke="#6366f1" stroke-width="2" class="node-glow" />
+    <circle r="18" class="node-bg node-glow" stroke="#6366f1" stroke-width="2" />
     <circle r="4" class="glow-dot" style="color: #6366f1;" />
     <text class="node-text" x="0" y="-25" text-anchor="middle" fill="#818cf8">BACKEND ARCH</text>
     <!-- Sub-nodes -->
@@ -128,7 +128,7 @@
 
   <!-- DATASTORES & VECTOR MESH Node -->
   <g transform="translate(625, 170)">
-    <circle r="18" class="node-bg" stroke="#10b981" stroke-width="2" class="node-glow" />
+    <circle r="18" class="node-bg node-glow" stroke="#10b981" stroke-width="2" />
     <circle r="4" class="glow-dot" style="color: #10b981;" />
     <text class="node-text" x="0" y="-25" text-anchor="middle" fill="#10b981">DATA MESH</text>
     <!-- Sub-nodes -->
@@ -144,7 +144,7 @@
 
   <!-- INFRASTRUCTURE & RUNTIME Node -->
   <g transform="translate(425, 270)">
-    <circle r="18" class="node-bg" stroke="#00f5ff" stroke-width="2" class="node-glow" />
+    <circle r="18" class="node-bg node-glow" stroke="#00f5ff" stroke-width="2" />
     <circle r="4" class="glow-dot" style="color: #00f5ff;" />
     <text class="node-text" x="0" y="32" text-anchor="middle" fill="#00f5ff">INFRASTRUCTURE</text>
     <!-- Sub-nodes -->
