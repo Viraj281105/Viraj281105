@@ -24,8 +24,8 @@
   </defs>
 
   <!-- Title Section -->
-  <text class="text-title" x="25" y="35">FINGUARD AI // ASYNC RISK CALCULATOR</text>
-  <text class="text-base text-dim" x="25" y="52">STRUCTURAL CAUSAL MODELING &amp; SIMULATION</text>
+  <text class="text-title" x="25" y="35">CLIMATEX // CAUSAL POLICY SIMULATOR</text>
+  <text class="text-base text-dim" x="25" y="52">STRUCTURAL CAUSAL MODELING &amp; EMISSIONS</text>
   <circle class="live-dot" cx="550" cy="30" r="5" />
   <text class="text-base text-green" x="560" y="33" text-anchor="end">SYS_ACTIVE</text>
 
@@ -34,11 +34,11 @@
 
   <!-- Technical Telemetry in Mockup -->
   <g transform="translate(45, 100)">
-    <text class="text-base" x="0" y="20" fill="#6366f1">RULE: EVALUATING COUNTERFACTUAL POLICY</text>
-    <text class="text-base" x="0" y="40" fill="#94a3b8">Formula: P(Default | do(Latency = x))</text>
-    <text class="text-base" x="0" y="60" fill="#94a3b8">SCM Data Pool Size: <tspan fill="#ffffff">724,195 records</tspan></text>
-    <text class="text-base" x="0" y="80" fill="#94a3b8">Active JVM Workers: <tspan fill="#ffffff">Celery + Redis Loop</tspan></text>
-    <text class="text-base text-green" x="0" y="110">>> Verification Score: 98.3% Confidence</text>
+    <text class="text-base" x="0" y="20" fill="#6366f1">RULE: EVALUATING AQI COUNTERFACTUALS</text>
+    <text class="text-base" x="0" y="40" fill="#94a3b8">Formula: P(AQI | do(CleanFuelSubsidy = 1))</text>
+    <text class="text-base" x="0" y="60" fill="#94a3b8">Data Record Pool: <tspan fill="#ffffff">700,000+ policy logs</tspan></text>
+    <text class="text-base" x="0" y="80" fill="#94a3b8">Sensitivity Run: <tspan fill="#ffffff">Rosenbaum bounds checked</tspan></text>
+    <text class="text-base text-green" x="0" y="110">>> Verification: Stable Causal Identified</text>
   </g>
 
   <!-- Causal Graph in Mockup -->
@@ -48,20 +48,20 @@
     <path class="arrow-line" d="M 50 90 L 100 30" marker-end="url(#arrow)" />  <!-- X <- Z -->
     <path class="arrow-line" d="M 50 90 L 150 90" marker-end="url(#arrow)" />  <!-- X -> Y -->
 
-    <!-- Node Z (Confounder - CashFlowRatio) -->
+    <!-- Node Z (Confounder - CleanFuelSubsidy) -->
     <circle class="node-circle" cx="100" cy="30" r="22" stroke="#a855f7" />
     <text class="node-text" x="100" y="34" text-anchor="middle">Z</text>
-    <text class="text-base" x="100" y="-3" text-anchor="middle" font-size="8" fill="#a855f7">CashFlow</text>
+    <text class="text-base" x="100" y="-3" text-anchor="middle" font-size="8" fill="#a855f7">Subsidy</text>
 
-    <!-- Node X (Treatment - SupplierLatency) -->
+    <!-- Node X (Treatment - EmissionsLevel) -->
     <circle class="node-circle" cx="50" cy="90" r="22" stroke="#6366f1" />
     <text class="node-text" x="50" y="94" text-anchor="middle">X</text>
-    <text class="text-base" x="50" y="125" text-anchor="middle" font-size="8" fill="#6366f1">Latency</text>
+    <text class="text-base" x="50" y="125" text-anchor="middle" font-size="8" fill="#6366f1">Emissions</text>
 
-    <!-- Node Y (Outcome - Default) -->
+    <!-- Node Y (Outcome - AQI Metric) -->
     <circle class="node-circle" cx="150" cy="90" r="22" stroke="#10b981" />
     <text class="node-text" x="150" y="94" text-anchor="middle">Y</text>
-    <text class="text-base" x="150" y="125" text-anchor="middle" font-size="8" fill="#10b981">Default</text>
+    <text class="text-base" x="150" y="125" text-anchor="middle" font-size="8" fill="#10b981">AQI Level</text>
   </g>
 
 </svg>
