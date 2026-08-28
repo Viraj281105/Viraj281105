@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 340" width="100%" height="auto" style="border-radius: 8px; font-family: 'JetBrains Mono', 'Fira Code', 'Segoe UI', sans-serif; background: #070913; border: 1.5px solid #1e1b4b;">
+  <style>
+    .grid-lines { stroke: #111428; stroke-dasharray: 5,5; stroke-width: 1; }
+    .node-bg { fill: #0d1127; stroke: #312e81; stroke-width: 1.5; }
+    .node-text { fill: #94a3b8; font-size: 11px; font-weight: bold; }
+    .edge-line { stroke: #312e81; stroke-width: 1.5; }
+    .pulse-line { stroke-width: 2; fill: none; stroke-linecap: round; }
+    .node-glow { filter: url(#glow-filter); }
+    
+    /* Animation definition for dynamic pulses */
+    @keyframes pulse {
+      0% { stroke-dashoffset: 100; }
+      100% { stroke-dashoffset: 0; }
+    }
+    .p-purple { stroke: #a855f7; stroke-dasharray: 10, 40; animation: pulse 6s linear infinite; }
+    .p-emerald { stroke: #10b981; stroke-dasharray: 12, 38; animation: pulse 4s linear infinite; }
+    .p-cyan { stroke: #00f5ff; stroke-dasharray: 8, 32; animation: pulse 5s linear infinite; }
+    .p-indigo { stroke: #6366f1; stroke-dasharray: 15, 45; animation: pulse 7s linear infinite; }
+    
+    @keyframes pulse-scale {
+      0%, 100% { r: 5; opacity: 0.3; }
+      50% { r: 9; opacity: 0.9; }
+    }
+    .glow-dot { fill: currentColor; animation: pulse-scale 3s ease-in-out infinite; }
+    
+    .lbl-title { font-size: 13px; fill: #6366f1; font-weight: bold; letter-spacing: 2px; }
+    .lbl-subtitle { font-size: 10px; fill: #64748b; }
+  </style>
+
+  <defs>
+    <!-- Glow filter -->
+    <filter id="glow-filter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Technical Background Grid -->
+  <line class="grid-lines" x1="0" y1="85" x2="850" y2="85" />
+  <line class="grid-lines" x1="0" y1="170" x2="850" y2="170" />
+  <line class="grid-lines" x1="0" y1="255" x2="850" y2="255" />
+  <line class="grid-lines" x1="170" y1="0" x2="170" y2="340" />
+  <line class="grid-lines" x1="340" y1="0" x2="340" y2="340" />
+  <line class="grid-lines" x1="510" y1="0" x2="510" y2="340" />
+  <line class="grid-lines" x1="680" y1="0" x2="680" y2="340" />
+
+  <!-- Title / Legend -->
+  <g transform="translate(25, 35)">
+    <text class="lbl-title" x="0" y="0">ENGINEERING DNA // CAPABILITY GRAPH</text>
+    <text class="lbl-subtitle" x="0" y="15">INTER-OPERATIONAL STACK COMPILER METRICS</text>
+  </g>
+
+  <!-- Connections (Static Lines) -->
+  <!-- Core links -->
+  <line class="edge-line" x1="425" y1="170" x2="225" y2="170" /> <!-- Core to AI -->
+  <line class="edge-line" x1="425" y1="170" x2="425" y2="70" />  <!-- Core to Backend -->
+  <line class="edge-line" x1="425" y1="170" x2="625" y2="170" /> <!-- Core to Datastores -->
+  <line class="edge-line" x1="425" y1="170" x2="425" y2="270" /> <!-- Core to Infra -->
+  
+  <!-- Outer links for mesh look -->
+  <line class="edge-line" x1="225" y1="170" x2="425" y2="70" stroke-dasharray="2,4" opacity="0.5" />
+  <line class="edge-line" x1="425" y1="70" x2="625" y2="170" stroke-dasharray="2,4" opacity="0.5" />
+  <line class="edge-line" x1="625" y1="170" x2="425" y2="270" stroke-dasharray="2,4" opacity="0.5" />
+  <line class="edge-line" x1="425" y1="270" x2="225" y2="170" stroke-dasharray="2,4" opacity="0.5" />
+
+  <!-- Animated Pulses -->
+  <line class="pulse-line p-indigo" x1="425" y1="170" x2="225" y2="170" />
+  <line class="pulse-line p-purple" x1="425" y1="170" x2="425" y2="70" />
+  <line class="pulse-line p-emerald" x1="425" y1="170" x2="625" y2="170" />
+  <line class="pulse-line p-cyan" x1="425" y1="170" x2="425" y2="270" />
+
+  <!-- Sub-branch lines -->
+  <!-- AI Branch -->
+  <line class="edge-line" x1="225" y1="170" x2="140" y2="120" />
+  <line class="edge-line" x1="225" y1="170" x2="120" y2="170" />
+  <line class="edge-line" x1="225" y1="170" x2="140" y2="220" />
+  <!-- Backend Branch -->
+  <line class="edge-line" x1="425" y1="70" x2="340" y2="40" />
+  <line class="edge-line" x1="425" y1="70" x2="510" y2="40" />
+  <!-- Datastores Branch -->
+  <line class="edge-line" x1="625" y1="170" x2="710" y2="120" />
+  <line class="edge-line" x1="625" y1="170" x2="730" y2="170" />
+  <line class="edge-line" x1="625" y1="170" x2="710" y2="220" />
+  <!-- Infra Branch -->
+  <line class="edge-line" x1="425" y1="270" x2="340" y2="300" />
+  <line class="edge-line" x1="425" y1="270" x2="510" y2="300" />
+
+  <!-- Node Elements -->
+
+  <!-- CORE / SYSTEM INTEGRATOR Node -->
+  <g transform="translate(425, 170)">
+    <circle r="25" fill="#0b0f19" stroke="#6366f1" stroke-width="2.5" class="node-glow" />
+    <circle r="6" class="glow-dot" style="color: #6366f1;" />
+    <text class="node-text" x="0" y="38" text-anchor="middle" fill="#ffffff">SYSTEM CORE</text>
+  </g>
+
+  <!-- AGENTIC AI & ML Node -->
+  <g transform="translate(225, 170)">
+    <circle r="18" class="node-bg" stroke="#a855f7" stroke-width="2" class="node-glow" />
+    <circle r="4" class="glow-dot" style="color: #a855f7;" />
+    <text class="node-text" x="0" y="-25" text-anchor="middle" fill="#a855f7">AGENTIC AI</text>
+    <!-- Sub-nodes -->
+    <circle cx="-85" cy="-50" r="5" fill="#070913" stroke="#a855f7" stroke-width="1.5" />
+    <text x="-95" y="-47" text-anchor="end" class="node-text" font-size="9">LangGraph</text>
+    
+    <circle cx="-105" cy="0" r="5" fill="#070913" stroke="#a855f7" stroke-width="1.5" />
+    <text x="-115" y="3" text-anchor="end" class="node-text" font-size="9">PyTorch</text>
+    
+    <circle cx="-85" cy="50" r="5" fill="#070913" stroke="#a855f7" stroke-width="1.5" />
+    <text x="-95" y="53" text-anchor="end" class="node-text" font-size="9">IndicSBERT</text>
+  </g>
+
+  <!-- BACKEND ARCHITECTURES Node -->
+  <g transform="translate(425, 70)">
+    <circle r="18" class="node-bg" stroke="#6366f1" stroke-width="2" class="node-glow" />
+    <circle r="4" class="glow-dot" style="color: #6366f1;" />
+    <text class="node-text" x="0" y="-25" text-anchor="middle" fill="#818cf8">BACKEND ARCH</text>
+    <!-- Sub-nodes -->
+    <circle cx="-85" cy="-30" r="5" fill="#070913" stroke="#6366f1" stroke-width="1.5" />
+    <text x="-95" y="-27" text-anchor="end" class="node-text" font-size="9">Spring Boot 3</text>
+    
+    <circle cx="85" cy="-30" r="5" fill="#070913" stroke="#6366f1" stroke-width="1.5" />
+    <text x="95" y="-27" text-anchor="start" class="node-text" font-size="9">FastAPI</text>
+  </g>
+
+  <!-- DATASTORES & VECTOR MESH Node -->
+  <g transform="translate(625, 170)">
+    <circle r="18" class="node-bg" stroke="#10b981" stroke-width="2" class="node-glow" />
+    <circle r="4" class="glow-dot" style="color: #10b981;" />
+    <text class="node-text" x="0" y="-25" text-anchor="middle" fill="#10b981">DATA MESH</text>
+    <!-- Sub-nodes -->
+    <circle cx="85" cy="-50" r="5" fill="#070913" stroke="#10b981" stroke-width="1.5" />
+    <text x="95" y="-47" text-anchor="start" class="node-text" font-size="9">pgvector (HNSW)</text>
+    
+    <circle cx="105" cy="0" r="5" fill="#070913" stroke="#10b981" stroke-width="1.5" />
+    <text x="115" y="3" text-anchor="start" class="node-text" font-size="9">Redis Cluster</text>
+    
+    <circle cx="85" cy="50" r="5" fill="#070913" stroke="#10b981" stroke-width="1.5" />
+    <text x="95" y="53" text-anchor="start" class="node-text" font-size="9">MongoDB</text>
+  </g>
+
+  <!-- INFRASTRUCTURE & RUNTIME Node -->
+  <g transform="translate(425, 270)">
+    <circle r="18" class="node-bg" stroke="#00f5ff" stroke-width="2" class="node-glow" />
+    <circle r="4" class="glow-dot" style="color: #00f5ff;" />
+    <text class="node-text" x="0" y="32" text-anchor="middle" fill="#00f5ff">INFRASTRUCTURE</text>
+    <!-- Sub-nodes -->
+    <circle cx="-85" cy="30" r="5" fill="#070913" stroke="#00f5ff" stroke-width="1.5" />
+    <text x="-95" y="33" text-anchor="end" class="node-text" font-size="9">Docker / Nginx</text>
+    
+    <circle cx="85" cy="30" r="5" fill="#070913" stroke="#00f5ff" stroke-width="1.5" />
+    <text x="95" y="33" text-anchor="start" class="node-text" font-size="9">AWS Cloud</text>
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="auto" style="border-radius: 6px; font-family: 'JetBrains Mono', monospace; background: #070913; border: 1.5px solid #1e1b4b;">
+  <style>
+    .text-title { fill: #6366f1; font-size: 14px; font-weight: bold; letter-spacing: 1px; }
+    .text-base { fill: #94a3b8; font-size: 11px; }
+    .text-green { fill: #10b981; font-weight: bold; }
+    .text-dim { fill: #475569; }
+    .node-circle { fill: #0d1127; stroke: #312e81; stroke-width: 2; }
+    .node-text { fill: #ffffff; font-size: 11px; font-weight: bold; }
+    .arrow-line { stroke: #6366f1; stroke-width: 2; fill: none; }
+    .marker-triangle { fill: #6366f1; }
+    
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; }
+    }
+    .live-dot { fill: #10b981; animation: pulse-dot 2.5s infinite; }
+  </style>
+
+  <defs>
+    <!-- Arrowhead Marker -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="28" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" class="marker-triangle" />
+    </marker>
+  </defs>
+
+  <!-- Title Section -->
+  <text class="text-title" x="25" y="35">FINGUARD AI // ASYNC RISK CALCULATOR</text>
+  <text class="text-base text-dim" x="25" y="52">STRUCTURAL CAUSAL MODELING &amp; SIMULATION</text>
+  <circle class="live-dot" cx="550" cy="30" r="5" />
+  <text class="text-base text-green" x="560" y="33" text-anchor="end">SYS_ACTIVE</text>
+
+  <!-- Dashboard Outline -->
+  <rect x="25" y="80" width="550" height="230" rx="4" fill="#0d1127" stroke="#1e1b4b" stroke-width="1" />
+
+  <!-- Technical Telemetry in Mockup -->
+  <g transform="translate(45, 100)">
+    <text class="text-base" x="0" y="20" fill="#6366f1">RULE: EVALUATING COUNTERFACTUAL POLICY</text>
+    <text class="text-base" x="0" y="40" fill="#94a3b8">Formula: P(Default | do(Latency = x))</text>
+    <text class="text-base" x="0" y="60" fill="#94a3b8">SCM Data Pool Size: <tspan fill="#ffffff">724,195 records</tspan></text>
+    <text class="text-base" x="0" y="80" fill="#94a3b8">Active JVM Workers: <tspan fill="#ffffff">Celery + Redis Loop</tspan></text>
+    <text class="text-base text-green" x="0" y="110">>> Verification Score: 98.3% Confidence</text>
+  </g>
+
+  <!-- Causal Graph in Mockup -->
+  <g transform="translate(370, 100)">
+    <!-- Arrows -->
+    <path class="arrow-line" d="M 100 30 L 150 90" marker-end="url(#arrow)" /> <!-- Z -> Y -->
+    <path class="arrow-line" d="M 50 90 L 100 30" marker-end="url(#arrow)" />  <!-- X <- Z -->
+    <path class="arrow-line" d="M 50 90 L 150 90" marker-end="url(#arrow)" />  <!-- X -> Y -->
+
+    <!-- Node Z (Confounder - CashFlowRatio) -->
+    <circle class="node-circle" cx="100" cy="30" r="22" stroke="#a855f7" />
+    <text class="node-text" x="100" y="34" text-anchor="middle">Z</text>
+    <text class="text-base" x="100" y="-3" text-anchor="middle" font-size="8" fill="#a855f7">CashFlow</text>
+
+    <!-- Node X (Treatment - SupplierLatency) -->
+    <circle class="node-circle" cx="50" cy="90" r="22" stroke="#6366f1" />
+    <text class="node-text" x="50" y="94" text-anchor="middle">X</text>
+    <text class="text-base" x="50" y="125" text-anchor="middle" font-size="8" fill="#6366f1">Latency</text>
+
+    <!-- Node Y (Outcome - Default) -->
+    <circle class="node-circle" cx="150" cy="90" r="22" stroke="#10b981" />
+    <text class="node-text" x="150" y="94" text-anchor="middle">Y</text>
+    <text class="text-base" x="150" y="125" text-anchor="middle" font-size="8" fill="#10b981">Default</text>
+  </g>
+
+</svg>

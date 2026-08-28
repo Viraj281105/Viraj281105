@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="auto" style="border-radius: 6px; font-family: 'JetBrains Mono', monospace; background: #070913; border: 1.5px solid #1e1b4b;">
+  <style>
+    .text-title { fill: #a855f7; font-size: 14px; font-weight: bold; letter-spacing: 1px; }
+    .text-base { fill: #94a3b8; font-size: 11px; }
+    .text-green { fill: #10b981; font-weight: bold; }
+    .text-dim { fill: #475569; }
+    .node-circle { fill: #0d1127; stroke: #312e81; stroke-width: 1.5; }
+    .edge-line { stroke: #1e1b4b; stroke-width: 1.5; stroke-dasharray: 4,4; }
+    
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; }
+    }
+    .live-dot { fill: #10b981; animation: pulse-dot 2s infinite; }
+  </style>
+
+  <!-- Title Section -->
+  <text class="text-title" x="25" y="35">AROGYARAKSHAK // MEDICAL COMPLIANCE</text>
+  <text class="text-base text-dim" x="25" y="52">MULTI-AGENT HEALTHCARE VERIFICATION PIPELINE</text>
+  <circle class="live-dot" cx="550" cy="30" r="5" />
+  <text class="text-base text-green" x="560" y="33" text-anchor="end">SYS_ACTIVE</text>
+
+  <!-- Dashboard Outline -->
+  <rect x="25" y="80" width="550" height="230" rx="4" fill="#0d1127" stroke="#1e1b4b" stroke-width="1" />
+
+  <!-- Terminal Output in Mockup -->
+  <text class="text-base" x="40" y="115" fill="#a855f7">viraj@node-arogya:~$ python run_audit.py</text>
+  <text class="text-base" x="40" y="135">[INFO] Ingesting medical claims dataset (size: 24.5 KB)...</text>
+  <text class="text-base" x="40" y="155">[INFO] Normalizing regional terminology via <tspan fill="#6366f1">IndicSBERT</tspan>...</text>
+  <text class="text-base" x="40" y="175">[INFO] Running schema bounds and ceiling price validation...</text>
+  
+  <text class="text-base text-green" x="40" y="205">>> [COMPLETED] 142/142 Claims Audited.</text>
+  <text class="text-base" x="40" y="225">>> Compliance Violations Flagged: <tspan fill="#ef4444" font-weight="bold">3</tspan></text>
+  <text class="text-base" x="40" y="245">>> Database sync with PostgreSQL: <tspan class="text-green">SUCCESS</tspan></text>
+
+  <!-- Diagram Visual in Dashboard -->
+  <g transform="translate(180, 260)">
+    <!-- Connection lines -->
+    <line class="edge-line" x1="40" y1="20" x2="130" y2="20" />
+    <line class="edge-line" x1="130" y1="20" x2="220" y2="20" />
+    
+    <!-- Nodes -->
+    <circle class="node-circle" cx="40" cy="20" r="15" stroke="#a855f7" />
+    <text class="text-base" x="40" y="24" text-anchor="middle" font-size="8" fill="#ffffff">INPUT</text>
+    
+    <circle class="node-circle" cx="130" cy="20" r="15" stroke="#6366f1" />
+    <text class="text-base" x="130" y="24" text-anchor="middle" font-size="8" fill="#ffffff">AGENT</text>
+    
+    <circle class="node-circle" cx="220" cy="20" r="15" stroke="#10b981" />
+    <text class="text-base" x="220" y="24" text-anchor="middle" font-size="8" fill="#ffffff">AUDIT</text>
+  </g>
+</svg>

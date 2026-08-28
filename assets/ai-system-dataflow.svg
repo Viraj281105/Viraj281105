@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 240" width="100%" height="auto" style="border-radius: 8px; font-family: 'JetBrains Mono', 'Fira Code', 'Segoe UI', sans-serif; background: #070913; border: 1.5px solid #1e1b4b;">
+  <style>
+    .grid-lines { stroke: #111428; stroke-dasharray: 4,4; stroke-width: 0.8; }
+    .box-rect { fill: #0d1127; stroke: #312e81; stroke-width: 1.5; }
+    .main-path { stroke: #312e81; stroke-width: 2; fill: none; }
+    .active-path { stroke-width: 2; fill: none; stroke-linecap: round; stroke-dasharray: 8, 30; }
+    
+    @keyframes flow {
+      0% { stroke-dashoffset: 100; }
+      100% { stroke-dashoffset: 0; }
+    }
+    
+    .flow-forward { stroke: #a855f7; animation: flow 4s linear infinite; }
+    .flow-feedback { stroke: #10b981; animation: flow 5s linear infinite; }
+    .flow-alert { stroke: #ef4444; stroke-dasharray: 5, 20; animation: flow 2s linear infinite; }
+    
+    .node-title { fill: #ffffff; font-size: 11px; font-weight: bold; }
+    .node-subtitle { fill: #64748b; font-size: 9px; }
+    .lbl-main { fill: #6366f1; font-size: 12px; font-weight: bold; letter-spacing: 2px; }
+    .tag-val { font-size: 9px; fill: #10b981; font-weight: bold; }
+    .indicator-dot { fill: currentColor; }
+    
+    @keyframes blink-dot {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; opacity: 1; }
+    }
+    .status-flash { animation: blink-dot 2s infinite; }
+  </style>
+
+  <defs>
+    <!-- Glow filter -->
+    <filter id="flow-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Technical Background Grid -->
+  <line class="grid-lines" x1="0" y1="60" x2="850" y2="60" />
+  <line class="grid-lines" x1="0" y1="120" x2="850" y2="120" />
+  <line class="grid-lines" x1="0" y1="180" x2="850" y2="180" />
+  <line class="grid-lines" x1="140" y1="0" x2="140" y2="240" />
+  <line class="grid-lines" x1="280" y1="0" x2="280" y2="240" />
+  <line class="grid-lines" x1="420" y1="0" x2="420" y2="240" />
+  <line class="grid-lines" x1="560" y1="0" x2="560" y2="240" />
+  <line class="grid-lines" x1="700" y1="0" x2="700" y2="240" />
+
+  <text class="lbl-main" x="25" y="30">AGENTIC PIPELINE DATA-FLOW MAP</text>
+
+  <!-- FLOW PATHS -->
+  <!-- User Input -> Router -->
+  <path class="main-path" d="M 120 120 L 210 120" />
+  <path class="active-path flow-forward" d="M 120 120 L 210 120" />
+  
+  <!-- Router -> Vector DB (Down) -->
+  <path class="main-path" d="M 285 135 L 285 185 L 360 185" />
+  <path class="active-path flow-forward" d="M 285 135 L 285 185 L 360 185" />
+  
+  <!-- Router -> LLM (Up) -->
+  <path class="main-path" d="M 285 105 L 285 55 L 360 55" />
+  <path class="active-path flow-forward" d="M 285 105 L 285 55 L 360 55" />
+  
+  <!-- Vector DB -> LLM -->
+  <path class="main-path" d="M 435 185 L 510 185 L 510 135" />
+  <path class="active-path flow-forward" d="M 435 185 L 510 185 L 510 135" />
+  
+  <!-- LLM -> NLI Calibrator -->
+  <path class="main-path" d="M 435 55 L 510 55 L 510 105" />
+  <path class="active-path flow-forward" d="M 435 55 L 510 55 L 510 105" />
+
+  <!-- Router -> Calibrator Direct Link -->
+  <path class="main-path" d="M 360 120 L 510 120" />
+  <path class="active-path flow-forward" d="M 360 120 L 510 120" />
+
+  <!-- Calibrator -> Output -->
+  <path class="main-path" d="M 660 120 L 730 120" />
+  <path class="active-path flow-forward" d="M 660 120 L 730 120" />
+
+  <!-- Feedback loops (Emerald flow backward) -->
+  <path class="main-path" d="M 585 135 L 585 210 L 285 210 L 285 135" stroke-dasharray="3,3" opacity="0.3" />
+  <path class="active-path flow-feedback" d="M 585 135 L 585 210 L 285 210 L 285 135" />
+
+  <!-- NODES -->
+  
+  <!-- 1. Input Gate -->
+  <g transform="translate(25, 95)">
+    <rect class="box-rect" width="95" height="50" rx="4" />
+    <text class="node-title" x="10" y="20">Payload Ingest</text>
+    <text class="node-subtitle" x="10" y="32">API / Websocket</text>
+    <circle cx="80" cy="15" r="4" class="indicator-dot status-flash" style="color: #a855f7;" />
+  </g>
+
+  <!-- 2. Router / LangGraph -->
+  <g transform="translate(195, 95)">
+    <rect class="box-rect" width="105" height="50" rx="4" stroke="#a855f7" />
+    <text class="node-title" x="10" y="20">LangGraph Router</text>
+    <text class="node-subtitle" x="10" y="32">State Coordination</text>
+    <text class="tag-val" x="10" y="43">ACTIVE</text>
+  </g>
+
+  <!-- 3. LLM Reasoning Agent -->
+  <g transform="translate(360, 30)">
+    <rect class="box-rect" width="115" height="50" rx="4" />
+    <text class="node-title" x="10" y="20">LLM Node Agent</text>
+    <text class="node-subtitle" x="10" y="32">Claim Extraction</text>
+    <text class="node-subtitle" x="10" y="43" fill="#818cf8">Llama-3 / GPT-4o</text>
+  </g>
+
+  <!-- 4. vector database pgvector -->
+  <g transform="translate(360, 160)">
+    <rect class="box-rect" width="115" height="50" rx="4" />
+    <text class="node-title" x="10" y="20">pgvector DB</text>
+    <text class="node-subtitle" x="10" y="32">HNSW Vector Space</text>
+    <text class="node-subtitle" x="10" y="43" fill="#10b981">IndicSBERT / BGE</text>
+  </g>
+
+  <!-- 5. NLI Calibrator / Judge -->
+  <g transform="translate(540, 95)">
+    <rect class="box-rect" width="120" height="50" rx="4" stroke="#10b981" />
+    <text class="node-title" x="10" y="20">NLI Calibrator</text>
+    <text class="node-subtitle" x="10" y="32">Entailment check</text>
+    <text class="node-subtitle" x="10" y="43" fill="#10b981">RoBERTa NLI Judge</text>
+  </g>
+
+  <!-- 6. Verified Output -->
+  <g transform="translate(730, 95)">
+    <circle cx="25" cy="25" r="22" fill="#0d1127" stroke="#10b981" stroke-width="1.5" />
+    <path d="M 18 25 L 23 30 L 33 18" stroke="#10b981" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <text class="node-subtitle" x="25" y="58" text-anchor="middle" fill="#10b981">VERIFIED</text>
+  </g>
+</svg>

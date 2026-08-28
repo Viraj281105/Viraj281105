@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="auto" style="border-radius: 6px; font-family: 'JetBrains Mono', monospace; background: #070913; border: 1.5px solid #1e1b4b;">
+  <style>
+    .text-title { fill: #6366f1; font-size: 14px; font-weight: bold; letter-spacing: 1px; }
+    .text-base { fill: #94a3b8; font-size: 11px; }
+    .text-green { fill: #10b981; font-weight: bold; }
+    .text-dim { fill: #475569; }
+    
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; }
+    }
+    .live-dot { fill: #10b981; animation: pulse-dot 2.4s infinite; }
+  </style>
+
+  <!-- Title Section -->
+  <text class="text-title" x="25" y="35">FIN INTEL // SECURE TEXT-TO-SQL</text>
+  <text class="text-base text-dim" x="25" y="52">SEMANTIC TEXT-TO-SQL CONVERSION &amp; AST COMPILER</text>
+  <circle class="live-dot" cx="550" cy="30" r="5" />
+  <text class="text-base text-green" x="560" y="33" text-anchor="end">SYS_ACTIVE</text>
+
+  <!-- Dashboard Outline -->
+  <rect x="25" y="80" width="550" height="230" rx="4" fill="#0d1127" stroke="#1e1b4b" stroke-width="1" />
+
+  <!-- Terminal content -->
+  <g transform="translate(45, 110)">
+    <text class="text-base" x="0" y="10" fill="#6366f1">INPUT QUERY:</text>
+    <text class="text-base" x="0" y="30" fill="#ffffff">"Show total transaction count in Pune grouped by month"</text>
+    
+    <!-- Parser log -->
+    <text class="text-base" x="0" y="60" fill="#94a3b8">[AST Scan] Checking SQL schema constraints... <tspan class="text-green">PASS</tspan></text>
+    <text class="text-base" x="0" y="80" fill="#94a3b8">[Schema] Pruned tables to: [transactions, regions]</text>
+    
+    <!-- Generated SQL -->
+    <text class="text-base" x="0" y="110" fill="#a855f7">GENERATED SQL:</text>
+    <text class="text-base" x="0" y="130" fill="#00f5ff" font-weight="bold">SELECT count(*), month FROM tx JOIN reg ON tx.r_id = reg.id</text>
+    <text class="text-base" x="0" y="145" fill="#00f5ff" font-weight="bold">WHERE reg.city = 'Pune' GROUP BY month;</text>
+
+    <!-- Execution result -->
+    <line x1="0" y1="170" x2="510" y2="170" stroke="#1e1b4b" />
+    <text class="text-base" x="0" y="195" fill="#94a3b8">Execution Time: <tspan class="text-green">3.2 ms</tspan> | Security Vetting: <tspan class="text-green">COMPLIANT</tspan></text>
+  </g>
+</svg>

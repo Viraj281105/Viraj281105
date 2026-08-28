@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="auto" style="border-radius: 6px; font-family: 'JetBrains Mono', monospace; background: #070913; border: 1.5px solid #1e1b4b;">
+  <style>
+    .text-title { fill: #10b981; font-size: 14px; font-weight: bold; letter-spacing: 1px; }
+    .text-base { fill: #94a3b8; font-size: 11px; }
+    .text-green { fill: #10b981; font-weight: bold; }
+    .text-dim { fill: #475569; }
+    .ecg-line { stroke: #10b981; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; }
+    }
+    .live-dot { fill: #10b981; animation: pulse-dot 2s infinite; }
+  </style>
+
+  <!-- Title Section -->
+  <text class="text-title" x="25" y="35">EDGE AI ECG // HW CLASSIFIER</text>
+  <text class="text-base text-dim" x="25" y="52">QUANTIZED 1D CNN CLASSIFIER ON ARTIX-7 FPGA</text>
+  <circle class="live-dot" cx="550" cy="30" r="5" />
+  <text class="text-base text-green" x="560" y="33" text-anchor="end">SYS_ACTIVE</text>
+
+  <!-- Dashboard Outline -->
+  <rect x="25" y="80" width="550" height="230" rx="4" fill="#0d1127" stroke="#1e1b4b" stroke-width="1" />
+
+  <!-- Technical specs -->
+  <g transform="translate(45, 105)">
+    <text class="text-base" x="0" y="10" fill="#a855f7">SYSTEM SPECIFICATIONS:</text>
+    <text class="text-base" x="0" y="30" fill="#94a3b8">Model Type   : <tspan fill="#ffffff">1D Convolutional Neural Network (CNN)</tspan></text>
+    <text class="text-base" x="0" y="50" fill="#94a3b8">Optimization : <tspan fill="#ffffff">INT8 Quantization &amp; Parallel RTL Ingestion</tspan></text>
+    <text class="text-base" x="0" y="70" fill="#94a3b8">Throughput   : <tspan fill="#ffffff">412 frames / second</tspan></text>
+    <text class="text-base" x="0" y="90" fill="#94a3b8">Accuracy     : <tspan class="text-green">97.8% (ECG Validation Set)</tspan></text>
+  </g>
+
+  <!-- ECG Signal Visual -->
+  <g transform="translate(45, 210)">
+    <rect x="0" y="0" width="510" height="80" rx="3" fill="#060911" stroke="#1e1b4b" />
+    
+    <!-- Waveform grid -->
+    <line x1="0" y1="40" x2="510" y2="40" stroke="#111428" stroke-dasharray="2,2" />
+    
+    <!-- ECG wave path -->
+    <path class="ecg-line" d="M 0 40 L 40 40 L 60 40 L 70 30 L 80 50 L 90 40 L 120 40 L 130 40 L 135 15 L 140 70 L 145 40 L 175 40 L 195 45 L 210 40 L 250 40 L 270 40 L 280 30 L 290 50 L 300 40 L 330 40 L 340 40 L 345 15 L 350 70 L 355 40 L 385 40 L 405 45 L 420 40 L 460 40 L 480 40 L 490 30 L 500 50 L 510 40" />
+    
+    <text class="text-base text-green" x="15" y="20" font-size="9">ECG_SIGNAL_STABLE (68 BPM)</text>
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="auto" style="border-radius: 6px; font-family: 'JetBrains Mono', monospace; background: #070913; border: 1.5px solid #1e1b4b;">
+  <style>
+    .text-title { fill: #10b981; font-size: 14px; font-weight: bold; letter-spacing: 1px; }
+    .text-base { fill: #94a3b8; font-size: 11px; }
+    .text-green { fill: #10b981; font-weight: bold; }
+    .text-red { fill: #ef4444; font-weight: bold; }
+    .text-dim { fill: #475569; }
+    .status-badge { font-size: 9px; font-weight: bold; }
+    
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; }
+    }
+    .live-dot { fill: #10b981; animation: pulse-dot 2.2s infinite; }
+  </style>
+
+  <!-- Title Section -->
+  <text class="text-title" x="25" y="35">FACT-GROUNDER // ENTAILMENT CALIBRATOR</text>
+  <text class="text-base text-dim" x="25" y="52">HALT HALLUCINATIONS / NLI CLAIM AUDITING</text>
+  <circle class="live-dot" cx="550" cy="30" r="5" />
+  <text class="text-base text-green" x="560" y="33" text-anchor="end">SYS_ACTIVE</text>
+
+  <!-- Dashboard Outline -->
+  <rect x="25" y="80" width="550" height="230" rx="4" fill="#0d1127" stroke="#1e1b4b" stroke-width="1" />
+
+  <!-- Verification dashboard data -->
+  <g transform="translate(45, 105)">
+    <text class="text-base" x="0" y="10" fill="#10b981">> RoBERTa-NLI CALIBRATION RUNNING...</text>
+    
+    <!-- Fact checks rows -->
+    <!-- Row 1 -->
+    <text class="text-base" x="0" y="40" fill="#ffffff">Claim #1: "Patient was discharged on 2026-08-12"</text>
+    <rect x="420" y="28" width="80" height="16" rx="3" fill="#1b2e25" stroke="#10b981" />
+    <text class="status-badge" x="460" y="40" text-anchor="middle" fill="#10b981">ENTAILED</text>
+
+    <!-- Row 2 -->
+    <text class="text-base" x="0" y="70" fill="#ffffff">Claim #2: "Total billing was 45000 INR"</text>
+    <rect x="420" y="58" width="80" height="16" rx="3" fill="#1b2e25" stroke="#10b981" />
+    <text class="status-badge" x="460" y="70" text-anchor="middle" fill="#10b981">ENTAILED</text>
+
+    <!-- Row 3 -->
+    <text class="text-base" x="0" y="100" fill="#ffffff">Claim #3: "Prescribed 500mg Amoxicillin daily"</text>
+    <rect x="420" y="88" width="80" height="16" rx="3" fill="#2d171e" stroke="#ef4444" />
+    <text class="status-badge" x="460" y="100" text-anchor="middle" fill="#ef4444">CONTRADICT</text>
+
+    <!-- Verdict -->
+    <line x1="0" y1="130" x2="510" y2="130" stroke="#1e1b4b" />
+    <text class="text-base" x="0" y="155" fill="#94a3b8">Source Document: <tspan fill="#ffffff">discharge_summary_v2.pdf</tspan></text>
+    <text class="text-base" x="0" y="175" fill="#94a3b8">Hallucination Mitigation Score:</text>
+    <text class="text-base text-green" x="250" y="175">94.2% Calibration Accuracy</text>
+  </g>
+</svg>
