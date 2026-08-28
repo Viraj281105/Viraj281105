@@ -1,8 +1,4 @@
 <p align="center">
-  <img width="100%" src="assets/top-wave.svg" alt="Particle Wave Top" />
-</p>
-
-<p align="center">
   <img width="100%" src="assets/hero.svg" alt="Viraj Jadhao — AI Systems Engineer" />
 </p>
 
