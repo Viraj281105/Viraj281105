@@ -1,5 +1,15 @@
 <p align="center">
+  <img width="100%" src="assets/top-wave.svg" alt="Particle Wave Top" />
+</p>
+
+<p align="center">
   <img width="100%" src="assets/hero.svg" alt="Viraj Jadhao — AI Systems Engineer" />
+</p>
+
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=20&amp;duration=3000&amp;pause=1000&amp;color=00F5FF&amp;center=true&amp;vCenter=true&amp;width=980&amp;lines=AI+Systems+Engineer;Building+Multi-Agent+AI+Systems;GenAI+%26+RAG;Causal+AI+%26+Applied+ML;High-Performance+Backend+Systems;Full-Stack+Engineering" alt="Typewriter Tagline" />
+  </a>
 </p>
 
 ## 🧬 AI Systems & Causal AI Engineer
@@ -223,26 +233,30 @@ The matrix below captures active commit streams, language distributions, and tel
   <tr>
     <td width="50%" style="border: 1px solid #1e1b4b; padding: 15px; vertical-align: top; border-radius: 8px;">
       <h4 style="color: #6366f1; margin-top: 0; font-family: monospace; font-size: 12px; text-transform: uppercase;">📊 Telemetry Metrics</h4>
-      <img src="github-metrics.svg" width="100%" alt="GitHub Metrics" />
+      <img src="output/github-metrics.svg" width="100%" alt="GitHub Metrics" />
     </td>
     <td width="50%" style="border: 1px solid #1e1b4b; padding: 15px; vertical-align: top; border-radius: 8px;">
       <h4 style="color: #a855f7; margin-top: 0; font-family: monospace; font-size: 12px; text-transform: uppercase;">⚡ Commit Stream Activity</h4>
-      <img src="github-activity.svg" width="100%" alt="Commit Activity" />
+      <img src="output/github-activity.svg" width="100%" alt="Commit Activity" />
     </td>
   </tr>
   <tr>
     <td width="50%" style="border: 1px solid #1e1b4b; padding: 15px; vertical-align: top; border-radius: 8px;">
       <h4 style="color: #10b981; margin-top: 0; font-family: monospace; font-size: 12px; text-transform: uppercase;">🎛 Language Distribution</h4>
-      <img src="github-languages.svg" width="100%" alt="Language Distribution" />
+      <img src="output/github-languages.svg" width="100%" alt="Language Distribution" />
     </td>
     <td width="50%" style="border: 1px solid #1e1b4b; padding: 15px; vertical-align: top; border-radius: 8px;">
       <h4 style="color: #00f5ff; margin-top: 0; font-family: monospace; font-size: 12px; text-transform: uppercase;">🏆 Achievement Matrix</h4>
-      <img src="github-achievements.svg" width="100%" alt="GitHub Achievements" />
+      <img src="output/github-achievements.svg" width="100%" alt="GitHub Achievements" />
     </td>
   </tr>
 </table>
 
 ---
+
+<p align="center">
+  <img width="100%" src="assets/bottom-wave.svg" alt="Particle Wave Bottom" />
+</p>
 
 ## 🤝 Connect
 

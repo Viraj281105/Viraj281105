@@ -23,12 +23,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Ensure output directory exists
+        run: mkdir -p output
+
       - name: Generate base metrics
         uses: lowlighter/metrics@v3.26
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Viraj281105
-          filename: github-metrics.svg
+          filename: output/github-metrics.svg
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
           output_action: none
@@ -38,7 +41,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Viraj281105
-          filename: github-languages.svg
+          filename: output/github-languages.svg
           base: ""
           plugin_languages: yes
           plugin_languages_details: percentage
@@ -52,7 +55,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Viraj281105
-          filename: github-achievements.svg
+          filename: output/github-achievements.svg
           base: ""
           plugin_achievements: yes
           plugin_achievements_threshold: C
@@ -67,7 +70,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Viraj281105
-          filename: github-activity.svg
+          filename: output/github-activity.svg
           base: ""
           plugin_activity: yes
           plugin_activity_limit: 5
@@ -80,7 +83,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add github-metrics.svg github-languages.svg github-achievements.svg github-activity.svg
+          git add output/github-metrics.svg output/github-languages.svg output/github-achievements.svg output/github-activity.svg
           if git diff --cached --quiet; then
             echo "No changes in generated metrics. Skipping commit."
           else
